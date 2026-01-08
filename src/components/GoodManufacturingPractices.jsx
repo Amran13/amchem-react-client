@@ -40,9 +40,9 @@ const GoodManufacturingPractices = () => {
   ];
 
   return (
-    <section className="py-12 md:py-20 bg-base-200">
-      <h2 className="text-3xl md:text-5xl font-bold mb-6 md:mb-10 text-center px-4">
-        Good Manufacturing Practices
+    <section className="py-12 md:py-20 bg-zinc-200">
+      <h2 className="text-3xl md:text-5xl font-bold mb-6 md:mb-10 text-center  px-4">
+        <span className="text-blue-900">Good Manufacturing Practices</span> 
       </h2>
 
       <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-start">

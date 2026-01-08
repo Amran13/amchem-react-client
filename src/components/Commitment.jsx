@@ -62,7 +62,7 @@ export default function Commitment() {
                   className="w-10 h-10 mb-3 opacity-80"
                   alt="icon"
                 />
-                <h3 className="text-xl font-semibold mb-2">{s.title}</h3>
+                <h3 className="text-xl font-semibold mb-2 text-black">{s.title}</h3>
                 <p className="text-gray-700 text-sm">{s.desc}</p>
               </div>
             ))}
@@ -89,7 +89,7 @@ export default function Commitment() {
                   className="w-10 h-10 mb-3 opacity-80"
                   alt="icon"
                 />
-                <h3 className="text-xl font-semibold mb-2">{s.title}</h3>
+                <h3 className="text-xl font-semibold mb-2 text-black">{s.title}</h3>
                 <p className="text-gray-700 text-sm">{s.desc}</p>
               </div>
             ))}

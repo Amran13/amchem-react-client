@@ -8,7 +8,7 @@ const ContractManufacturing = () => {
     >
       <div className="absolute inset-0 bg-white/90"></div>
 
-      <div className="relative max-w-5xl mx-auto px-4 text-base-content leading-relaxed">
+      <div className="relative max-w-5xl mx-auto px-4 text-black leading-relaxed">
         <h3 className="text-4xl font-semibold mb-4 text-[#212E84]">
           Contract Manufacturing
         </h3>

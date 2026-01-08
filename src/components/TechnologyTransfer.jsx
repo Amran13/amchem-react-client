@@ -79,7 +79,7 @@ export default function TechnologyTransfer() {
                         </div> */}
                     </div>
 
-                    <div className="bg-[#F6F8FF] rounded-2xl px-4 py-8 shadow-sm">
+                    <div className="bg-[#F6F8FF] rounded-2xl text-black px-4 py-8 shadow-sm">
                         <h3 className="text-xl text-[#212E84] font-semibold mb-6">
                             Consultation Services
                         </h3>

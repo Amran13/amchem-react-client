@@ -11,9 +11,9 @@ import {
 
 const QualityManagement = () => {
   return (
-    <section className="py-20 bg-base-100">
+    <section className="py-20 bg-zinc-50">
       <div className="max-w-5xl mx-auto px-4 text-base-content leading-relaxed">
-        <h2 className="text-3xl font-bold mb-10">
+        <h2 className="text-3xl md:text-4xl font-bold mb-10 text-blue-900 uppercase">
           Quality Management
         </h2>
 

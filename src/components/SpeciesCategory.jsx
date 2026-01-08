@@ -12,7 +12,8 @@ export default  function SpeciesCategory() {
 
 
   return (
-    <div className="p-6 space-y-6 max-w-7xl mx-auto">
+    <section className="bg-white">
+      <div className="p-6 space-y-6 max-w-7xl  mx-auto">
       <h1 className="text-4xl font-bold capitalize text-[#212E84]">{id.name}</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -21,5 +22,6 @@ export default  function SpeciesCategory() {
         ))}
       </div>
     </div>
+    </section>
   )
 }

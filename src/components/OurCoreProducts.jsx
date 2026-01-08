@@ -77,7 +77,7 @@ export default function OurCoreProducts() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className="text-4xl md:text-5xl font-semibold uppercase text-center"
+        className="text-4xl md:text-5xl font-semibold uppercase text-center text-black"
       >
         Core Product <span className="text-[#00116E]">Categories</span>
       </motion.h2>

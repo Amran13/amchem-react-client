@@ -2,9 +2,10 @@
 
 export default function ProductDetails({ product }) {
   return (
-    <div className="max-w-5xl mx-auto px-4 py-10 text-black">
+    <section className="bg-white">
+      <div className="max-w-5xl mx-auto px-4 py-10 text-black">
 
-      <div className="bg-[#1f4e79] text-white px-6 py-4">
+      <div className="bg-blue-950 text-white px-6 py-4">
         <h1 className="text-xl md:text-2xl font-bold">
           {product.name}
         </h1>
@@ -79,5 +80,6 @@ export default function ProductDetails({ product }) {
 
       </div>
     </div>
+    </section>
   )
 }

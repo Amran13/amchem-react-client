@@ -10,20 +10,20 @@ import {
 
 const ProfessionalPositions = () => {
   return (
-    <section className="py-20 bg-base-200">
+    <section className="py-20 bg-zinc-50">
       <div className="max-w-5xl mx-auto px-4">
         <div className="mb-12 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
+          <h2 className="text-3xl md:text-4xl font-bold text-blue-900 tracking-tight">
             Professional Positions
           </h2>
         </div>
 
         <div className="space-y-8">
-          <div className="card bg-base-100 shadow-lg rounded-3xl">
+          <div className="card bg-zinc-100 shadow-lg rounded-3xl">
             <div className="card-body space-y-6">
-              <div className="flex items-start gap-4">
+              <div className="flex items-start gap-4 ">
                 <FiUsers className="w-6 h-6 text-primary mt-1" />
-                <p className="text-base-content/80 leading-relaxed">
+                <p className="text-base-content/80 leading-relaxed text-black">
                   <span className="font-semibold">
                     Technical Services Veterinarians:
                   </span>{" "}
@@ -36,7 +36,7 @@ const ProfessionalPositions = () => {
 
               <div className="flex items-start gap-4">
                 <FiActivity className="w-6 h-6 text-primary mt-1" />
-                <p className="text-base-content/80 leading-relaxed">
+                <p className="text-base-content/80 leading-relaxed text-black">
                   <span className="font-semibold">Animal Nutritionists:</span>{" "}
                   Optimize feed formulations incorporating Amchem products,
                   analyze production data, develop species-specific programs.
@@ -47,7 +47,7 @@ const ProfessionalPositions = () => {
 
               <div className="flex items-start gap-4">
                 <FiPackage className="w-6 h-6 text-primary mt-1" />
-                <p className="text-base-content/80 leading-relaxed">
+                <p className="text-base-content/80 leading-relaxed text-black">
                   <span className="font-semibold">
                     Product Development Scientists:
                   </span>{" "}
@@ -60,7 +60,7 @@ const ProfessionalPositions = () => {
 
               <div className="flex items-start gap-4">
                 <FiShield className="w-6 h-6 text-primary mt-1" />
-                <p className="text-base-content/80 leading-relaxed">
+                <p className="text-base-content/80 leading-relaxed text-black">
                   <span className="font-semibold">
                     Quality Assurance Officers:
                   </span>{" "}
@@ -72,7 +72,7 @@ const ProfessionalPositions = () => {
 
               <div className="flex items-start gap-4">
                 <FiFileText className="w-6 h-6 text-primary mt-1" />
-                <p className="text-base-content/80 leading-relaxed">
+                <p className="text-base-content/80 leading-relaxed text-black">
                   <span className="font-semibold">
                     Regulatory Affairs Specialists:
                   </span>{" "}
@@ -89,7 +89,7 @@ const ProfessionalPositions = () => {
                 <div className="p-3 rounded-xl bg-primary/10 text-primary">
                   <FiMail className="w-5 h-5" />
                 </div>
-                <p className="text-base-content/80">
+                <p className="text-base-content/80 text-black">
                   <span className="font-semibold">Application:</span> Send CV to{" "}
                   <span className="hover:underline text-blue-900 mr-1 font-bold">
                     <a href="/contact">

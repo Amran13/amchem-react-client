@@ -4,7 +4,8 @@ import SpeciesCard from "../../components/SpeciesCard"
 
 export default function Page() {
   return (
-    <div className="p-6 space-y-10 lg:max-w-7xl mx-auto ">
+    <section className="bg-white">
+      <div className="p-6 space-y-10 lg:max-w-7xl mx-auto ">
       <div>
         <h1 className="md:text-5xl text-3xl font-bold mb-4 text-[#212E84]">Solution by Composition</h1>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
@@ -28,5 +29,6 @@ export default function Page() {
         </div>
       </div>
     </div>
+    </section>
   )
 }

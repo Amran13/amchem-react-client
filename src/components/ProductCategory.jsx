@@ -23,7 +23,8 @@ export default  function ProductCategory() {
   }
 
   return (
-    <div className="p-6 space-y-6 max-w-7xl mx-auto">
+    <section className="bg-white">
+      <div className="p-6 space-y-6 max-w-7xl mx-auto">
       <h1 className="text-4xl text-[#212E84] font-bold">
         {category.name}
       </h1>
@@ -34,5 +35,6 @@ export default  function ProductCategory() {
         ))}
       </div>
     </div>
+    </section>
   )
 }

@@ -43,11 +43,11 @@ const Milestone = () => {
   ];
 
   return (
-    <section className="py-16 bg-base-200">
-      <div className="max-w-4xl mx-auto px-4">
-        <div className="mb-10 text-center">
-          <h3 className="text-3xl font-bold tracking-tight">Our Milestones</h3>
-          <p className="text-base-content/70 mt-2">
+    <section className="py-16 bg-zinc-50">
+      <div className="max-w-4xl mx-auto px-4 ">
+        <div className="mb-10 text-center ">
+          <h3 className="md:text-4xl text-3xl font-bold tracking-tight text-blue-900 uppercase">Our Milestones</h3>
+          <p className="text-base-content/70 mt-2 text-black">
             A journey of scientific growth and global impact
           </p>
         </div>
@@ -59,12 +59,12 @@ const Milestone = () => {
                 {item.icon}
               </span>
 
-              <div className="card bg-base-100 shadow-lg rounded-2xl">
+              <div className="card bg-blue-950 shadow-lg rounded-2xl">
                 <div className="card-body py-5">
-                  <span className="text-sm font-semibold text-primary">
+                  <span className="text-sm  font-semibold text-blue-500">
                     {item.year}
                   </span>
-                  <p className="text-base font-medium text-base-content/90">
+                  <p className="text-base text-white font-medium text-base-content/90">
                     {item.text}
                   </p>
                 </div>

@@ -8,7 +8,7 @@ const AntimicrobialStewardship = () => {
     >
       <div className="absolute inset-0 bg-white/80"></div>
 
-      <div className="relative max-w-5xl mx-auto px-4 text-base-content leading-relaxed">
+      <div className="relative max-w-5xl mx-auto px-4 text-base-content leading-relaxed text-black">
         <h2 className="text-4xl font-bold text-[#212E84] mb-8">
           Antimicrobial Stewardship
         </h2>

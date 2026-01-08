@@ -11,9 +11,9 @@ import {
 
 const WhyDistributeWithUs = () => {
   return (
-    <section className="py-20 bg-base-100">
+    <section className="py-20 bg-zinc-100">
       <div className="max-w-6xl mx-auto px-4">
-        <h2 className="text-3xl lg:text-4xl font-bold text-[#212E84] mb-12">
+        <h2 className="text-3xl uppercase lg:text-4xl font-bold text-[#212E84] mb-12">
           Why Partner with Amchem?
         </h2>
 

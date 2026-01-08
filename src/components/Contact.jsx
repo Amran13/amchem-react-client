@@ -27,7 +27,7 @@ export default function WorkWithUs() {
   const activeTitle = tabs.find((t) => t.id === activeTab)?.title;
 
   return (
-    <section className="py-24 bg-base-100">
+    <section className="py-24 bg-zinc-100">
       <div className="max-w-5xl mx-auto px-4">
         {/* Tabs */}
         <div className="flex justify-center gap-10 mb-12">
@@ -51,7 +51,7 @@ export default function WorkWithUs() {
                 />
               </div>
               <span
-                className={`font-semibold ${
+                className={`text-black font-semibold ${
                   activeTab === tab.id ? "text-[#212E84]" : ""
                 }`}
               >
@@ -80,18 +80,17 @@ export default function WorkWithUs() {
 
 function DistributionForm() {
   return (
-    <form className="max-w-xl mx-auto space-y-6">
+    <form className="max-w-xl mx-auto space-y-6 text-black">
       <Field label="Your Name" placeholder="Your name" />
       <Field label="Company Name" placeholder="Company name" />
       <Field label="Email" type="email" placeholder="you@company.com" />
       <Field label="Phone Number" placeholder="+1 (555) 000-0000" />
       <Field label="Country of Distribution" placeholder="Country" />
 
-      <div>
+      <div className="">
         <p className="text-sm font-medium mb-2">
           Which product(s) are you interested in distributing?
         </p>
-
         <div className="grid grid-cols-2 gap-3 text-sm">
           {[
             "Medicated Premix",
@@ -103,7 +102,7 @@ function DistributionForm() {
             "Feed Flavour",
             "AGP Replacement",
           ].map((item) => (
-            <label key={item} className="flex items-center gap-2">
+            <label key={item} className="flex items-center gap-2 bg-white">
               <input type="checkbox" />
               {item}
             </label>
@@ -127,8 +126,8 @@ function DistributionForm() {
 
 function ProductUsageForm() {
   return (
-    <form className="max-w-xl mx-auto space-y-6">
-      <Field label="Full Name" placeholder="Your name" />
+    <form className="max-w-xl mx-auto space-y-6 text-black">
+      <Field label="Full Name" placeholder="Your name" className="placeholder:text-black" />
       <Field label="Email" type="email" placeholder="you@email.com" />
       <Textarea label="Message" placeholder="Your message..." />
 
@@ -155,7 +154,7 @@ function CareerApplicationForm() {
   };
 
   return (
-    <form className="max-w-xl mx-auto space-y-6">
+    <form className="max-w-xl mx-auto space-y-6 text-black placeholder:text-black">
       <Field label="Full Name" placeholder="Your name" />
       <Field label="Email" type="email" placeholder="you@email.com" />
 
@@ -172,13 +171,13 @@ function CareerApplicationForm() {
         </select>
       </div>
 
-      <div>
+      <div className="">
         <label className="font-medium mb-1">Resume (PDF/DOC)</label>
         <input
           type="file"
           name="resume"
           accept=".pdf,.doc,.docx"
-          className="file-input file-input-bordered w-full"
+          className="file-input file-input-bordered w-full bg-white"
           onChange={handleChange}
           required
         />

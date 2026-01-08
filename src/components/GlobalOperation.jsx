@@ -2,7 +2,7 @@ import React from "react";
 
 const GlobalOperations = () => {
   return (
-    <section className="py-16 bg-base-100">
+    <section className="py-16 bg-zinc-100">
       <div className="max-w-6xl mx-auto px-4 text-gray-900">
         <h2 className="text-4xl font-bold mb-12 text-center text-blue-900">Global Operations</h2>
 

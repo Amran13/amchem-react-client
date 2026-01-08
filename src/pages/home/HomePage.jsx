@@ -8,9 +8,13 @@ export default function HOme() {
   return (
     <div>
         <Banner></Banner>
-        <OurCoreProducts></OurCoreProducts>
+        <div className="bg-white">
+          <OurCoreProducts></OurCoreProducts>
+        </div>
         <OurCoreValues></OurCoreValues>
-        <Commitment></Commitment>
+        <div className="bg-white">
+          <Commitment></Commitment>
+        </div>
         <WhatMakesUsDifferent></WhatMakesUsDifferent>
     </div>
   );

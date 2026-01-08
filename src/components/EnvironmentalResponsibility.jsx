@@ -8,22 +8,22 @@ import {
 
 const EnvironmentalResponsibility = () => {
   return (
-    <section className="py-20 bg-base-100">
+    <section className="py-20 bg-zinc-100">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-4xl font-bold text-[#212E84] mb-16">
           Environmental Responsibility
         </h2>
 
-        <div className="grid lg:grid-cols-3 gap-12 items-start">
+        <div className="grid lg:grid-cols-3 gap-12 items-start ">
           <div className="lg:col-span-2 space-y-12 text-base-content leading-relaxed">
-            <div className="flex gap-4">
+            <div className="flex gap-4 ">
               <GlobeAltIcon className="w-10 h-10 text-[#212E84]" />
-              <div>
+              <div className=" text-black">
                 <h3 className="text-2xl font-semibold text-[#212E84] mb-3">
                   Environmental Management
                 </h3>
 
-                <ol className="list-decimal pl-6 space-y-1">
+                <ol className="list-decimal pl-6 space-y-1 ">
                   <li>
                     Waste: Minimization through optimization, recycling
                     (packaging materials), proper disposal (hazardous waste via
@@ -48,7 +48,7 @@ const EnvironmentalResponsibility = () => {
               </div>
             </div>
 
-            <div className="flex gap-4">
+            <div className="flex gap-4  text-black">
               <ArrowPathIcon className="w-10 h-10 text-[#212E84]" />
               <div>
                 <h3 className="text-2xl font-semibold text-[#212E84] mb-3">
@@ -63,7 +63,7 @@ const EnvironmentalResponsibility = () => {
               </div>
             </div>
 
-            <div className="flex gap-4">
+            <div className="flex gap-4  text-black">
               <CloudIcon className="w-10 h-10 text-[#212E84]" />
               <div>
                 <h3 className="text-2xl font-semibold text-[#212E84] mb-3">
@@ -78,7 +78,7 @@ const EnvironmentalResponsibility = () => {
               </div>
             </div>
 
-            <div className="flex gap-4">
+            <div className="flex gap-4  text-black">
               <ArrowPathIcon className="w-10 h-10 text-[#212E84]" />
               <div>
                 <h3 className="text-2xl font-semibold text-[#212E84] mb-3">
@@ -94,7 +94,7 @@ const EnvironmentalResponsibility = () => {
             </div>
           </div>
 
-          <div className="bg-[#F6F8FF] rounded-2xl p-8 shadow-sm">
+          <div className="bg-[#F6F8FF] rounded-2xl p-8 shadow-sm text-black">
             <h3 className="text-xl font-semibold text-[#212E84] mb-6">
               Environmental Commitments
             </h3>
