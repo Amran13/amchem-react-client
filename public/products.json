@@ -1,0 +1,548 @@
+{
+  "Medicated Premixes": [
+    {
+      "id": "01",
+      "category": "Medicated Premixes",
+      "name": "AMCHEM FLAVOMYCINE PREMIX",
+      "activeSubstance": "Flavophospholipol (Bambermycin, Moenomycin)",
+      "match" : ["POULTRY (Broilers, Layers, Turkeys, Ducks, Geese)"],
+      "composition": [
+        {
+          "name": "Flavophospholipol",
+          "value": "4% or 8%"
+        },
+        {
+          "name": "Carrier",
+          "value": "Pharmaceutical-grade excipients"
+        }
+      ],
+      "packSize": "25 kg bags",
+      "description": "Light brown to yellowish-brown homogeneous powder with characteristic odor.",
+      "pharmacologicalProperties": {
+        "mechanismOfAction": "Flavophospholipol inhibits bacterial cell wall synthesis...",
+        "spectrum": "Active against gram-positive organisms...",
+        "pharmacokinetics": "Not absorbed from GI tract...",
+        "scientificEvidence": "Studies in mSystems (2021) show microbial shifts..."
+      },
+      "indications": [
+        "Growth promotion in poultry, swine, and cattle",
+        "Prevention of necrotic enteritis",
+        "Improved feed conversion ratio",
+        "Reduction of pathogenic colonization",
+        "Reduced antimicrobial resistance transfer"
+      ],
+      "dosageAndAdministration": {
+        "poultry": {
+          "broilers": "0.5–2.0 g/kg feed",
+          "layers": "0.5–2.0 g/kg feed",
+          "turkeys": "0.5–2.0 g/kg feed",
+          "general": "Continuous administration"
+        },
+        "swine": {
+          "starter": "1.0–2.0 g/kg feed",
+          "growerFinisher": "0.5–1.0 g/kg feed",
+          "sows": "0.5–1.0 g/kg feed",
+          "general": ""
+        },
+        "cattle": {
+          "feedlot": "0.5–1.5 g/kg feed",
+          "general": ""
+        },
+        "therapeuticUse": {
+          "swineDysentery": "",
+          "proliferativeEnteropathy": "",
+          "other": ""
+        }
+      },
+      "contraindications": "Hypersensitivity to flavophospholipol; severe hepatic/renal dysfunction.",
+      "withdrawalPeriod": {
+        "poultryMeat": "0 days",
+        "swineMeat": "0 days",
+        "cattleMeat": "0 days",
+        "eggs": "Not permitted in some jurisdictions"
+      },
+      "adverseEffects": "None reported.",
+      "precautions": "Use at approved dose rates.",
+      "drugInteractions": "No cross-resistance with β-lactams.",
+      "storage": "Store at 5–25°C, protected from moisture and light.",
+      "shelfLife": "24 months",
+      "usage": "For Veterinary Use Only"
+    },
+    {
+      "id": "02",
+      "category": "Medicated Premixes",
+      "name": "AMCHEM FLAVOMYCINE PREMIX 2",
+      "activeSubstance": "Flavophospholipol (Bambermycin, Moenomycin)",
+      "match" : ["rabbit"],
+      "composition": [
+        {
+          "name": "Flavophospholipol",
+          "value": "4% or 8%"
+        },
+        {
+          "name": "Carrier",
+          "value": "Pharmaceutical-grade excipients"
+        }
+      ],
+      "packSize": "25 kg bags",
+      "description": "Light brown to yellowish-brown homogeneous powder with characteristic odor.",
+      "pharmacologicalProperties": {
+        "mechanismOfAction": "Flavophospholipol inhibits bacterial cell wall synthesis...",
+        "spectrum": "Active against gram-positive organisms...",
+        "pharmacokinetics": "Not absorbed from GI tract...",
+        "scientificEvidence": "Studies in mSystems (2021) show microbial shifts..."
+      },
+      "indications": [
+        "Growth promotion in poultry, swine, and cattle",
+        "Prevention of necrotic enteritis",
+        "Improved feed conversion ratio",
+        "Reduction of pathogenic colonization",
+        "Reduced antimicrobial resistance transfer"
+      ],
+      "dosageAndAdministration": {
+        "poultry": {
+          "broilers": "0.5–2.0 g/kg feed",
+          "layers": "0.5–2.0 g/kg feed",
+          "turkeys": "0.5–2.0 g/kg feed",
+          "general": "Continuous administration"
+        },
+        "swine": {
+          "starter": "1.0–2.0 g/kg feed",
+          "growerFinisher": "0.5–1.0 g/kg feed",
+          "sows": "0.5–1.0 g/kg feed",
+          "general": ""
+        },
+        "cattle": {
+          "feedlot": "0.5–1.5 g/kg feed",
+          "general": ""
+        },
+        "therapeuticUse": {
+          "swineDysentery": "",
+          "proliferativeEnteropathy": "",
+          "other": ""
+        }
+      },
+      "contraindications": "Hypersensitivity to flavophospholipol; severe hepatic/renal dysfunction.",
+      "withdrawalPeriod": {
+        "poultryMeat": "0 days",
+        "swineMeat": "0 days",
+        "cattleMeat": "0 days",
+        "eggs": "Not permitted in some jurisdictions"
+      },
+      "adverseEffects": "None reported.",
+      "precautions": "Use at approved dose rates.",
+      "drugInteractions": "No cross-resistance with β-lactams.",
+      "storage": "Store at 5–25°C, protected from moisture and light.",
+      "shelfLife": "24 months",
+      "usage": "For Veterinary Use Only"
+    },
+    {
+      "id": "03",
+      "category": "Medicated Premixes",
+      "name": "AMCHEM FLAVOMYCINE PREMIX 3",
+      "activeSubstance": "Flavophospholipol (Bambermycin, Moenomycin)",
+      "match" : ["cow", "sheep", "hen"],
+      "composition": [
+        {
+          "name": "Flavophospholipol",
+          "value": "4% or 8%"
+        },
+        {
+          "name": "Carrier",
+          "value": "Pharmaceutical-grade excipients"
+        }
+      ],
+      "packSize": "25 kg bags",
+      "description": "Light brown to yellowish-brown homogeneous powder with characteristic odor.",
+      "pharmacologicalProperties": {
+        "mechanismOfAction": "Flavophospholipol inhibits bacterial cell wall synthesis...",
+        "spectrum": "Active against gram-positive organisms...",
+        "pharmacokinetics": "Not absorbed from GI tract...",
+        "scientificEvidence": "Studies in mSystems (2021) show microbial shifts..."
+      },
+      "indications": [
+        "Growth promotion in poultry, swine, and cattle",
+        "Prevention of necrotic enteritis",
+        "Improved feed conversion ratio",
+        "Reduction of pathogenic colonization",
+        "Reduced antimicrobial resistance transfer"
+      ],
+      "dosageAndAdministration": {
+        "poultry": {
+          "broilers": "0.5–2.0 g/kg feed",
+          "layers": "0.5–2.0 g/kg feed",
+          "turkeys": "0.5–2.0 g/kg feed",
+          "general": "Continuous administration"
+        },
+        "swine": {
+          "starter": "1.0–2.0 g/kg feed",
+          "growerFinisher": "0.5–1.0 g/kg feed",
+          "sows": "0.5–1.0 g/kg feed",
+          "general": ""
+        },
+        "cattle": {
+          "feedlot": "0.5–1.5 g/kg feed",
+          "general": ""
+        },
+        "therapeuticUse": {
+          "swineDysentery": "",
+          "proliferativeEnteropathy": "",
+          "other": ""
+        }
+      },
+      "contraindications": "Hypersensitivity to flavophospholipol; severe hepatic/renal dysfunction.",
+      "withdrawalPeriod": {
+        "poultryMeat": "0 days",
+        "swineMeat": "0 days",
+        "cattleMeat": "0 days",
+        "eggs": "Not permitted in some jurisdictions"
+      },
+      "adverseEffects": "None reported.",
+      "precautions": "Use at approved dose rates.",
+      "drugInteractions": "No cross-resistance with β-lactams.",
+      "storage": "Store at 5–25°C, protected from moisture and light.",
+      "shelfLife": "24 months",
+      "usage": "For Veterinary Use Only"
+    }
+  ],
+  "Anticoccidial Premixes": [
+    {
+      "id": "04",
+      "category": "Anticoccidial Premixes",
+      "name": "AMCHEM Salinicox",
+      "activeSubstance": "Flavophospholipol (Bambermycin, Moenomycin)",
+       "match" : ["duck", "sheep", "hen"],
+      "composition": [
+        {
+          "name": "Flavophospholipol",
+          "value": "4% or 8%"
+        },
+        {
+          "name": "Carrier",
+          "value": "Pharmaceutical-grade excipients"
+        }
+      ],
+      "packSize": "25 kg bags",
+      "description": "Light brown to yellowish-brown homogeneous powder with characteristic odor.",
+      "pharmacologicalProperties": {
+        "mechanismOfAction": "Flavophospholipol inhibits bacterial cell wall synthesis...",
+        "spectrum": "Active against gram-positive organisms...",
+        "pharmacokinetics": "Not absorbed from GI tract...",
+        "scientificEvidence": "Studies in mSystems (2021) show microbial shifts..."
+      },
+      "indications": [
+        "Growth promotion in poultry, swine, and cattle",
+        "Prevention of necrotic enteritis",
+        "Improved feed conversion ratio",
+        "Reduction of pathogenic colonization",
+        "Reduced antimicrobial resistance transfer"
+      ],
+      "dosageAndAdministration": {
+        "poultry": {
+          "broilers": "0.5–2.0 g/kg feed",
+          "layers": "0.5–2.0 g/kg feed",
+          "turkeys": "0.5–2.0 g/kg feed",
+          "general": "Continuous administration"
+        },
+        "swine": {
+          "starter": "1.0–2.0 g/kg feed",
+          "growerFinisher": "0.5–1.0 g/kg feed",
+          "sows": "0.5–1.0 g/kg feed",
+          "general": ""
+        },
+        "cattle": {
+          "feedlot": "0.5–1.5 g/kg feed",
+          "general": ""
+        },
+        "therapeuticUse": {
+          "swineDysentery": "",
+          "proliferativeEnteropathy": "",
+          "other": ""
+        }
+      },
+      "contraindications": "Hypersensitivity to flavophospholipol; severe hepatic/renal dysfunction.",
+      "withdrawalPeriod": {
+        "poultryMeat": "0 days",
+        "swineMeat": "0 days",
+        "cattleMeat": "0 days",
+        "eggs": "Not permitted in some jurisdictions"
+      },
+      "adverseEffects": "None reported.",
+      "precautions": "Use at approved dose rates.",
+      "drugInteractions": "No cross-resistance with β-lactams.",
+      "storage": "Store at 5–25°C, protected from moisture and light.",
+      "shelfLife": "24 months",
+      "usage": "For Veterinary Use Only"
+    },
+    {
+      "id": "05",
+      "category": "Anticoccidial Premixes",
+      "name": "AMCHEM Salinicox 2",
+      "activeSubstance": "Flavophospholipol (Bambermycin, Moenomycin)",
+      "composition": [
+        {
+          "name": "Flavophospholipol",
+          "value": "4% or 8%"
+        },
+        {
+          "name": "Carrier",
+          "value": "Pharmaceutical-grade excipients"
+        }
+      ],
+      "packSize": "25 kg bags",
+      "description": "Light brown to yellowish-brown homogeneous powder with characteristic odor.",
+      "pharmacologicalProperties": {
+        "mechanismOfAction": "Flavophospholipol inhibits bacterial cell wall synthesis...",
+        "spectrum": "Active against gram-positive organisms...",
+        "pharmacokinetics": "Not absorbed from GI tract...",
+        "scientificEvidence": "Studies in mSystems (2021) show microbial shifts..."
+      },
+      "indications": [
+        "Growth promotion in poultry, swine, and cattle",
+        "Prevention of necrotic enteritis",
+        "Improved feed conversion ratio",
+        "Reduction of pathogenic colonization",
+        "Reduced antimicrobial resistance transfer"
+      ],
+      "dosageAndAdministration": {
+        "poultry": {
+          "broilers": "0.5–2.0 g/kg feed",
+          "layers": "0.5–2.0 g/kg feed",
+          "turkeys": "0.5–2.0 g/kg feed",
+          "general": "Continuous administration"
+        },
+        "swine": {
+          "starter": "1.0–2.0 g/kg feed",
+          "growerFinisher": "0.5–1.0 g/kg feed",
+          "sows": "0.5–1.0 g/kg feed",
+          "general": ""
+        },
+        "cattle": {
+          "feedlot": "0.5–1.5 g/kg feed",
+          "general": ""
+        },
+        "therapeuticUse": {
+          "swineDysentery": "",
+          "proliferativeEnteropathy": "",
+          "other": ""
+        }
+      },
+      "contraindications": "Hypersensitivity to flavophospholipol; severe hepatic/renal dysfunction.",
+      "withdrawalPeriod": {
+        "poultryMeat": "0 days",
+        "swineMeat": "0 days",
+        "cattleMeat": "0 days",
+        "eggs": "Not permitted in some jurisdictions"
+      },
+      "adverseEffects": "None reported.",
+      "precautions": "Use at approved dose rates.",
+      "drugInteractions": "No cross-resistance with β-lactams.",
+      "storage": "Store at 5–25°C, protected from moisture and light.",
+      "shelfLife": "24 months",
+      "usage": "For Veterinary Use Only"
+    },
+    {
+      "id": "06",
+      "category": "Anticoccidial Premixes",
+      "name": "AMCHEM Salinicox 3",
+      "activeSubstance": "Flavophospholipol (Bambermycin, Moenomycin)",
+      "composition": [
+        {
+          "name": "Flavophospholipol",
+          "value": "4% or 8%"
+        },
+        {
+          "name": "Carrier",
+          "value": "Pharmaceutical-grade excipients"
+        }
+      ],
+      "packSize": "25 kg bags",
+      "description": "Light brown to yellowish-brown homogeneous powder with characteristic odor.",
+      "pharmacologicalProperties": {
+        "mechanismOfAction": "Flavophospholipol inhibits bacterial cell wall synthesis...",
+        "spectrum": "Active against gram-positive organisms...",
+        "pharmacokinetics": "Not absorbed from GI tract...",
+        "scientificEvidence": "Studies in mSystems (2021) show microbial shifts..."
+      },
+      "indications": [
+        "Growth promotion in poultry, swine, and cattle",
+        "Prevention of necrotic enteritis",
+        "Improved feed conversion ratio",
+        "Reduction of pathogenic colonization",
+        "Reduced antimicrobial resistance transfer"
+      ],
+      "dosageAndAdministration": {
+        "poultry": {
+          "broilers": "0.5–2.0 g/kg feed",
+          "layers": "0.5–2.0 g/kg feed",
+          "turkeys": "0.5–2.0 g/kg feed",
+          "general": "Continuous administration"
+        },
+        "swine": {
+          "starter": "1.0–2.0 g/kg feed",
+          "growerFinisher": "0.5–1.0 g/kg feed",
+          "sows": "0.5–1.0 g/kg feed",
+          "general": ""
+        },
+        "cattle": {
+          "feedlot": "0.5–1.5 g/kg feed",
+          "general": ""
+        },
+        "therapeuticUse": {
+          "swineDysentery": "",
+          "proliferativeEnteropathy": "",
+          "other": ""
+        }
+      },
+      "contraindications": "Hypersensitivity to flavophospholipol; severe hepatic/renal dysfunction.",
+      "withdrawalPeriod": {
+        "poultryMeat": "0 days",
+        "swineMeat": "0 days",
+        "cattleMeat": "0 days",
+        "eggs": "Not permitted in some jurisdictions"
+      },
+      "adverseEffects": "None reported.",
+      "precautions": "Use at approved dose rates.",
+      "drugInteractions": "No cross-resistance with β-lactams.",
+      "storage": "Store at 5–25°C, protected from moisture and light.",
+      "shelfLife": "24 months",
+      "usage": "For Veterinary Use Only"
+    }
+  ],
+  "Vitamin and Mineral Supplements": [
+    {
+      "id": "07",
+      "category": "Vitamin and Mineral Supplements",
+      "name": "Amvit-C Stable",
+      "activeSubstance": "Flavophospholipol (Bambermycin, Moenomycin)",
+      "composition": [
+        {
+          "name": "Flavophospholipol",
+          "value": "4% or 8%"
+        },
+        {
+          "name": "Carrier",
+          "value": "Pharmaceutical-grade excipients"
+        }
+      ],
+      "packSize": "25 kg bags",
+      "description": "Light brown to yellowish-brown homogeneous powder with characteristic odor.",
+      "pharmacologicalProperties": {
+        "mechanismOfAction": "Flavophospholipol inhibits bacterial cell wall synthesis...",
+        "spectrum": "Active against gram-positive organisms...",
+        "pharmacokinetics": "Not absorbed from GI tract...",
+        "scientificEvidence": "Studies in mSystems (2021) show microbial shifts..."
+      },
+      "indications": [
+        "Growth promotion in poultry, swine, and cattle",
+        "Prevention of necrotic enteritis",
+        "Improved feed conversion ratio",
+        "Reduction of pathogenic colonization",
+        "Reduced antimicrobial resistance transfer"
+      ],
+      "dosageAndAdministration": {
+        "poultry": {
+          "broilers": "0.5–2.0 g/kg feed",
+          "layers": "0.5–2.0 g/kg feed",
+          "turkeys": "0.5–2.0 g/kg feed",
+          "general": "Continuous administration"
+        },
+        "swine": {
+          "starter": "1.0–2.0 g/kg feed",
+          "growerFinisher": "0.5–1.0 g/kg feed",
+          "sows": "0.5–1.0 g/kg feed",
+          "general": ""
+        },
+        "cattle": {
+          "feedlot": "0.5–1.5 g/kg feed",
+          "general": ""
+        },
+        "therapeuticUse": {
+          "swineDysentery": "",
+          "proliferativeEnteropathy": "",
+          "other": ""
+        }
+      },
+      "contraindications": "Hypersensitivity to flavophospholipol; severe hepatic/renal dysfunction.",
+      "withdrawalPeriod": {
+        "poultryMeat": "0 days",
+        "swineMeat": "0 days",
+        "cattleMeat": "0 days",
+        "eggs": "Not permitted in some jurisdictions"
+      },
+      "adverseEffects": "None reported.",
+      "precautions": "Use at approved dose rates.",
+      "drugInteractions": "No cross-resistance with β-lactams.",
+      "storage": "Store at 5–25°C, protected from moisture and light.",
+      "shelfLife": "24 months",
+      "usage": "For Veterinary Use Only"
+    },
+    {
+      "id": "08",
+      "category": "Vitamin and Mineral Supplements",
+      "name": "Amvit-C Stable 2",
+      "activeSubstance": "Flavophospholipol (Bambermycin, Moenomycin)",
+      "composition": [
+        {
+          "name": "Flavophospholipol",
+          "value": "4% or 8%"
+        },
+        {
+          "name": "Carrier",
+          "value": "Pharmaceutical-grade excipients"
+        }
+      ],
+      "packSize": "25 kg bags",
+      "description": "Light brown to yellowish-brown homogeneous powder with characteristic odor.",
+      "pharmacologicalProperties": {
+        "mechanismOfAction": "Flavophospholipol inhibits bacterial cell wall synthesis...",
+        "spectrum": "Active against gram-positive organisms...",
+        "pharmacokinetics": "Not absorbed from GI tract...",
+        "scientificEvidence": "Studies in mSystems (2021) show microbial shifts..."
+      },
+      "indications": [
+        "Growth promotion in poultry, swine, and cattle",
+        "Prevention of necrotic enteritis",
+        "Improved feed conversion ratio",
+        "Reduction of pathogenic colonization",
+        "Reduced antimicrobial resistance transfer"
+      ],
+      "dosageAndAdministration": {
+        "poultry": {
+          "broilers": "0.5–2.0 g/kg feed",
+          "layers": "0.5–2.0 g/kg feed",
+          "turkeys": "0.5–2.0 g/kg feed",
+          "general": "Continuous administration"
+        },
+        "swine": {
+          "starter": "1.0–2.0 g/kg feed",
+          "growerFinisher": "0.5–1.0 g/kg feed",
+          "sows": "0.5–1.0 g/kg feed",
+          "general": ""
+        },
+        "cattle": {
+          "feedlot": "0.5–1.5 g/kg feed",
+          "general": ""
+        },
+        "therapeuticUse": {
+          "swineDysentery": "",
+          "proliferativeEnteropathy": "",
+          "other": ""
+        }
+      },
+      "contraindications": "Hypersensitivity to flavophospholipol; severe hepatic/renal dysfunction.",
+      "withdrawalPeriod": {
+        "poultryMeat": "0 days",
+        "swineMeat": "0 days",
+        "cattleMeat": "0 days",
+        "eggs": "Not permitted in some jurisdictions"
+      },
+      "adverseEffects": "None reported.",
+      "precautions": "Use at approved dose rates.",
+      "drugInteractions": "No cross-resistance with β-lactams.",
+      "storage": "Store at 5–25°C, protected from moisture and light.",
+      "shelfLife": "24 months",
+      "usage": "For Veterinary Use Only"
+    }
+  ]
+}
