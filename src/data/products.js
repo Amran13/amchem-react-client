@@ -466,136 +466,143 @@ export const productsData = {
         {
           id: "amchem-citimix",
           name: "AMCHEM CITIMIX® 10% / 15% PREMIX",
-          subtitle: "",
+          subtitle: "(Chlortetracycline)",
           brand: "AMCHEM",
           product: "AMCHEM CITIMIX®",
 
           sections: [
-            {
-              type: "table",
-              title: "COMPOSITION",
-              description: "Content per kg",
-              columns: [
-                "Component",
-                "",
-              ],
-              rows: [
-                [
-                  "",
-                  "",
-                ],
-                [
-                  "",
-                  "",
-                ]
-              ],
-              footer:
-                ""
-            },
+           {
+  type: "table",
+  title: "COMPOSITION",
+  description: "Content (per 100 g):",
+  columns: [
+    "Component",
+    "AMCHEM CITIMIX® 10%",
+    "AMCHEM CITIMIX® 15%"
+  ],
+  rows: [
+    [
+      "Chlortetracycline (as HCl)",
+      "100 g",
+      "150 g"
+    ],
+    [
+      "Pharmaceutical-grade excipients",
+      "q.s.",
+      "q.s."
+    ]
+  ]
+},
 
             {
               type: "text",
               title: "DESCRIPTION",
               content:
-                ""
+                "AMCHEM CITIMIX® PREMIX is a yellow to golden-yellow crystalline powder formulated as a broad-spectrum medicated feed additive for use in swine, poultry, and cattle. The product is designed for incorporation into feed to provide consistent antimicrobial activity and performance benefits. When administered at recommended inclusion levels, it improves daily weight gain and feed efficiency while supporting control of important enteric and respiratory bacterial diseases."
             },
 
             {
               type: "text",
               title: "PHARMACOLOGICAL ACTION",
               content:
-                ""
+                "Chlortetracycline is a tetracycline-class antibiotic that exerts its effect by reversibly binding to the 30S ribosomal subunit of susceptible bacteria. This binding prevents the attachment of aminoacyl-tRNA to the ribosomal acceptor site, thereby inhibiting protein synthesis and suppressing bacterial growth. The antimicrobial effect is primarily bacteriostatic at typical therapeutic concentrations, allowing host immune mechanisms to eliminate the inhibited organisms. In addition to its antibacterial activity, chlortetracycline has been shown to modulate intestinal immune responses and reduce mucosal inflammation, contributing to improved growth performance.\n\nChlortetracycline exhibits broad-spectrum antimicrobial activity against a wide range of Gram-positive and Gram-negative bacteria, including Pasteurella species, Escherichia coli, Salmonella species, Streptococcus species, and Staphylococcus species. It is also active against intracellular and atypical pathogens such as Mycoplasma, Chlamydia, and Rickettsia. This broad activity makes the product effective in the prevention and control of mixed bacterial infections affecting the gastrointestinal and respiratory systems."
             },
 
             {
               type: "text",
               title: "PHARMACOKINETICS",
               content:
-                ""
+                "After oral administration, chlortetracycline is moderately absorbed from the gastrointestinal tract, with an oral bioavailability of approximately 30 to 40 percent. This allows the product to exert both local antimicrobial activity in the intestinal lumen and systemic effects following absorption. The drug distributes widely throughout the body and tends to concentrate in the liver, kidneys, and bone tissue. Excretion occurs primarily via feces as unchanged drug and via urine as parent compound and metabolites."
             },
 
             {
               type: "text",
               title: "INDICATIONS",
               content:
-                ""
+                "AMCHEM CITIMIX® PREMIX is indicated for the prevention and control of bacterial diseases and for growth promotion in food-producing animals. In swine, it is used for the control of bacterial enteritis, prevention of atrophic rhinitis, reduction of respiratory disease, and improvement of growth performance. In poultry, it is indicated for chronic respiratory disease, infectious synovitis, fowl cholera, blue comb disease, and enhancement of feed efficiency and weight gain. In cattle, the product is used for prevention of liver abscesses, control of bacterial pneumonia associated with shipping fever complex, and management of anaplasmosis. Use of AMCHEM CITIMIX® PREMIX contributes to improved feed efficiency, increased average daily gain, and reduced economic losses associated with subclinical and clinical bacterial infections. By suppressing pathogenic bacteria in the gut, the product helps maintain intestinal integrity and nutrient absorption. In cattle, it reduces liver condemnations due to abscesses, while in poultry and swine it supports respiratory health and overall productivity, leading to improved profitability."
             },
 
             {
               type: "text",
               title: "CONTRAINDICATIONS",
               content:
-                ""
+                "The product should not be used in animals with known hypersensitivity to tetracycline antibiotics. Its use is contraindicated in animals with severe hepatic or renal impairment. Administration to young animals during periods of tooth development should be avoided due to the risk of permanent tooth discoloration. The product must not be used in laying hens producing eggs for human consumption or in dairy cattle producing milk for human use."
             },
 
             {
               type: "text",
               title: "MODE OF ADMINISTRATION",
               content:
-                ""
+                "AMCHEM CITIMIX® PREMIX is administered orally by thorough incorporation into feed. Adequate mixing is essential to ensure uniform distribution and consistent intake."
             },
 
             {
               type: "text",
               title: "TARGET SPECIES",
-              content: ""
+              content: "Swine, poultry, and cattle."
             },
 
             {
-              type: "table",
-              title: "DOSAGE",
-              columns: [
-                "Species",
-                "",
-                "",
-                ""
-              ],
-              rows: [
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-              ],
-              footer : ""
-            },
+  type: "table",
+  title: "DOSAGE",
+  columns: [
+    "Animal Type",
+    "Recommended Dosage"
+  ],
+  rows: [
+    [
+      "Poultry",
+      "150 – 400 g per ton of feed"
+    ],
+    [
+      "Cattle and Beef",
+      "350 g/head/day"
+    ],
+    [
+      "Calf, Beef, Non-lactating Dairy Cattle",
+      "25 g per kg of body weight/day"
+    ]
+  ],
+  footer:
+    "For growth promotion, inclusion rates of 50 to 100 g premix per ton of feed are recommended for swine and poultry, while cattle may receive 70 to 350 g premix per ton of feed, or as recommended by a qualified nutritionist."
+}
+,
 
             {
               type: "text",
               title: "SIDE EFFECTS",
               content:
-                ""
+                "Adverse reactions are uncommon when the product is used as directed. Rare gastrointestinal disturbances, photosensitivity in light-skinned animals, and discoloration of teeth during development may occur. Hepatotoxic effects are possible at excessive dosages."
             },
             {
               type: "text",
               title: "WITHDRAWAL PERIOD",
               content:
-                ""
+                "The withdrawal period is seven days for swine meat, five days for poultry meat, and seven days for cattle meat. The product must not be used in laying hens producing eggs for human consumption or in calves intended for veal production. Local regulatory requirements should be observed."
             },
             {
               type: "text",
               title: "STORAGE",
               content:
-                ""
+                "Store the product in its original, well-sealed packaging in a dry, cool, and well-ventilated place, protected from light and moisture, at temperatures below 30°C."
             },
             {
               type: "text",
               title: "SHELF LIFE",
               content:
-                ""
+                "24 months under recommended storage conditions."
             },
             {
               type: "text",
               title: "PACKING",
               content:
-                ""
+                "AMCHEM CITIMIX® PREMIX is supplied in 25 kg bags."
             },
             {
               type: "text",
               title: "FURTHER INFORMATION",
               content:
-                ""
+                "The product should not be administered concurrently with antacids, iron, calcium-rich feeds, or milk, as these may reduce absorption. Concomitant use with bactericidal antibiotics may reduce therapeutic effectiveness due to antagonistic action. AMCHEM CITIMIX® PREMIX is intended for veterinary use only and should be used in accordance with antimicrobial stewardship principles."
             },
 
           ],
@@ -610,130 +617,159 @@ export const productsData = {
 
           sections: [
             {
-              type: "table",
-              title: "COMPOSITION",
-              description: "Content per kg",
-              columns: [
-                "Component",
-                "",
-              ],
-              rows: [
-                [
-                  "",
-                  "",
-                ],
-                [
-                  "",
-                  "",
-                ]
-              ],
-              footer:
-                ""
-            },
+  type: "table",
+  title: "COMPOSITION",
+  description: "Content per kg:",
+  columns: [
+    "Component",
+    "AMCHEM TYLAN-MIX® 10%"
+  ],
+  rows: [
+    [
+      "Tylosin Phosphate",
+      "100 g"
+    ],
+    [
+      "Pharmaceutical-grade excipients",
+      "q.s."
+    ]
+  ]
+},
 
             {
               type: "text",
               title: "DESCRIPTION",
               content:
-                ""
+                "AMCHEM TYLAN-MIX® 10% PREMIX is a light tan to brown, free-flowing powder with a faint characteristic odor. It contains tylosin phosphate, a macrolide antibiotic formulated for incorporation into animal feed. The product is used both for the prevention and control of tylosin-sensitive bacterial diseases and for improvement of growth performance and feed efficiency. When administered through feed at recommended inclusion levels, the product provides reliable antimicrobial activity while supporting overall animal health and productivity."
             },
 
             {
               type: "text",
               title: "PHARMACOLOGICAL ACTION",
               content:
-                ""
+                "Tylosin exerts its antibacterial effect by binding to the 50S ribosomal subunit of susceptible bacteria at the peptidyl transferase site. This binding interferes with the translocation of peptidyl-tRNA from the acceptor site to the donor site, thereby inhibiting elongation of the protein chain and suppressing bacterial protein synthesis. The antimicrobial effect is primarily bacteriostatic, although bactericidal activity may occur at higher concentrations depending on organism susceptibility. In addition to its direct antibacterial action, tylosin has been shown to modulate intestinal microbial populations and inflammatory responses, contributing to improved gut integrity and animal performance.\n\nTylosin phosphate is highly active against Gram-positive bacteria, including Staphylococcus aureus, Streptococcus species, Clostridium perfringens, and Erysipelothrix rhusiopathiae. It shows exceptional efficacy against Mycoplasma species, making it particularly valuable for the control of chronic respiratory disease and infectious synovitis in poultry. The compound also demonstrates activity against certain Gram-negative and anaerobic organisms of production relevance, including Lawsonia intracellularis and Brachyspira species."
             },
 
             {
               type: "text",
               title: "PHARMACOKINETICS",
               content:
-                ""
+                "After oral administration, tylosin is partially absorbed from the gastrointestinal tract, with an estimated bioavailability of approximately 15 to 25 percent. Absorbed tylosin is distributed to various tissues, including lung, liver, and muscle, where it reaches therapeutically effective concentrations. The drug undergoes minimal metabolism and is eliminated primarily via bile and urine. The unabsorbed fraction is excreted in feces, providing sustained antimicrobial activity within the intestinal lumen."
             },
 
             {
               type: "text",
               title: "INDICATIONS",
               content:
-                ""
+                "AMCHEM TYLAN-MIX® 10% PREMIX is indicated for the prevention and control of tylosin-sensitive infections and for growth promotion in poultry and swine. In poultry, it is used for management of chronic respiratory disease caused by Mycoplasma gallisepticum, infectious synovitis due to Mycoplasma synoviae, necrotic enteritis, hexamitiasis in turkeys, spirochetosis, and for improving overall flock performance. In swine, it is indicated for the treatment and control of swine dysentery, porcine proliferative enteropathy, mycoplasmal pneumonia, arthritis, and for enhancement of growth rate and feed efficiency. The product may also be used in calves for fattening to help prevent liver abscesses caused by susceptible organisms. Use of AMCHEM TYLAN-MIX® 10% PREMIX results in improved feed conversion ratio, increased weight gain, and enhanced uniformity of animals. In poultry, it supports better respiratory health, improves egg production and egg quality in layers and breeders, enhances hatchability, and reduces vertical transmission of Mycoplasma. In swine and calves, the product contributes to reduced disease-related losses, improved digestive efficiency, and better overall productivity."
             },
 
             {
               type: "text",
               title: "CONTRAINDICATIONS",
               content:
-                ""
+                "The product should not be used in animals with known hypersensitivity to macrolide antibiotics. Its use is contraindicated in horses and other equids due to the risk of severe and potentially fatal enterocolitis. Caution is advised in animals with severe hepatic dysfunction. The product must not be used in laying hens producing eggs for human consumption."
             },
 
             {
               type: "text",
               title: "MODE OF ADMINISTRATION",
               content:
-                ""
+                "AMCHEM TYLAN-MIX® 10% PREMIX is administered orally by thorough incorporation into feed. Adequate and uniform mixing is essential to ensure consistent intake."
             },
 
             {
               type: "text",
               title: "TARGET SPECIES",
-              content: ""
+              content: "Poultry, including broilers, layers, breeders, and turkeys, swine, and calves for fattening."
             },
 
             {
-              type: "table",
-              title: "DOSAGE",
-              columns: [
-                "Species",
-                "",
-                "",
-                ""
-              ],
-              rows: [
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-              ],
-              footer : ""
-            },
+  type: "table",
+  title: "DOSAGE",
+  description: "Recommended inclusion rates:",
+  columns: [
+    "Species / Category",
+    "Indication",
+    "AMCHEM TYLAN-MIX® 10% PREMIX"
+  ],
+  rows: [
+    [
+      "Broilers",
+      "Growth promotion and control of tylosin-sensitive infections",
+      "200 g per ton of feed from day 1 to market age"
+    ],
+    [
+      "Layers",
+      "Improvement of production and disease control",
+      "500 g per ton of feed up to 42nd week; 200 g per ton of feed from 43rd week to culling"
+    ],
+    [
+      "Breeders",
+      "Production support and disease control",
+      "500 g per ton of feed from point of lay to culling"
+    ],
+    [
+      "Poultry (general)",
+      "Chronic respiratory disease, infectious synovitis, necrotic enteritis",
+      "100–200 g per ton of feed"
+    ],
+    [
+      "Swine",
+      "Growth promotion",
+      "10–40 g per ton of feed"
+    ],
+    [
+      "Swine",
+      "Swine dysentery, ileitis",
+      "40–200 g per ton of feed"
+    ],
+    [
+      "Calves for fattening",
+      "Prevention of liver abscesses and growth promotion",
+      "80–100 g per ton of feed or 0.6–0.9 g per head per day"
+    ]
+  ],
+  footer:
+    "Or as recommended by a qualified nutritionist."
+}
+,
 
             {
               type: "text",
               title: "SIDE EFFECTS",
               content:
-                ""
+                "Occasional mild gastrointestinal disturbances may occur during treatment. Hypersensitivity reactions are rare when the product is used as directed."
             },
             {
               type: "text",
               title: "WITHDRAWAL PERIOD",
               content:
-                ""
+                "The withdrawal period is seven days for swine meat and five days for poultry meat. The product must not be used in laying hens producing eggs for human consumption."
             },
             {
               type: "text",
               title: "STORAGE",
               content:
-                ""
+                "Store the product in its original, well-sealed packaging in a dry and cool place at room temperature, protected from moisture and direct sunlight."
             },
             {
               type: "text",
               title: "SHELF LIFE",
               content:
-                ""
+                "24 months under recommended storage conditions."
             },
             {
               type: "text",
               title: "PACKING",
               content:
-                ""
+                "AMCHEM TYLAN-MIX® 10% PREMIX is supplied in 25 kg bags."
             },
             {
               type: "text",
               title: "FURTHER INFORMATION",
               content:
-                ""
+                "Concurrent use with lincosamide antibiotics is not recommended due to potential antagonism at the ribosomal binding site. Tylosin may increase serum levels of drugs metabolized by cytochrome P450 enzymes. AMCHEM TYLAN-MIX® 10% PREMIX should be used in accordance with antimicrobial stewardship principles and is intended for veterinary use only."
             },
 
           ],
@@ -749,130 +785,155 @@ export const productsData = {
 
           sections: [
             {
-              type: "table",
-              title: "COMPOSITION",
-              description: "Content per kg",
-              columns: [
-                "Component",
-                "",
-              ],
-              rows: [
-                [
-                  "",
-                  "",
-                ],
-                [
-                  "",
-                  "",
-                ]
-              ],
-              footer:
-                ""
-            },
+  type: "table",
+  title: "COMPOSITION",
+  description: "Content per kg:",
+  columns: [
+    "Component",
+    "AMCHEM ENRAMYCIN® 4%"
+  ],
+  rows: [
+    [
+      "Enramycin",
+      "40 g"
+    ],
+    [
+      "Pharmaceutical-grade excipients",
+      "q.s."
+    ]
+  ]
+}
+,
 
             {
               type: "text",
               title: "DESCRIPTION",
               content:
-                ""
+                "AMCHEM ENRAMYCIN® 4% PREMIX is a yellowish-white to light brown, free-flowing homogeneous powder formulated for incorporation into animal feed. It contains enramycin, a polypeptide antibiotic produced by Streptomyces fungicidicus, specifically intended for improvement of intestinal health, growth performance, and feed conversion efficiency. When administered through feed at recommended inclusion levels, the product exerts a strong local antibacterial effect within the gastrointestinal tract while maintaining an excellent safety profile due to its lack of systemic absorption."
             },
 
             {
               type: "text",
               title: "PHARMACOLOGICAL ACTION",
               content:
-                ""
+                "Enramycin exerts its antibacterial activity by inhibiting bacterial cell wall synthesis. It binds to lipid intermediates involved in the transport of peptidoglycan precursors across the bacterial cell membrane, thereby preventing proper cell wall assembly and leading to bacterial cell death. This mechanism results in rapid bactericidal activity against susceptible organisms. Due to its high molecular weight, enramycin remains confined to the intestinal lumen and does not enter systemic circulation, allowing targeted antimicrobial action without tissue residues.\n\nEnramycin is highly active against Gram-positive bacteria, particularly Clostridium perfringens, Streptococcus species, and Staphylococcus species. Its pronounced efficacy against Clostridium perfringens makes it especially valuable for the prevention of necrotic enteritis and growth depression associated with intestinal dysbiosis in poultry and swine. The product shows no cross-resistance with clinically important antibiotic classes."
             },
 
             {
               type: "text",
               title: "PHARMACOKINETICS",
               content:
-                ""
+                "After oral administration via feed, enramycin is not absorbed from the gastrointestinal tract and acts exclusively within the intestinal lumen. The compound is excreted unchanged in the feces, resulting in no systemic exposure and no accumulation in edible tissues. This pharmacokinetic profile ensures a high margin of safety and eliminates concerns related to withdrawal residues when used as directed."
             },
 
             {
               type: "text",
               title: "INDICATIONS",
               content:
-                ""
+                "AMCHEM ENRAMYCIN® 4% PREMIX is indicated for growth promotion and improvement of feed conversion efficiency in poultry, swine, and fish. In poultry, it is used for the prevention of necrotic enteritis and reduction of intestinal pathogen load associated with Clostridium perfringens. In swine, the product supports intestinal health, enhances growth performance, and reduces the impact of gram-positive enteric infections. It is also used to reduce ammonia production in droppings and manure, thereby improving housing conditions and overall animal performance. Use of AMCHEM ENRAMYCIN® 4% PREMIX results in improved feed efficiency, increased weight gain, and better uniformity of animals. The product contributes to reduced incidence of necrotic enteritis, improved litter quality through decreased moisture and ammonia levels, enhanced nutrient digestibility, and improved intestinal morphology, including increased villus height and optimal villus-to-crypt ratio. These effects collectively support improved productivity and reduced mortality."
             },
 
             {
               type: "text",
               title: "CONTRAINDICATIONS",
               content:
-                ""
+                "The product should not be used in animals with known hypersensitivity to enramycin. Recommended inclusion rates must not be exceeded. Use in laying hens may be subject to national or regional regulatory restrictions."
             },
 
             {
               type: "text",
               title: "MODE OF ADMINISTRATION",
               content:
-                ""
+                "AMCHEM ENRAMYCIN® 4% PREMIX is administered orally by thorough incorporation into feed. Adequate and uniform mixing is essential to ensure consistent intake and optimal efficacy."
             },
 
             {
               type: "text",
               title: "TARGET SPECIES",
-              content: ""
+              content: "Poultry, including broilers, layers, breeders, and turkeys; swine; and fish during the fattening period."
             },
 
             {
-              type: "table",
-              title: "DOSAGE",
-              columns: [
-                "Species",
-                "",
-                "",
-                ""
-              ],
-              rows: [
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-              ],
-              footer : ""
-            },
+  type: "table",
+  title: "DOSAGE",
+  description: "Recommended inclusion rates:",
+  columns: [
+    "Species / Category",
+    "Indication",
+    "AMCHEM ENRAMYCIN® 4% PREMIX"
+  ],
+  rows: [
+    [
+      "Broilers (pre-starter to finisher)",
+      "Growth promotion and prevention of necrotic enteritis",
+      "150–250 g per ton of feed"
+    ],
+    [
+      "Layers",
+      "Intestinal health and production support",
+      "150 g per ton of feed"
+    ],
+    [
+      "Turkeys",
+      "Growth promotion and enteric health",
+      "150–250 g per ton of feed"
+    ],
+    [
+      "Piglets (weaning and fattening)",
+      "Growth promotion and enteritis control",
+      "200 g per ton of feed"
+    ],
+    [
+      "Pregnant and lactating sows",
+      "Feed efficiency and gut health",
+      "300 g per ton of feed"
+    ],
+    [
+      "Fish (fattening period)",
+      "Growth promotion",
+      "80 g per ton of feed"
+    ]
+  ],
+  footer:
+    "Or as recommended by a qualified nutritionist."
+}
+,
 
             {
               type: "text",
               title: "SIDE EFFECTS",
               content:
-                ""
+                "No adverse effects have been reported when the product is used at recommended inclusion levels. The absence of systemic absorption contributes to an excellent tolerance profile across target species."
             },
             {
               type: "text",
               title: "WITHDRAWAL PERIOD",
               content:
-                ""
+                "The withdrawal period is zero days for poultry and swine meat when the product is used as directed. Use in laying hens should comply with applicable regulatory requirements."
             },
             {
               type: "text",
               title: "STORAGE",
               content:
-                ""
+                "Store the product in its original, well-sealed packaging in a dry and cool place at room temperature, protected from moisture and direct sunlight."
             },
             {
               type: "text",
               title: "SHELF LIFE",
               content:
-                ""
+                "24 months under recommended storage conditions."
             },
             {
               type: "text",
               title: "PACKING",
               content:
-                ""
+                "AMCHEM ENRAMYCIN® 4% PREMIX is supplied in 25 kg bags."
             },
             {
               type: "text",
               title: "FURTHER INFORMATION",
               content:
-                ""
+                "AMCHEM ENRAMYCIN® 4% PREMIX does not exhibit cross-resistance with tetracyclines, macrolides, aminoglycosides, or other commonly used antibiotics. The product is highly stable during feed processing and pelleting. Resistance development is slow, supporting long-term efficacy. The product should be used in accordance with antimicrobial stewardship principles and is intended for veterinary use only."
             },
 
           ],
@@ -888,130 +949,133 @@ export const productsData = {
 
           sections: [
             {
-              type: "table",
-              title: "COMPOSITION",
-              description: "Content per kg",
-              columns: [
-                "Component",
-                "",
-              ],
-              rows: [
-                [
-                  "",
-                  "",
-                ],
-                [
-                  "",
-                  "",
-                ]
-              ],
-              footer:
-                ""
-            },
+  type: "table",
+  title: "COMPOSITION",
+  description: "Content per kg:",
+  columns: [
+    "Component",
+    "AMCHEM OLADOX® 12.5%"
+  ],
+  rows: [
+    [
+      "Olaquindox",
+      "125 g"
+    ],
+    [
+      "Pharmaceutical-grade excipients",
+      "q.s."
+    ]
+  ]
+}
+,
 
             {
               type: "text",
               title: "DESCRIPTION",
               content:
-                ""
+                "AMCHEM OLADOX® 12.5% PREMIX is a yellow to orange-yellow, free-flowing powder formulated for incorporation into animal feed. It contains olaquindox, a synthetic quinoxaline-1,4-dioxide derivative used as an antimicrobial growth promoter and for control of enteric bacterial infections in livestock. When administered through feed at recommended inclusion levels, the product exerts strong antibacterial activity within the gastrointestinal tract, supporting improved growth performance and feed utilization. Due to regulatory restrictions, its use is limited to specific jurisdictions and approved animal categories."
             },
 
             {
               type: "text",
               title: "PHARMACOLOGICAL ACTION",
               content:
-                ""
+                "Olaquindox exerts its antimicrobial activity by inhibiting bacterial DNA synthesis and interfering with protein synthesis through interaction with bacterial ribosomal structures. This dual mechanism results in effective suppression of bacterial growth and replication. In addition to its antibacterial effects, olaquindox has been shown to enhance protein assimilation and improve nutrient utilization, contributing to improved feed conversion efficiency and increased lean tissue deposition.\n\nOlaquindox demonstrates activity against a broad range of Gram-negative and Gram-positive bacteria, including Escherichia coli, Salmonella species, Pasteurella species, Staphylococcus species, Proteus species, and Brachyspira species. It also exhibits inhibitory effects against certain spirochetes such as Treponema species. This spectrum supports its use in the control of bacterial enteritis and post-weaning diarrhea where permitted."
             },
 
             {
               type: "text",
               title: "PHARMACOKINETICS",
               content:
-                ""
+                "Following oral administration via feed, olaquindox exhibits limited absorption from the gastrointestinal tract, with the majority of its activity occurring locally within the intestinal lumen. Absorbed fractions are rapidly metabolized and eliminated through urine and feces without significant accumulation in tissues. This pharmacokinetic behavior supports its effectiveness as an intestinal antimicrobial while minimizing systemic exposure when used in accordance with approved guidelines."
             },
 
             {
               type: "text",
               title: "INDICATIONS",
               content:
-                ""
+                "Where permitted by local regulations, AMCHEM OLADOX® 12.5% PREMIX is indicated primarily for growth promotion and improvement of feed conversion efficiency in swine, particularly in piglets during the post-weaning period. The product is also used for prevention and control of bacterial enteritis, including white and yellow diarrhea, gastroenteritis, colibacillosis, salmonellosis, and associated intestinal disturbances caused by susceptible microorganisms. Its use is restricted to approved animal categories and weight ranges. Use of AMCHEM OLADOX® 12.5% PREMIX supports improved growth rate, enhanced feed efficiency, and reduced incidence of post-weaning diarrhea. The product contributes to improved intestinal morphology, including increased villus height and reduced crypt depth, leading to better nutrient absorption. These effects result in improved productivity, better uniformity of animals, and reduced economic losses associated with enteric disease."
             },
 
             {
               type: "text",
               title: "CONTRAINDICATIONS",
               content:
-                ""
+                "The product must not be used in animals over 30 kg body weight, breeding stock, or in species other than those specifically approved. It is contraindicated in animals with known hypersensitivity to olaquindox or other quinoxaline derivatives. Concurrent use with other quinoxaline compounds is not recommended. Use of the product is prohibited in jurisdictions where olaquindox is banned."
             },
 
             {
               type: "text",
               title: "MODE OF ADMINISTRATION",
               content:
-                ""
+                "AMCHEM OLADOX® 12.5% PREMIX is administered orally by thorough incorporation into feed. Uniform mixing is essential to ensure consistent intake and to avoid overdosing. The product must be used strictly according to approved inclusion levels and regulatory guidelines."
             },
 
             {
               type: "text",
               title: "TARGET SPECIES",
-              content: ""
+              content: "Swine, specifically piglets during the post-weaning phase, where use is legally permitted."
             },
 
             {
-              type: "table",
-              title: "DOSAGE",
-              columns: [
-                "Species",
-                "",
-                "",
-                ""
-              ],
-              rows: [
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-              ],
-              footer : ""
-            },
+  type: "table",
+  title: "DOSAGE",
+  description: "Recommended inclusion rates:",
+  columns: [
+    "Species / Category",
+    "Indication",
+    "AMCHEM OLADOX® 12.5% PREMIX"
+  ],
+  rows: [
+    [
+      "Poultry",
+      "Growth promotion and enteric health",
+      "100–200 g per ton of feed"
+    ],
+    [
+      "Cattle, sheep, pigs",
+      "Growth promotion and gastrointestinal health",
+      "500–1000 g per ton of feed"
+    ]
+  ]
+}
+,
 
             {
               type: "text",
               title: "SIDE EFFECTS",
               content:
-                ""
+                "The product is generally well-tolerated when used at recommended inclusion levels. Excessive dosing may result in gastrointestinal disturbances and reduced feed intake."
             },
             {
               type: "text",
               title: "WITHDRAWAL PERIOD",
               content:
-                ""
+                "A minimum withdrawal period of 14 days for swine meat is recommended, subject to national regulations. Slaughtering may be permitted within two days after the last administration only where specifically authorized by local authorities."
             },
             {
               type: "text",
               title: "STORAGE",
               content:
-                ""
+                "Store the product in its original, well-sealed packaging in a dry, well-ventilated, and cool place at room temperature. Protect from light and moisture."
             },
             {
               type: "text",
               title: "SHELF LIFE",
               content:
-                ""
+                "24 months under recommended storage conditions."
             },
             {
               type: "text",
               title: "PACKING",
               content:
-                ""
+                "AMCHEM OLADOX® 12.5% PREMIX is supplied in 25 kg bags."
             },
             {
               type: "text",
               title: "FURTHER INFORMATION",
               content:
-                ""
+                "AMCHEM OLADOX® 12.5% PREMIX has not been used in human medicine, which reduces the risk of cross-resistance with clinically important antibiotics. The product is compatible with most feed additives and shows a low tendency for resistance development. However, olaquindox is banned in the European Union and several other markets due to safety concerns. The product must be used strictly in accordance with local regulatory approvals and antimicrobial stewardship principles and is intended for veterinary use only."
             },
 
           ],
@@ -1026,130 +1090,145 @@ export const productsData = {
 
           sections: [
             {
-              type: "table",
-              title: "COMPOSITION",
-              description: "Content per kg",
-              columns: [
-                "Component",
-                "",
-              ],
-              rows: [
-                [
-                  "",
-                  "",
-                ],
-                [
-                  "",
-                  "",
-                ]
-              ],
-              footer:
-                ""
-            },
+  type: "table",
+  title: "COMPOSITION",
+  description: "Content per kg:",
+  columns: [
+    "Component",
+    "AMCHEM ZINC BACITRACIN® 15%"
+  ],
+  rows: [
+    [
+      "Zinc Bacitracin",
+      "150 g"
+    ],
+    [
+      "Pharmaceutical-grade excipients",
+      "q.s."
+    ]
+  ]
+}
+,
 
             {
               type: "text",
               title: "DESCRIPTION",
               content:
-                ""
+                "AMCHEM ZINC BACITRACIN® 15% PREMIX is a light tan to brown, free-flowing powder with a faint characteristic odor, formulated for incorporation into animal feed. It contains zinc bacitracin, a stabilized zinc salt complex of bacitracin polypeptides designed to promote growth performance and improve intestinal health in livestock and poultry. The zinc component enhances product stability while contributing additional nutritional and antimicrobial benefits. When used at recommended inclusion levels, the product supports efficient feed utilization, improved growth rate, and reduced disease-related losses."
             },
 
             {
               type: "text",
               title: "PHARMACOLOGICAL ACTION",
               content:
-                ""
+                "Zinc bacitracin exerts its antibacterial effect by inhibiting bacterial cell wall synthesis. It prevents the dephosphorylation of undecaprenyl pyrophosphate, a lipid carrier molecule essential for the transport of peptidoglycan precursors across the bacterial cell membrane. In addition, bacitracin interacts with the cell membrane of susceptible bacteria, impairing membrane integrity and causing leakage of essential ions and nutrients, leading to bacterial death. The presence of zinc enhances molecular stability and supports immune function and intestinal barrier integrity, contributing to improved animal performance beyond antimicrobial activity.\n\nZinc bacitracin exhibits potent bactericidal activity against Gram-positive bacteria, including Clostridium perfringens, Clostridium difficile, Streptococcus species, Staphylococcus aureus, and Enterococcus species. Its strong efficacy against Clostridium perfringens makes it particularly effective for prevention and control of necrotic enteritis and other Clostridium-associated intestinal disorders."
             },
 
             {
               type: "text",
               title: "PHARMACOKINETICS",
               content:
-                ""
+                "After oral administration through feed, zinc bacitracin is poorly absorbed from the gastrointestinal tract, with less than five percent bioavailability. Its antimicrobial activity is therefore concentrated within the intestinal lumen, where it exerts targeted action against pathogenic bacteria. Any absorbed fraction is rapidly eliminated via the kidneys without tissue accumulation. The zinc component may undergo limited absorption, regulated by normal zinc homeostasis mechanisms, contributing nutritional benefits without excessive systemic exposure."
             },
 
             {
               type: "text",
               title: "INDICATIONS",
               content:
-                ""
+                "AMCHEM ZINC BACITRACIN® 15% PREMIX is indicated for growth promotion and improvement of feed conversion efficiency in poultry and swine. In poultry, it is used for prevention of necrotic enteritis, control of Clostridium-associated enteritis, reduction of early mortality, improvement of litter quality, and reduction of footpad dermatitis. In swine, it is indicated for prevention and control of bacterial enteritis, reduction of post-weaning diarrhea, and enhancement of growth rate and feed efficiency. Use of AMCHEM ZINC BACITRACIN® 15% PREMIX results in improved feed conversion ratio, increased weight gain, and enhanced uniformity of animals. In poultry, it contributes to reduced heat stress, improved egg production, eggshell strength, and egg weight where permitted. The product promotes beneficial gut microbiota while suppressing pathogenic Clostridia, supports intestinal barrier integrity, reduces oxidative stress, and improves antioxidant enzyme activity. The zinc component provides supplemental nutritional support, enhancing immune function and overall productivity."
             },
 
             {
               type: "text",
               title: "CONTRAINDICATIONS",
               content:
-                ""
+                "The product should not be used in animals with known hypersensitivity to bacitracin. Use is contraindicated in animals with severe renal impairment and during concurrent administration of nephrotoxic drugs. The product must not be used in laying hens producing eggs for human consumption."
             },
 
             {
               type: "text",
               title: "MODE OF ADMINISTRATION",
               content:
-                ""
+                "AMCHEM ZINC BACITRACIN® 15% PREMIX is administered orally by thorough incorporation into feed. Proper and uniform mixing is essential to ensure consistent intake and optimal efficacy."
             },
 
             {
               type: "text",
               title: "TARGET SPECIES",
-              content: ""
+              content: "Poultry, including broilers and growers, and swine. Use in cattle is subject to local regulatory approval."
             },
 
             {
-              type: "table",
-              title: "DOSAGE",
-              columns: [
-                "Species",
-                "",
-                "",
-                ""
-              ],
-              rows: [
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-              ],
-              footer : ""
-            },
+  type: "table",
+  title: "DOSAGE",
+  description: "Recommended inclusion rates:",
+  columns: [
+    "Species / Category",
+    "Indication",
+    "AMCHEM ZINC BACITRACIN® 15% PREMIX"
+  ],
+  rows: [
+    [
+      "Poultry, swine, cattle",
+      "Growth promotion",
+      "350 g per ton of feed"
+    ],
+    [
+      "Laying hens",
+      "Increase of egg production",
+      "150 g per ton of feed"
+    ],
+    [
+      "Chickens",
+      "Reduction of early mortality",
+      "350 g per ton of feed"
+    ],
+    [
+      "Swine",
+      "Prevention of bacterial enteritis (except coliform origin)",
+      "350 g per ton of feed"
+    ]
+  ],
+  footer:
+    "Use in laying hens only where permitted by local regulations. Or as recommended by a qualified nutritionist."
+}
+,
 
             {
               type: "text",
               title: "SIDE EFFECTS",
               content:
-                ""
+                "The product is generally well tolerated when used at recommended inclusion levels. Rare cases of nephrotoxicity may occur if excessive doses are administered."
             },
             {
               type: "text",
               title: "WITHDRAWAL PERIOD",
               content:
-                ""
+                "The withdrawal period is zero days for poultry and swine meat when the product is used as directed. The product must not be used in laying hens producing eggs for human consumption."
             },
             {
               type: "text",
               title: "STORAGE",
               content:
-                ""
+                "Store the product in its original, well-sealed packaging in a dry and cool place at room temperature. Protect from moisture and direct sunlight."
             },
             {
               type: "text",
               title: "SHELF LIFE",
               content:
-                ""
+                "24 months under recommended storage conditions."
             },
             {
               type: "text",
               title: "PACKING",
               content:
-                ""
+                "AMCHEM ZINC BACITRACIN® 15% PREMIX is supplied in 25 kg bags."
             },
             {
               type: "text",
               title: "FURTHER INFORMATION",
               content:
-                ""
+                "AMCHEM ZINC BACITRACIN® 15% PREMIX is compatible with most coccidiostats and commonly used feed medications and shows a documented synergistic effect with chlortetracycline. The product is highly stable during feed processing and pelleting. Environmental management practices should be followed due to potential zinc accumulation in manure. The product should be used in accordance with antimicrobial stewardship principles and is intended for veterinary use only."
             },
 
           ],
@@ -1165,130 +1244,129 @@ export const productsData = {
 
           sections: [
             {
-              type: "table",
-              title: "COMPOSITION",
-              description: "Content per kg",
-              columns: [
-                "Component",
-                "",
-              ],
-              rows: [
-                [
-                  "",
-                  "",
-                ],
-                [
-                  "",
-                  "",
-                ]
-              ],
-              footer:
-                ""
-            },
+  type: "table",
+  title: "COMPOSITION",
+  description: "Content per kg:",
+  columns: [
+    "Component",
+    "AMCHEM NOSIMIX® 1% PREMIX"
+  ],
+  rows: [
+    [
+      "Nosiheptide",
+      "10 g"
+    ],
+    [
+      "Pharmaceutical-grade excipients",
+      "q.s."
+    ]
+  ]
+}
+,
 
             {
               type: "text",
               title: "DESCRIPTION",
               content:
-                ""
+                "AMCHEM NOSIMIX® 1% PREMIX is a light yellow to brownish-yellow, free-flowing powder formulated for incorporation into animal feed. It contains nosiheptide, a sulfur-containing peptide antibiotic with strong activity against Gram-positive bacteria. The product is designed to support intestinal health, improve nutrient absorption, and enhance growth performance in food-producing animals. When incorporated uniformly into feed at recommended inclusion levels, it promotes efficient feed utilization, maintains intestinal integrity, and contributes to improved overall productivity. The formulation is compatible with commonly used feed ingredients and most medicated feed additives."
             },
 
             {
               type: "text",
               title: "PHARMACOLOGICAL ACTION",
               content:
-                ""
+                "Nosiheptide exerts its antibacterial effect by selectively binding to the 50S ribosomal subunit of susceptible bacteria. It interferes with the function of elongation factor EF-G, thereby blocking ribosomal translocation during the elongation phase of protein synthesis. At low concentrations, nosiheptide inhibits bacterial growth, while at higher concentrations it exhibits bactericidal activity. By suppressing pathogenic bacteria in the intestinal tract, the product helps maintain a stable gut environment, reduces intestinal inflammation, and supports normal digestive and absorptive functions.\n\nNosiheptide demonstrates potent activity against Gram-positive bacteria, including Clostridium perfringens, Clostridium species, Staphylococcus aureus (including methicillin-resistant strains), Streptococcus species, and Mycoplasma species. Its strong efficacy against Clostridium perfringens makes it particularly effective for the prevention of necrotic enteritis and other Clostridium-associated intestinal disorders."
             },
 
             {
               type: "text",
               title: "PHARMACOKINETICS",
               content:
-                ""
+                "Following oral administration through feed, nosiheptide is poorly absorbed from the gastrointestinal tract. Its activity is therefore localized within the intestinal lumen, where it selectively modulates gut microbiota without producing systemic exposure. The compound is excreted unchanged in the feces, and no tissue accumulation or residues are observed when used as directed. This pharmacokinetic profile contributes to its favorable safety margin and zero withdrawal period for meat.\n\nStudies have demonstrated that nosiheptide binds to a unique ribosomal site, resulting in minimal cross-resistance with other antibiotic classes. Experimental data show significant improvements in intestinal morphology, including increased villus height, improved villus-to-crypt depth ratio, and enhanced goblet cell density. Nosiheptide has also been shown to reduce intestinal inflammatory markers and upregulate tight junction proteins such as claudin-1, occludin, and ZO-1, thereby strengthening intestinal barrier integrity and improving nutrient absorption efficiency."
             },
 
             {
               type: "text",
               title: "INDICATIONS",
               content:
-                ""
+                "AMCHEM NOSIMIX® 1% PREMIX is indicated for growth promotion and improvement of feed conversion efficiency in poultry and swine. It is particularly effective in the prevention of necrotic enteritis in broilers, control of Clostridium-associated enteritis, reduction of subclinical intestinal infections, and enhancement of overall intestinal health. The product supports improved weight gain, better flock and herd uniformity, and reduced performance losses associated with intestinal dysbiosis."
             },
 
             {
               type: "text",
               title: "CONTRAINDICATIONS",
               content:
-                ""
+                "The product should not be used in animals with known hypersensitivity to nosiheptide. It is not intended for therapeutic treatment of active clinical bacterial infections and should be used only at recommended sub-therapeutic inclusion levels for growth promotion."
             },
 
             {
               type: "text",
               title: "MODE OF ADMINISTRATION",
               content:
-                ""
+                "AMCHEM NOSIMIX® 1% PREMIX is administered orally by thorough and uniform incorporation into feed. Proper mixing is essential to ensure consistent intake and optimal efficacy."
             },
 
             {
-              type: "text",
-              title: "TARGET SPECIES",
-              content: ""
-            },
-
-            {
-              type: "table",
-              title: "DOSAGE",
-              columns: [
-                "Species",
-                "",
-                "",
-                ""
-              ],
-              rows: [
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-              ],
-              footer : ""
-            },
+  type: "table",
+  title: "DOSAGE",
+  description: "Recommended inclusion rates:",
+  columns: [
+    "Species / Category",
+    "Indication",
+    "AMCHEM NOSIMIX® 1% PREMIX"
+  ],
+  rows: [
+    [
+      "Poultry (Broilers and Layers)",
+      "Growth promotion",
+      "100–250 g per ton of feed"
+    ],
+    [
+      "Fish & shrimp",
+      "Growth and health support",
+      "50–200 g per ton of feed"
+    ]
+  ],
+  footer:
+    "Use subject to local regulations. Or as recommended by a qualified nutritionist."
+}
+,
 
             {
               type: "text",
               title: "SIDE EFFECTS",
               content:
-                ""
+                "The product is well tolerated when used at recommended inclusion levels. No significant adverse effects have been reported, and it exhibits an excellent safety profile."
             },
             {
               type: "text",
               title: "WITHDRAWAL PERIOD",
               content:
-                ""
+                "The withdrawal period is zero days for poultry and swine meat when the product is used as directed."
             },
             {
               type: "text",
               title: "STORAGE",
               content:
-                ""
+                "Store the product in its original, well-sealed packaging in a dry and cool place at room temperature. Protect from moisture and direct sunlight."
             },
             {
               type: "text",
               title: "SHELF LIFE",
               content:
-                ""
+                "24 months under recommended storage conditions."
             },
             {
               type: "text",
               title: "PACKING",
               content:
-                ""
+                "AMCHEM NOSIMIX® 1% PREMIX is supplied in 25 kg bags."
             },
             {
               type: "text",
               title: "FURTHER INFORMATION",
               content:
-                ""
+                "AMCHEM NOSIMIX® 1% PREMIX is difficult to induce bacterial resistance and shows no cross-resistance with other commonly used antibiotics. It is environmentally safe due to lack of tissue residues and minimal systemic exposure. The product should be used in accordance with antimicrobial stewardship principles and is intended for veterinary use only."
             },
 
           ],
@@ -1304,130 +1382,135 @@ export const productsData = {
 
           sections: [
             {
-              type: "table",
-              title: "COMPOSITION",
-              description: "Content per kg",
-              columns: [
-                "Component",
-                "",
-              ],
-              rows: [
-                [
-                  "",
-                  "",
-                ],
-                [
-                  "",
-                  "",
-                ]
-              ],
-              footer:
-                ""
-            },
+  type: "table",
+  title: "COMPOSITION",
+  description: "Content per kg:",
+  columns: [
+    "Component",
+    "AMCHEM AVILAMIX® 10% PREMIX"
+  ],
+  rows: [
+    [
+      "Avilamycin",
+      "100 g"
+    ],
+    [
+      "Pharmaceutical-grade excipients",
+      "q.s."
+    ]
+  ]
+}
+,
 
             {
               type: "text",
               title: "DESCRIPTION",
               content:
-                ""
+                "AMCHEM AVILAMIX® 10% PREMIX is a white to off-white, free-flowing powder formulated for incorporation into animal feed. It contains avilamycin, an oligosaccharide antibiotic of the orthosomycin group produced by fermentation of Streptomyces viridochromogenes. The product is designed to enhance growth performance, improve feed efficiency, and support intestinal health in poultry and swine. When used at recommended inclusion levels, it promotes efficient nutrient utilization, reduces the impact of intestinal pathogens, and contributes to improved productivity without the need for a preslaughter withdrawal period for meat."
             },
 
             {
               type: "text",
               title: "PHARMACOLOGICAL ACTION",
               content:
-                ""
+                "Avilamycin exerts its antibacterial activity by binding to bacterial ribosomal subunits at sites distinct from those targeted by other antibiotics. It interferes with the initiation and elongation phases of protein synthesis by inhibiting the formation of functional ribosomal complexes and preventing peptide bond formation. Through this mechanism, avilamycin suppresses the growth of susceptible bacteria and reduces intestinal pathogen load. In addition to its direct antibacterial action, avilamycin improves metabolic efficiency by inducing a glucose-sparing effect, reducing lactate production, increasing volatile fatty acid production and absorption in the lower gut, and enhancing nitrogen retention, thereby producing a protein-sparing effect.\n\nAvilamycin exhibits excellent bactericidal activity against Gram-positive bacteria, including Clostridium perfringens, Clostridium difficile, Streptococcus species, Staphylococcus aureus, and Enterococcus species. Its strong activity against Clostridium perfringens makes it particularly effective in the prevention and control of necrotic enteritis in poultry and necrotizing enteritis in swine. Avilamycin shows no cross-resistance with clinically important antibiotics used in human or veterinary medicine."
             },
 
             {
               type: "text",
               title: "PHARMACOKINETICS",
               content:
-                ""
+                "After oral administration via feed, avilamycin is not systemically absorbed and acts exclusively within the gastrointestinal tract. It is rapidly metabolized within the gut and excreted completely in the feces without tissue accumulation or residues. The absence of systemic absorption contributes to its excellent safety profile and supports a zero-day withdrawal period for meat when used as directed.\n\nScientific studies have demonstrated that avilamycin selectively reduces pathogenic Clostridium populations while preserving beneficial intestinal microbiota. Research published in peer-reviewed journals shows improvements in intestinal morphology, enhanced nutrient digestibility, reduced oxidative stress, and decreased intestinal inflammation. Upregulation of tight junction proteins has been observed, indicating improved intestinal barrier integrity. These effects collectively contribute to better growth performance, improved feed conversion efficiency, and reduced mortality associated with bacterial enteritis."
             },
 
             {
               type: "text",
               title: "INDICATIONS",
               content:
-                ""
+                "AMCHEM AVILAMIX® 10% PREMIX is indicated for growth promotion and improvement of feed conversion efficiency in poultry and swine. In poultry, it is used for prevention of necrotic enteritis, reduction of mortality associated with bacterial enteritis, and enhancement of overall flock performance. In swine, it supports control of necrotizing enteritis in piglets and promotes efficient growth and nutrient utilization across production stages."
             },
 
             {
               type: "text",
               title: "CONTRAINDICATIONS",
               content:
-                ""
+                "The product should not be used in animals with known hypersensitivity to avilamycin. It must not be used in laying hens during the egg-laying period to avoid drug residues in eggs."
             },
 
             {
               type: "text",
               title: "MODE OF ADMINISTRATION",
               content:
-                ""
+                "AMCHEM AVILAMIX® 10% PREMIX is administered orally by thorough and uniform incorporation into feed. Proper mixing is essential to ensure consistent intake and optimal efficacy."
             },
 
             {
               type: "text",
               title: "TARGET SPECIES",
-              content: ""
+              content: "Poultry, including broilers, growers, breeders, and turkeys, and swine including starter, grower, and finisher pigs."
             },
 
             {
-              type: "table",
-              title: "DOSAGE",
-              columns: [
-                "Species",
-                "",
-                "",
-                ""
-              ],
-              rows: [
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-              ],
-              footer : ""
-            },
+  type: "table",
+  title: "DOSAGE",
+  description: "Recommended inclusion rates:",
+  columns: [
+    "Species / Category",
+    "Indication",
+    "AMCHEM AVILAMIX® 10% PREMIX"
+  ],
+  rows: [
+    [
+      "Commercial broilers",
+      "Growth promotion / necrotic enteritis prevention",
+      "100–150 g per ton of feed"
+    ],
+    [
+      "Layers, growers, breeders",
+      "Growth and performance support",
+      "200 g per ton of feed"
+    ]
+  ],
+  footer:
+    "Use in laying hens only where permitted by local regulations. Or as recommended by a qualified veterinarian or nutritionist."
+}
+,
 
             {
               type: "text",
               title: "SIDE EFFECTS",
               content:
-                ""
+                "The product is well tolerated when used at recommended inclusion levels. No significant adverse effects have been reported."
             },
             {
               type: "text",
               title: "WITHDRAWAL PERIOD",
               content:
-                ""
+                "The withdrawal period is zero days for poultry and swine meat when the product is used as directed. The product must not be used in laying hens producing eggs for human consumption."
             },
             {
               type: "text",
               title: "STORAGE",
               content:
-                ""
+                "Store the product in its original, well-sealed packaging in a dry and cool place at room temperature. Protect from direct sunlight and moisture."
             },
             {
               type: "text",
               title: "SHELF LIFE",
               content:
-                ""
+                "24 months under recommended storage conditions."
             },
             {
               type: "text",
               title: "PACKING",
               content:
-                ""
+                "AMCHEM AVILAMIX® 10% PREMIX is supplied in 25 kg bags."
             },
             {
               type: "text",
               title: "FURTHER INFORMATION",
               content:
-                ""
+                "AMCHEM AVILAMIX® 10% PREMIX shows excellent compatibility with common feed ingredients and most medicated feed additives. Its lack of cross-resistance with clinically important antibiotics supports responsible antimicrobial stewardship. The product is intended for veterinary use only and should be used in accordance with local regulatory guidelines."
             },
 
           ],
@@ -1442,130 +1525,135 @@ export const productsData = {
 
           sections: [
             {
-              type: "table",
-              title: "COMPOSITION",
-              description: "Content per kg",
-              columns: [
-                "Component",
-                "",
-              ],
-              rows: [
-                [
-                  "",
-                  "",
-                ],
-                [
-                  "",
-                  "",
-                ]
-              ],
-              footer:
-                ""
-            },
+  type: "table",
+  title: "COMPOSITION",
+  description: "Content per kg:",
+  columns: [
+    "Component",
+    "AMCHEM VIRGINIAMYCIN® 10% PREMIX"
+  ],
+  rows: [
+    [
+      "Virginiamycin",
+      "100 g"
+    ],
+    [
+      "Pharmaceutical-grade excipients",
+      "q.s."
+    ]
+  ]
+}
+,
 
             {
               type: "text",
               title: "DESCRIPTION",
               content:
-                ""
+                "AMCHEM VIRGINIAMYCIN® 10% PREMIX is a white to light yellow, homogeneous, free-flowing powder formulated for incorporation into animal feed. It contains virginiamycin, a streptogramin antibiotic composed of two synergistic factors that provide strong antibacterial activity against Gram-positive organisms. The product is designed to promote growth, improve feed conversion efficiency, and support intestinal health in poultry, swine, and cattle. When used at recommended inclusion levels, it contributes to improved weight gain, enhanced flock and herd uniformity, reduced disease-related performance losses, and improved overall productivity."
             },
 
             {
               type: "text",
               title: "PHARMACOLOGICAL ACTION",
               content:
-                ""
+                "Virginiamycin exerts its antibacterial effect through the combined and synergistic action of two components, factors M1 and S1. Factor M1 binds to the peptidyl transferase center of the 50S ribosomal subunit, while factor S1 binds to a different ribosomal site, inducing conformational changes. Together, these actions result in irreversible inhibition of bacterial protein synthesis and bactericidal activity. By suppressing pathogenic Gram-positive bacteria in the intestinal tract, virginiamycin reduces toxin production, stabilizes gut microbiota, and improves nutrient utilization.\n\nVirginiamycin is highly active against Gram-positive bacteria, including Clostridium perfringens, Streptococcus species, Staphylococcus aureus (including some resistant strains), and Enterococcus species. Its activity against Clostridium perfringens makes it particularly effective for prevention and control of necrotic enteritis in poultry and Clostridium-associated enteric disorders in swine. Activity against Gram-negative bacteria is limited."
             },
 
             {
               type: "text",
               title: "PHARMACOKINETICS",
               content:
-                ""
+                "After oral administration via feed, virginiamycin is poorly absorbed from the gastrointestinal tract, resulting in localized antimicrobial activity within the intestinal lumen. Any absorbed fraction is rapidly eliminated, leading to minimal systemic exposure. When used according to recommended withdrawal periods, no significant tissue residues are observed, supporting its suitability for use in food-producing animals under regulated conditions.\n\nScientific studies have demonstrated that virginiamycin significantly reduces the incidence and severity of necrotic enteritis by controlling the proliferation and toxin production of Clostridium perfringens. Supplementation has been associated with improved intestinal integrity, reduced expression of inflammatory cytokines, and enhanced expression of nutrient transporter genes. These effects translate into improved feed efficiency, increased weight gain, better carcass quality in swine, and improved survival and uniformity in poultry flocks."
             },
 
             {
               type: "text",
               title: "INDICATIONS",
               content:
-                ""
+                "AMCHEM VIRGINIAMYCIN® 10% PREMIX is indicated in poultry for growth promotion, improvement of feed conversion efficiency, prevention of necrotic enteritis, and reduction of Clostridium-associated enteritis. In swine, it is used for growth promotion, improvement of feed efficiency, control of bacterial enteritis, and enhancement of carcass lean percentage. In feedlot cattle, it is indicated for the prevention of liver abscesses and improvement of feed efficiency."
             },
 
             {
               type: "text",
               title: "CONTRAINDICATIONS",
               content:
-                ""
+                "The product should not be used in animals with known hypersensitivity to streptogramin antibiotics. Concurrent use with other macrolide or streptogramin antibiotics is contraindicated. The product must not be used in laying hens producing eggs for human consumption or in dairy cattle producing milk for human use."
             },
 
             {
               type: "text",
               title: "MODE OF ADMINISTRATION",
               content:
-                ""
+                "AMCHEM VIRGINIAMYCIN® 10% PREMIX is administered orally by thorough and uniform incorporation into complete feed. Proper mixing is essential to ensure consistent intake and optimal efficacy."
             },
 
             {
               type: "text",
               title: "TARGET SPECIES",
-              content: ""
+              content: "Poultry, including broilers and growers; swine, including starter, grower, and finisher pigs; and cattle, particularly feedlot cattle."
             },
 
             {
-              type: "table",
-              title: "DOSAGE",
-              columns: [
-                "Species",
-                "",
-                "",
-                ""
-              ],
-              rows: [
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-              ],
-              footer : ""
-            },
+  type: "table",
+  title: "DOSAGE",
+  description: "Recommended inclusion rates:",
+  columns: [
+    "Species / Category",
+    "Indication",
+    "AMCHEM VIRGINIAMYCIN® 10% PREMIX"
+  ],
+  rows: [
+    [
+      "Poultry (Broiler chickens)",
+      "Growth promotion",
+      "110 g per ton of feed"
+    ],
+    [
+      "Swine (practical feeding)",
+      "Growth promotion",
+      "110 g per ton of feed"
+    ]
+  ],
+  footer:
+    "Or as recommended by a qualified veterinarian or nutritionist."
+}
+,
 
             {
               type: "text",
               title: "SIDE EFFECTS",
               content:
-                ""
+                "The product is generally well tolerated when used at recommended inclusion levels. Rare adverse effects may include transient reductions in feed intake or mild gastrointestinal disturbances."
             },
             {
               type: "text",
               title: "WITHDRAWAL PERIOD",
               content:
-                ""
+                "The withdrawal period is one day for poultry meat, five days for swine meat, and seven days for cattle meat. The product must not be used in laying hens or dairy cattle producing products for human consumption."
             },
             {
               type: "text",
               title: "STORAGE",
               content:
-                ""
+                "Store the product in its original, well-sealed packaging in a dry and cool place at room temperature. Protect from moisture and direct sunlight."
             },
             {
               type: "text",
               title: "SHELF LIFE",
               content:
-                ""
+                "24 months under recommended storage conditions."
             },
             {
               type: "text",
               title: "PACKING",
               content:
-                ""
+                "AMCHEM VIRGINIAMYCIN® 10% PREMIX is supplied in 25 kg bags."
             },
             {
               type: "text",
               title: "FURTHER INFORMATION",
               content:
-                ""
+                "AMCHEM VIRGINIAMYCIN® 10% PREMIX should be used in accordance with antimicrobial stewardship principles due to its relationship with streptogramin antibiotics used in human medicine. Monitoring of use and adherence to recommended dosages and withdrawal periods are essential. The product is intended for veterinary use only and should be used in compliance with local regulatory requirements."
             },
 
           ],
@@ -1580,130 +1668,152 @@ export const productsData = {
 
           sections: [
             {
-              type: "table",
-              title: "COMPOSITION",
-              description: "Content per kg",
-              columns: [
-                "Component",
-                "",
-              ],
-              rows: [
-                [
-                  "",
-                  "",
-                ],
-                [
-                  "",
-                  "",
-                ]
-              ],
-              footer:
-                ""
-            },
+  type: "table",
+  title: "COMPOSITION",
+  description: "Content per kg:",
+  columns: [
+    "Component",
+    "AMCHEM QUINOCETONE® 25% PREMIX"
+  ],
+  rows: [
+    [
+      "Quinocetone",
+      "250 g"
+    ],
+    [
+      "Pharmaceutical-grade excipients",
+      "q.s."
+    ]
+  ],
+  footer:
+    "Other strengths (e.g., 5%) may be available depending on market authorization."
+}
+,
 
             {
               type: "text",
               title: "DESCRIPTION",
               content:
-                ""
+                "AMCHEM QUINOCETONE® 25% PREMIX is a yellow to orange, free-flowing powder formulated for incorporation into animal feed. It contains quinocetone, a synthetic quinoxaline-1,4-dioxide compound derived from olaquindox, designed to improve growth performance and intestinal health in swine where use is legally permitted. The product supports efficient nutrient utilization, reduces the impact of enteric pathogens, and contributes to improved weight gain and feed conversion efficiency when used at recommended inclusion levels."
             },
 
             {
               type: "text",
               title: "PHARMACOLOGICAL ACTION",
               content:
-                ""
+                "Quinocetone exerts its antibacterial activity by inhibiting bacterial DNA and RNA synthesis, leading to disruption of protein synthesis and subsequent bacterial death. This mechanism provides strong activity against a wide range of intestinal pathogens while maintaining a favorable balance of intestinal microflora. By reducing pathogenic pressure in the digestive tract, quinocetone supports intestinal integrity, improves nutrient assimilation, and promotes growth performance.\n\nQuinocetone exhibits broad-spectrum antibacterial activity against both Gram-positive and Gram-negative bacteria, including Escherichia coli, Salmonella species, Clostridium perfringens, Brachyspira hyodysenteriae, Staphylococcus aureus, Klebsiella species, Proteus species, Shigella species, Edwardsiella species, Aeromonas hydrophila, Pseudomonas species, and Vibrio species. Its strong activity against digestive tract pathogens makes it effective in the prevention and control of enteric disorders such as post-weaning diarrhea."
             },
 
             {
               type: "text",
               title: "PHARMACOKINETICS",
               content:
-                ""
+                "After oral administration via feed, quinocetone shows limited absorption from the gastrointestinal tract. The absorbed fraction is rapidly metabolized and excreted, primarily as unchanged compound or inactive metabolites, without significant tissue accumulation when proper withdrawal periods are observed. This pharmacokinetic profile supports its efficacy within the intestinal lumen while minimizing systemic exposure.\n\nResearch studies have demonstrated that quinocetone improves intestinal morphology by increasing villus height and reducing crypt depth, leading to enhanced absorptive capacity. Supplementation has been associated with increased digestive enzyme activity and modulation of intestinal microbiota toward beneficial populations. Additional studies indicate antioxidant properties that protect enterocytes from oxidative damage, contributing to improved gut health, reduced diarrhea incidence, and enhanced growth performance."
             },
 
             {
               type: "text",
               title: "INDICATIONS",
               content:
-                ""
+                "Where permitted by local regulations, AMCHEM QUINOCETONE® 25% PREMIX is indicated in swine for growth promotion, prevention and control of bacterial enteritis, reduction of post-weaning diarrhea, and improvement of feed conversion efficiency. Its use contributes to improved weight gain and reduced morbidity associated with enteric bacterial infections."
             },
 
             {
               type: "text",
               title: "CONTRAINDICATIONS",
               content:
-                ""
+                "The product should not be used in animals intended for breeding, in animals with known hypersensitivity to quinoxaline derivatives, or in animals exceeding the maximum approved body weight for treatment. It must not be used in species other than those explicitly approved by local regulatory authorities."
             },
 
             {
               type: "text",
               title: "MODE OF ADMINISTRATION",
               content:
-                ""
+                "AMCHEM QUINOCETONE® 25% PREMIX is administered orally by thorough and uniform incorporation into complete feed. Proper mixing is essential to ensure consistent intake and optimal efficacy."
             },
 
             {
               type: "text",
               title: "TARGET SPECIES",
-              content: ""
+              content: "Swine, including piglets and growing pigs, only in jurisdictions where quinocetone use is approved."
             },
 
             {
-              type: "table",
-              title: "DOSAGE",
-              columns: [
-                "Species",
-                "",
-                "",
-                ""
-              ],
-              rows: [
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-              ],
-              footer : ""
-            },
+  type: "table",
+  title: "DOSAGE",
+  description: "Recommended inclusion rates (where permitted):",
+  columns: [
+    "Species / Category",
+    "Recommended Level (ppm)",
+    "Inclusion Rate per Ton of Feed"
+  ],
+  rows: [
+    [
+      "Poultry",
+      "50 ppm",
+      "200 g / ton of feed"
+    ],
+    [
+      "General aquaculture (marine fish, freshwater fish, etc.)",
+      "40 – 50 ppm",
+      "160 – 200 g / ton of feed"
+    ],
+    [
+      "Special aquatic species (shrimp, turtle, sea cucumber, etc.)",
+      "50 – 75 ppm",
+      "200 – 300 g / ton of feed"
+    ],
+    [
+      "Suckling pigs",
+      "75 ppm",
+      "—"
+    ],
+    [
+      "Piglets",
+      "50 ppm",
+      "—"
+    ]
+  ],
+  footer:
+    "Or as recommended by a qualified veterinarian or nutritionist in accordance with local regulations."
+}
+,
 
             {
               type: "text",
               title: "SIDE EFFECTS",
               content:
-                ""
+                "The product is generally well tolerated when used at recommended inclusion levels. No significant adverse effects have been reported under approved conditions of use."
             },
             {
               type: "text",
               title: "WITHDRAWAL PERIOD",
               content:
-                ""
+                "A minimum withdrawal period of 28 days for swine meat must be observed, or as specified by local regulatory authorities."
             },
             {
               type: "text",
               title: "STORAGE",
               content:
-                ""
+                "Store the product in its original, well-sealed packaging in a dry and cool place at 15–25°C. Protect from moisture and direct light."
             },
             {
               type: "text",
               title: "SHELF LIFE",
               content:
-                ""
+                "24 months under recommended storage conditions."
             },
             {
               type: "text",
               title: "PACKING",
               content:
-                ""
+                "AMCHEM QUINOCETONE® 25% PREMIX is supplied in 25 kg bags."
             },
             {
               type: "text",
               title: "FURTHER INFORMATION",
               content:
-                ""
+                "Use of quinocetone is restricted or prohibited in many markets, including the European Union and the United States. AMCHEM QUINOCETONE® 25% PREMIX is approved only in certain Asian markets, such as China. Users must verify local regulatory approval before use and comply strictly with dosage, withdrawal, and environmental management requirements. The product is intended for veterinary use only and should be used in accordance with antimicrobial stewardship principles."
             },
 
           ],
@@ -1718,130 +1828,135 @@ export const productsData = {
 
           sections: [
             {
-              type: "table",
-              title: "COMPOSITION",
-              description: "Content per kg",
-              columns: [
-                "Component",
-                "",
-              ],
-              rows: [
-                [
-                  "",
-                  "",
-                ],
-                [
-                  "",
-                  "",
-                ]
-              ],
-              footer:
-                ""
-            },
+  type: "table",
+  title: "COMPOSITION",
+  description: "Content per kg:",
+  columns: [
+    "Component",
+    "AMCHEM COLISTIN® 10% PREMIX"
+  ],
+  rows: [
+    [
+      "Colistin Sulfate",
+      "100 g"
+    ],
+    [
+      "Pharmaceutical-grade excipients",
+      "q.s."
+    ]
+  ]
+}
+,
 
             {
               type: "text",
               title: "DESCRIPTION",
               content:
-                ""
+                "AMCHEM COLISTIN® 10% PREMIX is a white to slightly yellowish, free-flowing powder formulated for incorporation into animal feed for therapeutic use. It contains colistin sulfate, a polypeptide antibiotic belonging to the polymyxin group, with potent bactericidal activity against Gram-negative bacteria. The product is intended for the treatment of enteric infections caused by colistin-sensitive organisms in poultry and swine, particularly where alternative treatments are ineffective. Due to its critical importance in human medicine, use of this product must be strictly limited to legally permitted, justified therapeutic indications."
             },
 
             {
               type: "text",
               title: "PHARMACOLOGICAL ACTION",
               content:
-                ""
+                "Colistin exerts its antibacterial effect by acting as a cationic polypeptide that binds electrostatically to anionic lipopolysaccharides (LPS) in the outer membrane of Gram-negative bacteria. This interaction displaces divalent cations such as calcium and magnesium, leading to disruption of membrane integrity, increased permeability, leakage of intracellular contents, and rapid bacterial cell death. Colistin has no activity against Gram-positive bacteria, anaerobes, or fungi.\n\nColistin exhibits strong bactericidal activity against Gram-negative organisms, including Escherichia coli, Salmonella species, Pseudomonas aeruginosa, Klebsiella species, Enterobacter species, Pasteurella species, Haemophilus species, and Shigella species. Its efficacy against enteropathogenic E. coli makes it particularly useful for treatment of colibacillosis and post-weaning diarrhea where susceptibility is confirmed."
             },
 
             {
               type: "text",
               title: "PHARMACOKINETICS",
               content:
-                ""
+                "Following oral administration via feed, colistin is poorly absorbed from the gastrointestinal tract, resulting in high local concentrations within the intestinal lumen and minimal systemic exposure. Any absorbed fraction is primarily excreted unchanged via the kidneys. Due to limited absorption after oral administration, systemic adverse effects are uncommon when the product is used as directed.\n\nResearch demonstrates that colistin rapidly reduces intestinal colonization by pathogenic E. coli, with significant decreases in bacterial load observed within 24 to 48 hours of treatment. Clinical studies show improvement in intestinal health, reduced incidence and severity of post-weaning diarrhea, and improved survival rates in affected animals. However, widespread emergence of plasmid-mediated colistin resistance (mcr genes) has raised serious public health concerns, necessitating strict control of veterinary use."
             },
 
             {
               type: "text",
               title: "INDICATIONS",
               content:
-                ""
+                "Where legally permitted and based on veterinary diagnosis and susceptibility testing, AMCHEM COLISTIN® 10% PREMIX is indicated for the treatment of enteritis caused by colistin-sensitive Gram-negative bacteria. In poultry, it is used for treatment of colibacillosis and salmonellosis, including pullorum disease caused by Salmonella enterica serovar Pullorum, often in combination with appropriate supportive measures. In swine, it is indicated for treatment of enteric infections and control of post-weaning diarrhea caused by E. coli. Use for growth promotion or routine prophylaxis is prohibited in most jurisdictions."
             },
 
             {
               type: "text",
               title: "CONTRAINDICATIONS",
               content:
-                ""
+                "The product should not be used in animals with known hypersensitivity to polymyxins, in animals with renal impairment, or during concurrent administration of nephrotoxic or neurotoxic drugs. It must not be used for growth promotion or routine prophylaxis and must not be used in laying hens producing eggs for human consumption."
             },
 
             {
               type: "text",
               title: "MODE OF ADMINISTRATION",
               content:
-                ""
+                "AMCHEM COLISTIN® 10% PREMIX is administered orally by thorough and uniform incorporation into feed. Treatment should be limited to the shortest effective duration and used only under veterinary supervision."
             },
 
             {
               type: "text",
               title: "TARGET SPECIES",
-              content: ""
+              content: "Poultry (broilers and growers) and swine, only where therapeutic use of colistin is permitted by local regulations."
             },
 
             {
-              type: "table",
-              title: "DOSAGE",
-              columns: [
-                "Species",
-                "",
-                "",
-                ""
-              ],
-              rows: [
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-              ],
-              footer : ""
-            },
+  type: "table",
+  title: "DOSAGE",
+  description: "Recommended inclusion rates (therapeutic use only, where permitted):",
+  columns: [
+    "Species / Category",
+    "Indication",
+    "AMCHEM COLISTIN® 10% PREMIX"
+  ],
+  rows: [
+    [
+      "Piglets, Chickens, Cattle",
+      "Treatment of Gram-negative enteric infections. A certain growth promotion effect",
+      "20-400 g per ton of feed (2–40 mg colistin/kg BW/day)"
+    ],
+    [
+      "Poultry, swine, cattle",
+      "Treatment of Gram-negative enteric infections",
+      "750–1,000 g per ton of feed (75–100 mg colistin/kg feed)"
+    ]
+  ],
+  footer:
+    "Use in cattle subject to strict local regulatory approval. Or strictly as prescribed by a licensed veterinarian."
+}
+,
 
             {
               type: "text",
               title: "SIDE EFFECTS",
               content:
-                ""
+                "Following oral administration, adverse effects are rare due to minimal systemic absorption and may include mild gastrointestinal disturbances. Systemic adverse effects such as nephrotoxicity or neurotoxicity are associated primarily with parenteral use and are uncommon with oral premix administration."
             },
             {
               type: "text",
               title: "WITHDRAWAL PERIOD",
               content:
-                ""
+                "A minimum withdrawal period of 7 days for swine meat and 5 days for poultry meat must be observed, or as specified by local regulatory authorities. The product must not be used in laying hens producing eggs for human consumption."
             },
             {
               type: "text",
               title: "STORAGE",
               content:
-                ""
+                "Store the product in its original, well-sealed packaging at 15–25°C in a dry place, protected from moisture and direct light."
             },
             {
               type: "text",
               title: "SHELF LIFE",
               content:
-                ""
+                "24 months under recommended storage conditions."
             },
             {
               type: "text",
               title: "PACKING",
               content:
-                ""
+                "AMCHEM COLISTIN® 10% PREMIX is supplied in 25 kg bags."
             },
             {
               type: "text",
               title: "FURTHER INFORMATION",
               content:
-                ""
+                "Colistin is classified by the World Health Organization as a critically important antimicrobial for human medicine. Veterinary use is banned or severely restricted in many regions, including for growth promotion and routine prophylaxis. AMCHEM COLISTIN® 10% PREMIX must be used only where legally permitted, strictly for justified therapeutic purposes, and in accordance with antimicrobial stewardship principles to minimize the development and spread of resistance. The product is intended for veterinary use only."
             },
 
           ],
@@ -1856,130 +1971,145 @@ export const productsData = {
 
           sections: [
             {
-              type: "table",
-              title: "COMPOSITION",
-              description: "Content per kg",
-              columns: [
-                "Component",
-                "",
-              ],
-              rows: [
-                [
-                  "",
-                  "",
-                ],
-                [
-                  "",
-                  "",
-                ]
-              ],
-              footer:
-                ""
-            },
+  type: "table",
+  title: "COMPOSITION",
+  description: "Content per kg:",
+  columns: [
+    "Component",
+    "AMCHEM TYLVALOSIN® PREMIX"
+  ],
+  rows: [
+    [
+      "Tylvalosin (as tartrate)",
+      "50 g (5%) or 100 g (10%)"
+    ],
+    [
+      "Pharmaceutical-grade excipients",
+      "q.s."
+    ]
+  ]
+}
+,
 
             {
               type: "text",
               title: "DESCRIPTION",
               content:
-                ""
+                "AMCHEM TYLVALOSIN® PREMIX is a light tan to brown free-flowing powder with a slight characteristic odor, formulated for oral administration through feed. It contains tylvalosin, a semi-synthetic macrolide antibiotic derived from tylosin, specifically developed for veterinary use. The product is intended for the treatment and control of respiratory and enteric infections in swine and poultry caused by tylvalosin-sensitive organisms. Due to its enhanced pharmacokinetic profile compared with older macrolides, tylvalosin provides improved tissue penetration and sustained therapeutic concentrations at sites of infection."
             },
 
             {
               type: "text",
               title: "PHARMACOLOGICAL ACTION",
               content:
-                ""
+                "Tylvalosin is a semi-synthetic macrolide antibiotic that inhibits bacterial protein synthesis by binding to the 50S ribosomal subunit, thereby blocking peptide chain translocation and suppressing bacterial growth. Compared with tylosin, tylvalosin demonstrates superior tissue distribution, longer persistence in target organs, and enhanced activity against certain macrolide-resistant strains.\n\nThe antibacterial spectrum includes strong activity against Mycoplasma species, particularly Mycoplasma hyopneumoniae, Mycoplasma gallisepticum, and Mycoplasma synoviae, as well as Lawsonia intracellularis and Brachyspira species. It also exhibits activity against numerous Gram-positive organisms such as Staphylococcus aureus (including penicillin-resistant strains), Streptococcus species, Erysipelothrix suis, Listeria species, and certain Clostridium species. Gram-negative bacteria are generally less susceptible."
             },
 
             {
               type: "text",
               title: "PHARMACOKINETICS",
               content:
-                ""
+                "Following oral administration, tylvalosin is absorbed from the gastrointestinal tract and widely distributed throughout the body. High concentrations are achieved in lung tissue, intestinal mucosa, and inflammatory exudates, ensuring optimal efficacy at primary sites of infection. Tissue concentrations persist longer than serum levels, contributing to sustained antimicrobial activity. The drug is primarily metabolized in the liver and excreted via bile and urine.\n\nExperimental and field studies demonstrate that tylvalosin significantly reduces pulmonary lesions associated with enzootic pneumonia in swine and decreases intestinal inflammation in animals affected by proliferative enteropathy. Its ability to maintain high concentrations in lung and intestinal tissues supports superior clinical outcomes in respiratory and enteric disease complexes compared with older macrolide antibiotics."
             },
 
             {
               type: "text",
               title: "INDICATIONS",
               content:
-                ""
+                "AMCHEM TYLVALOSIN® PREMIX is indicated for the treatment and control of tylvalosin-sensitive infections in swine and poultry. In swine, it is used for porcine proliferative enteropathy caused by Lawsonia intracellularis, enzootic pneumonia associated with Mycoplasma hyopneumoniae, swine dysentery caused by Brachyspira species, and respiratory disease complex. In poultry, it is indicated for chronic respiratory disease caused by Mycoplasma gallisepticum, infectious synovitis caused by Mycoplasma synoviae, and airsacculitis, including infections associated with Ornithobacterium rhinotracheale."
             },
 
             {
               type: "text",
               title: "CONTRAINDICATIONS",
               content:
-                ""
+                "The product should not be used in animals with known hypersensitivity to macrolide antibiotics or in cases of severe hepatic impairment. It must not be administered to laying hens producing eggs for human consumption."
             },
 
             {
               type: "text",
               title: "MODE OF ADMINISTRATION",
               content:
-                ""
+                "The product is administered orally by thorough and uniform incorporation into feed. Medicated feed should be prepared freshly and fed continuously for the recommended treatment period under veterinary supervision."
             },
 
             {
               type: "text",
               title: "TARGET SPECIES",
-              content: ""
+              content: "Swine and poultry."
             },
 
             {
-              type: "table",
-              title: "DOSAGE",
-              columns: [
-                "Species",
-                "",
-                "",
-                ""
-              ],
-              rows: [
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-              ],
-              footer : ""
-            },
+  type: "table",
+  title: "DOSAGE",
+  description: "Recommended inclusion rates:",
+  columns: [
+    "Species",
+    "Indication",
+    "AMCHEM TYLVALOSIN® PREMIX"
+  ],
+  rows: [
+    [
+      "Swine",
+      "Ileitis (treatment)",
+      "25–50 g per ton of feed (5–10 mg tylvalosin/kg BW/day)"
+    ],
+    [
+      "Swine",
+      "Ileitis (prevention)",
+      "12.5–25 g per ton of feed (2.5–5 mg/kg BW/day)"
+    ],
+    [
+      "Swine",
+      "Enzootic pneumonia",
+      "25 g per ton of feed (5 mg/kg BW/day)"
+    ],
+    [
+      "Poultry (Broilers, Breeders, and Layers)",
+      "Respiratory infections",
+      "500–1,000 g per ton of feed"
+    ]
+  ],
+  footer:
+    "Or strictly as prescribed by a licensed veterinarian."
+}
+,
 
             {
               type: "text",
               title: "SIDE EFFECTS",
               content:
-                ""
+                "Occasional transient reduction in feed intake may occur during treatment. Gastrointestinal disturbances are rare and typically mild."
             },
             {
               type: "text",
               title: "WITHDRAWAL PERIOD",
               content:
-                ""
+                "A withdrawal period of 14 days for swine meat and 7 days for poultry meat should be observed, unless otherwise specified by local regulatory authorities. Use is prohibited in laying hens producing eggs for human consumption."
             },
             {
               type: "text",
               title: "STORAGE",
               content:
-                ""
+                "Store at 15–30°C in a dry place, in well-sealed containers protected from moisture and light."
             },
             {
               type: "text",
               title: "SHELF LIFE",
               content:
-                ""
+                "24 months under recommended storage conditions."
             },
             {
               type: "text",
               title: "PACKING",
               content:
-                ""
+                "AMCHEM TYLVALOSIN® PREMIX is supplied in 25 kg bags."
             },
             {
               type: "text",
               title: "FURTHER INFORMATION",
               content:
-                ""
+                "AMCHEM TYLVALOSIN® PREMIX is a semi-synthetic macrolide antibiotic designed for effective control of respiratory and enteric infections in swine and poultry. It provides superior tissue penetration, particularly in lungs and intestinal mucosa, ensuring reliable efficacy against Mycoplasma, Lawsonia, and Brachyspira species. When used responsibly, it supports improved animal health, productivity, and welfare."
             },
 
           ],
@@ -1994,130 +2124,124 @@ export const productsData = {
 
           sections: [
             {
-              type: "table",
-              title: "COMPOSITION",
-              description: "Content per kg",
-              columns: [
-                "Component",
-                "",
-              ],
-              rows: [
-                [
-                  "",
-                  "",
-                ],
-                [
-                  "",
-                  "",
-                ]
-              ],
-              footer:
-                ""
-            },
+  type: "table",
+  title: "COMPOSITION",
+  description: "Content per kg:",
+  columns: [
+    "Component",
+    "AMCHEM CYRO-MIX® 1% PREMIX"
+  ],
+  rows: [
+    [
+      "Cyromazine",
+      "10 g (1%)"
+    ],
+    [
+      "Pharmaceutical-grade excipients",
+      "q.s."
+    ]
+  ]
+}
+,
 
             {
               type: "text",
               title: "DESCRIPTION",
               content:
-                ""
+                "AMCHEM CYRO-MIX® 1% PREMIX is a white to off-white free-flowing powder containing cyromazine, a triazine insect growth regulator formulated for administration through poultry feed. It is designed as a feed-through larvicide to control fly populations by targeting the immature larval stages in manure. The product is particularly suitable for use in broilers, breeders, and caged layers, where fly control is essential for maintaining hygiene, bird comfort, and overall farm biosecurity."
             },
 
             {
               type: "text",
               title: "PHARMACOLOGICAL ACTION",
               content:
-                ""
+                "Cyromazine acts as an insect growth regulator rather than an adult insecticide or an antibiotic. Its mode of action involves interference with the molting process of fly larvae by disrupting chitin synthesis and cuticular protein formation. This prevents larvae from developing normally into pupae and adult flies, thereby breaking the fly life cycle at the manure level.\n\nCyromazine has no antibacterial activity and does not affect intestinal microflora. After ingestion, it passes through the digestive tract largely unchanged and is excreted in the feces at concentrations sufficient to inhibit larval development in manure.\n\nAMCHEM CYRO-MIX® 1% PREMIX is effective against a wide range of nuisance fly species that breed in poultry manure, including Musca domestica (house fly), Fannia canicularis (lesser house fly), Muscina stabulans (false stable fly), and Hermetia illucens (American soldier fly). The product does not kill adult flies; therefore, reduction in adult fly populations occurs gradually as larval development is suppressed."
             },
 
             {
               type: "text",
               title: "PHARMACOKINETICS",
               content:
-                ""
+                "Cyromazine is minimally absorbed from the gastrointestinal tract and is excreted primarily via feces. The excreted compound remains biologically active in manure, where it inhibits fly larval development. There is no significant tissue accumulation, and the compound does not interfere with nutrient absorption or animal performance.\n\nScientific studies have demonstrated that continuous administration of cyromazine through feed can reduce fly emergence from manure by up to 95–99%. Research confirms that recommended inclusion levels do not adversely affect growth performance, feed efficiency, egg production, or egg quality in poultry, supporting its excellent safety margin."
             },
 
             {
               type: "text",
               title: "INDICATIONS",
               content:
-                ""
+                "AMCHEM CYRO-MIX® 1% PREMIX is indicated for the control of fly larvae in poultry manure, particularly in broilers, breeders, and layers. Its use contributes to reduced fly-borne disease transmission, improved bird comfort and welfare, and enhanced environmental hygiene within poultry housing. Indirect benefits include reduced ammonia generation and improved working conditions during fly season.  "
             },
 
             {
               type: "text",
               title: "CONTRAINDICATIONS",
               content:
-                ""
+                "The product should not be used in animals with known hypersensitivity to cyromazine. Use in laying hens producing eggs for human consumption may be restricted in certain jurisdictions; local regulations should be consulted."
             },
 
             {
               type: "text",
               title: "MODE OF ADMINISTRATION",
               content:
-                ""
+                "The product is administered orally by uniform incorporation into poultry feed. For effective fly control, medicated feed must be supplied continuously during periods of fly activity, typically in warm seasons. Best results are achieved when used as part of an integrated fly management program."
             },
 
             {
-              type: "text",
-              title: "TARGET SPECIES",
-              content: ""
-            },
-
-            {
-              type: "table",
-              title: "DOSAGE",
-              columns: [
-                "Species",
-                "",
-                "",
-                ""
-              ],
-              rows: [
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-              ],
-              footer : ""
-            },
+  type: "table",
+  title: "DOSAGE",
+  description: "Recommended inclusion rates:",
+  columns: [
+    "Species",
+    "AMCHEM CYRO-MIX® 1% PREMIX",
+    "Remarks"
+  ],
+  rows: [
+    [
+      "Poultry (broilers, breeders, and layers)",
+      "500 g per ton of feed",
+      "Feed continuously for 4–6 weeks"
+    ]
+  ],
+  footer:
+    "Or as recommended by a veterinarian or nutritionist."
+}
+,
 
             {
               type: "text",
               title: "SIDE EFFECTS",
               content:
-                ""
+                "No adverse effects have been reported when the product is used at the recommended dosage. AMCHEM CYRO-MIX® 1% PREMIX has an excellent safety profile."
             },
             {
               type: "text",
               title: "WITHDRAWAL PERIOD",
               content:
-                ""
+                "A withdrawal period of 3–7 days for poultry meat should be observed, depending on local regulatory requirements. Eggs generally have a zero-day withdrawal, subject to national approval."
             },
             {
               type: "text",
               title: "STORAGE",
               content:
-                ""
+                "Store at 15–25°C in a dry place, in well-sealed containers protected from moisture."
             },
             {
               type: "text",
               title: "SHELF LIFE",
               content:
-                ""
+                "24 months under recommended storage conditions."
             },
             {
               type: "text",
               title: "PACKING",
               content:
-                ""
+                "AMCHEM CYRO-MIX® 1% PREMIX is supplied in 25 kg bags."
             },
             {
               type: "text",
               title: "FURTHER INFORMATION",
               content:
-                ""
+                "AMCHEM CYRO-MIX is a feed-through larvicide containing cyromazine that effectively interrupts the life cycle of nuisance flies in poultry manure. By inhibiting larval development and moulting, it significantly reduces adult fly populations over time. Continuous use during fly season improves bird comfort, hygiene, and biosecurity without affecting animal performance or the normal intestinal microflora."
             },
 
           ],
@@ -2595,130 +2719,134 @@ export const productsData = {
 
           sections: [
             {
-              type: "table",
-              title: "COMPOSITION",
-              description: "Content per kg",
-              columns: [
-                "Component",
-                "",
-              ],
-              rows: [
-                [
-                  "",
-                  "",
-                ],
-                [
-                  "",
-                  "",
-                ]
-              ],
-              footer:
-                ""
-            },
+  type: "table",
+  title: "COMPOSITION",
+  description: "Content per kg:",
+  columns: [
+    "Component",
+    "AMCHEM DECOBATE® PREMIX"
+  ],
+  rows: [
+    [
+      "Decoquinate",
+      "60 g (6%)"
+    ],
+    [
+      "Ethopabate",
+      "16 g (1.6%)"
+    ],
+    [
+      "Pharmaceutical-grade excipients",
+      "q.s."
+    ]
+  ]
+}
+,
 
             {
               type: "text",
               title: "DESCRIPTION",
               content:
-                ""
+                "AMCHEM DECOBATE® PREMIX is a light yellow to yellowish-brown free-flowing powder formulated for preventive control of coccidiosis in broiler chickens. It combines decoquinate, a quinolone anticoccidial effective against early intracellular stages, with ethopabate, which enhances spectrum and efficacy. The product is suitable for continuous inclusion in broiler feed, including antibiotic-free and rotation programs."
             },
 
             {
               type: "text",
               title: "PHARMACOLOGICAL ACTION",
               content:
-                ""
+                "Decoquinate inhibits the mitochondrial electron transport chain of Eimeria by blocking the cytochrome bc1 complex, leading to rapid energy depletion and death of sporozoites shortly after gut invasion. Ethopabate complements this action by interfering with folate metabolism and nucleic acid synthesis, strengthening control across multiple Eimeria species and helping maintain efficacy against resistant strains.\n\nEffective against major pathogenic Eimeria species in broilers, including E. tenella, E. necatrix, E. acervulina, E. brunetti, and E. maxima. The combination provides reliable protection throughout the early life cycle of the parasite."
             },
 
             {
               type: "text",
               title: "PHARMACOKINETICS",
               content:
-                ""
+                "Both decoquinate and ethopabate are poorly absorbed from the gastrointestinal tract and exert their activity locally in the intestine. Minimal systemic exposure contributes to an excellent safety profile and absence of tissue residues.\n\nStudies demonstrate that decoquinate retains efficacy against Eimeria populations resistant to ionophores. The addition of ethopabate broadens coverage and supports consistent coccidiosis prevention without compromising growth performance or immune competence in broilers."
             },
 
             {
               type: "text",
               title: "INDICATIONS",
               content:
-                ""
+                "AMCHEM DECOBATE® PREMIX is indicated for the prevention of coccidiosis in broiler chickens. It is particularly valuable in ionophore-resistant situations and as part of anticoccidial rotation or antibiotic-free production programs."
             },
 
             {
               type: "text",
               title: "CONTRAINDICATIONS",
               content:
-                ""
+                "Do not use in laying hens producing eggs for human consumption. Do not use in animals with known hypersensitivity to decoquinate or ethopabate."
             },
 
             {
               type: "text",
               title: "MODE OF ADMINISTRATION",
               content:
-                ""
+                "Administer orally by thorough and uniform incorporation into complete feed. The product is intended for preventive use and should be supplied continuously from the first day of life."
             },
 
             {
               type: "text",
               title: "TARGET SPECIES",
-              content: ""
+              content: "Broiler chickens."
             },
 
             {
-              type: "table",
-              title: "DOSAGE",
-              columns: [
-                "Species",
-                "",
-                "",
-                ""
-              ],
-              rows: [
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-              ],
-              footer : ""
-            },
+  type: "table",
+  title: "DOSAGE",
+  description: "Recommended inclusion rates:",
+  columns: [
+    "Species",
+    "AMCHEM DECOBATE® PREMIX",
+    "Remarks"
+  ],
+  rows: [
+    [
+      "Broiler chickens",
+      "500 g per ton of feed",
+      "Continuous feeding from day 1"
+    ]
+  ],
+  footer:
+    "Or as recommended by a veterinarian or nutritionist."
+}
+,
 
             {
               type: "text",
               title: "SIDE EFFECTS",
               content:
-                ""
+                "No significant adverse effects have been reported when used at recommended inclusion levels. The product has a wide safety margin."
             },
             {
               type: "text",
               title: "WITHDRAWAL PERIOD",
               content:
-                ""
+                "Meat: Zero (0) days when used as directed"
             },
             {
               type: "text",
               title: "STORAGE",
               content:
-                ""
+                "Store at 15–30°C in a cool, dry place, in well-sealed containers protected from moisture and sunlight."
             },
             {
               type: "text",
               title: "SHELF LIFE",
               content:
-                ""
+                "24 months under recommended storage conditions."
             },
             {
               type: "text",
               title: "PACKING",
               content:
-                ""
+                "AMCHEM DECOBATE® PREMIX is supplied in 25 kg bags."
             },
             {
               type: "text",
               title: "FURTHER INFORMATION",
               content:
-                ""
+                "AMCHEM DECOBATE® PREMIX provides early-stage, non-ionophore control of coccidiosis through the complementary actions of decoquinate and ethopabate. Its excellent safety profile, zero withdrawal period, and effectiveness against resistant Eimeria strains make it a dependable choice for sustainable broiler production."
             },
 
           ],
@@ -2732,133 +2860,136 @@ export const productsData = {
           product: "AMCHEM DICLAMYCIN®",
 
           sections: [
-            {
-              type: "table",
-              title: "COMPOSITION",
-              description: "Content per kg",
-              columns: [
-                "Component",
-                "",
-              ],
-              rows: [
-                [
-                  "",
-                  "",
-                ],
-                [
-                  "",
-                  "",
-                ]
-              ],
-              footer:
-                ""
-            },
+           {
+  type: "table",
+  title: "COMPOSITION",
+  description: "Content per kg:",
+  columns: [
+    "Component",
+    "AMCHEM DICLAMYCIN® PREMIX"
+  ],
+  rows: [
+    [
+      "Diclazuril",
+      "10 g (1%)"
+    ],
+    [
+      "Maduramicin",
+      "10 g (1%)"
+    ],
+    [
+      "Pharmaceutical-grade excipients",
+      "q.s."
+    ]
+  ]
+}
+,
 
             {
               type: "text",
               title: "DESCRIPTION",
               content:
-                ""
+                "AMCHEM DICLAMYCIN® PREMIX is a homogeneous premix, white to beige in colour with characteristic orange specks, formulated for the prevention and control of coccidiosis in broiler chickens. It combines diclazuril, a highly effective triazinetrione anticoccidial, with maduramicin, a potent ionophore, providing broad and sustained protection throughout the production cycle."
             },
 
             {
               type: "text",
               title: "PHARMACOLOGICAL ACTION",
               content:
-                ""
+                "Diclazuril acts by disrupting mitochondrial respiration in coccidia through inhibition of the electron transport chain, leading to depletion of energy and inhibition of parasite development, particularly at asexual and sexual stages. Maduramicin, a polyether ionophore, disrupts sodium and potassium ion transport across the parasite cell membrane, causing osmotic imbalance and parasite death. The complementary mechanisms result in synergistic anticoccidial activity and enhanced efficacy against resistant Eimeria strains.\n\nAMCHEM DICLAMYCIN® PREMIX is active against all major pathogenic Eimeria species affecting broiler chickens, including E. tenella, E. acervulina, E. necatrix, E. maxima, E. brunetti, and E. mitis. The combination ensures control of multiple developmental stages of the parasite."
             },
 
             {
               type: "text",
               title: "PHARMACOKINETICS",
               content:
-                ""
+                "Both diclazuril and maduramicin are minimally absorbed from the gastrointestinal tract and act locally within the intestine. Limited systemic exposure contributes to high efficacy at the site of infection while maintaining an acceptable safety profile when correctly mixed and administered.\n\nScientific studies demonstrate that the diclazuril–maduramicin combination provides synergistic anticoccidial effects, offering superior protection compared to either component alone. Research confirms reliable control of coccidiosis even in flocks with reduced sensitivity to single anticoccidial agents."
             },
 
             {
               type: "text",
               title: "INDICATIONS",
               content:
-                ""
+                "AMCHEM DICLAMYCIN® PREMIX is indicated for the prevention of coccidiosis in broiler chickens caused by susceptible Eimeria species. It is particularly valuable in areas with known anticoccidial resistance."
             },
 
             {
               type: "text",
               title: "CONTRAINDICATIONS",
               content:
-                ""
+                "Do not use in laying hens or breeding birds. Do not administer to turkeys or other non-target species due to maduramicin toxicity. The product is contraindicated in animals with known hypersensitivity to diclazuril or maduramicin."
             },
 
             {
               type: "text",
               title: "MODE OF ADMINISTRATION",
               content:
-                ""
+                "The product is administered orally by thorough and uniform incorporation into complete poultry feed. Accurate premixing is essential to ensure even distribution and to avoid localized overdosing."
             },
 
             {
               type: "text",
               title: "TARGET SPECIES",
-              content: ""
+              content: "Broiler chickens."
             },
 
             {
-              type: "table",
-              title: "DOSAGE",
-              columns: [
-                "Species",
-                "",
-                "",
-                ""
-              ],
-              rows: [
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-              ],
-              footer : ""
-            },
+  type: "table",
+  title: "DOSAGE",
+  description: "Recommended inclusion rates:",
+  columns: [
+    "Species",
+    "AMCHEM DICLAMYCIN® PREMIX",
+    "Remarks"
+  ],
+  rows: [
+    [
+      "Broiler chickens",
+      "500 g per ton of feed",
+      "Continuous feeding from day 1"
+    ]
+  ],
+  footer:
+    "Or as recommended by a veterinarian or nutritionist."
+}
+,
 
             {
               type: "text",
               title: "SIDE EFFECTS",
               content:
-                ""
+                "At excessive inclusion levels or with improper mixing, ionophore toxicity may occur, characterized by reduced feed intake, depression, leg weakness, ataxia, and possible mortality."
             },
             {
               type: "text",
               title: "WITHDRAWAL PERIOD",
               content:
-                ""
+                "Meat: 5 days."
             },
             {
               type: "text",
               title: "STORAGE",
               content:
-                ""
+                "Store at 15–25°C in a cool, dry place, in tightly sealed containers protected from moisture and sunlight."
             },
             {
               type: "text",
               title: "SHELF LIFE",
               content:
-                ""
+                "24 months under recommended storage conditions."
             },
             {
               type: "text",
               title: "PACKING",
               content:
-                ""
+                "AMCHEM DICLAMYCIN® PREMIX is supplied in 25 kg bags."
             },
             {
               type: "text",
               title: "FURTHER INFORMATION",
               content:
-                ""
+                "AMCHEM DICLAMYCIN® PREMIX offers dual-mechanism anticoccidial protection by combining diclazuril and maduramicin. This synergistic formulation ensures effective control of all major Eimeria species while supporting consistent broiler performance when used correctly within recommended guidelines."
             },
-
           ],
           species : ["broiler"]
         },
@@ -2870,131 +3001,155 @@ export const productsData = {
           product: "AMCHEM DECOSAL",
 
           sections: [
-            {
-              type: "table",
-              title: "COMPOSITION",
-              description: "Content per kg",
-              columns: [
-                "Component",
-                "",
-              ],
-              rows: [
-                [
-                  "",
-                  "",
-                ],
-                [
-                  "",
-                  "",
-                ]
-              ],
-              footer:
-                ""
-            },
+           {
+  type: "table",
+  title: "COMPOSITION",
+  description: "Content per kg:",
+  columns: [
+    "Component",
+    "AMCHEM DECOSAL PREMIX"
+  ],
+  rows: [
+    [
+      "Decoquinate",
+      "40 g (4%)"
+    ],
+    [
+      "Salinomycin",
+      "90 g (9%)"
+    ],
+    [
+      "Pharmaceutical-grade excipients",
+      "q.s."
+    ]
+  ]
+}
+,
 
             {
               type: "text",
               title: "DESCRIPTION",
               content:
-                ""
+                "AMCHEM DECOSAL PREMIX is a light-yellow powder with an orange tint, formulated for effective prevention of coccidiosis in broiler chickens. It combines decoquinate, a quinolone derivative active at early developmental stages, with salinomycin, a fast-acting ionophore, providing broad-spectrum protection and improved flock performance."
             },
 
             {
               type: "text",
               title: "PHARMACOLOGICAL ACTION",
               content:
-                ""
+                "Decoquinate inhibits mitochondrial electron transport in coccidia, arresting early-stage parasite development. Salinomycin disrupts sodium and potassium ion transport across parasite membranes, causing osmotic imbalance and rapid death of early developmental stages. The combination ensures continuous and complementary anticoccidial activity.\n\n AMCHEM DECOSAL PREMIX is effective against all major pathogenic Eimeria species affecting broilers, including E. acervulina, E. maxima, E. tenella, E. necatrix, and E. brunetti. The dual mechanism targets multiple parasite life stages, reducing the risk of breakthrough infections."
             },
 
             {
               type: "text",
               title: "PHARMACOKINETICS",
               content:
-                ""
+                "Both decoquinate and salinomycin act locally in the intestinal tract with minimal systemic absorption. Their targeted action ensures high efficacy while maintaining safety when used according to recommended dosages.\n\nStudies demonstrate that combining decoquinate with an ionophore such as salinomycin provides synergistic protection against coccidiosis, including strains resistant to single-agent treatments. The combination supports improved disease control and flock performance."
             },
 
             {
               type: "text",
               title: "INDICATIONS",
               content:
-                ""
+                "AMCHEM DECOSAL PREMIX is indicated for the prevention of coccidiosis in broiler chickens, providing reliable protection throughout the production cycle."
             },
 
             {
               type: "text",
               title: "CONTRAINDICATIONS",
               content:
-                ""
+                "Do not use in laying hens, breeder birds, turkeys, horses, or other non-target species. The product is contraindicated in animals with known hypersensitivity to decoquinate or salinomycin."
             },
 
             {
               type: "text",
               title: "MODE OF ADMINISTRATION",
               content:
-                ""
+                "The product is administered orally by uniform incorporation into complete feed. Proper premixing is essential to ensure even distribution and consistent intake."
             },
 
             {
               type: "text",
               title: "TARGET SPECIES",
-              content: ""
+              content: "Broiler chickens, pullets, swine, calves, lambs"
             },
 
             {
-              type: "table",
-              title: "DOSAGE",
-              columns: [
-                "Species",
-                "",
-                "",
-                ""
-              ],
-              rows: [
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-              ],
-              footer : ""
-            },
+  type: "table",
+  title: "DOSAGE",
+  description: "Recommended inclusion rates:",
+  columns: [
+    "Species / Category",
+    "Age / Production Stage",
+    "Inclusion Rate per Ton of Feed"
+  ],
+  rows: [
+    [
+      "Poultry (broiler chickens, pullets)",
+      "All feeding period",
+      "650 g / ton"
+    ],
+    [
+      "Swine",
+      "Under 4 months",
+      "250 – 450 g / ton"
+    ],
+    [
+      "Swine",
+      "4 – 6 months",
+      "250 g / ton"
+    ],
+    [
+      "Cattle",
+      "Young stock (≥ 3 weeks)",
+      "100 – 250 g / ton"
+    ],
+    [
+      "Sheep",
+      "Young stock (≥ 3 weeks)",
+      "100 – 250 g / ton"
+    ]
+  ],
+  footer:
+    "Or as recommended by a veterinarian or nutritionist."
+}
+,
 
             {
               type: "text",
               title: "SIDE EFFECTS",
               content:
-                ""
+                "When overdosed or improperly mixed, ionophore-related toxicity may occur, including reduced feed intake, depression, weakness, ataxia, and possible mortality."
             },
             {
               type: "text",
               title: "WITHDRAWAL PERIOD",
               content:
-                ""
+                "Meat: 1 day for broiler chickens."
             },
             {
               type: "text",
               title: "STORAGE",
               content:
-                ""
+                "Store at 15–25°C in a cool, dry place, in tightly sealed containers protected from moisture and light"
             },
             {
               type: "text",
               title: "SHELF LIFE",
               content:
-                ""
+                "24 months under recommended storage conditions."
             },
             {
               type: "text",
               title: "PACKING",
               content:
-                ""
+                "AMCHEM DECOSAL PREMIX is supplied in 25 kg bags."
             },
             {
               type: "text",
               title: "FURTHER INFORMATION",
               content:
-                ""
+                "AMCHEM DECOSAL PREMIX combines early-stage activity of decoquinate with the rapid ionophore action of salinomycin, ensuring reliable and continuous control of coccidiosis in broiler chickens when used as part of a well-managed feeding program."
             },
 
           ],
@@ -3009,130 +3164,139 @@ export const productsData = {
 
           sections: [
             {
-              type: "table",
-              title: "COMPOSITION",
-              description: "Content per kg",
-              columns: [
-                "Component",
-                "",
-              ],
-              rows: [
-                [
-                  "",
-                  "",
-                ],
-                [
-                  "",
-                  "",
-                ]
-              ],
-              footer:
-                ""
-            },
+  type: "table",
+  title: "COMPOSITION",
+  description: "Content per kg:",
+  columns: [
+    "Component",
+    "AMCHEM MONIRACOX PREMIX"
+  ],
+  rows: [
+    [
+      "Monensin",
+      "80 g (8%)"
+    ],
+    [
+      "Nicarbazin",
+      "80 g (8%)"
+    ],
+    [
+      "Pharmaceutical-grade excipients",
+      "q.s."
+    ]
+  ]
+}
+,
 
             {
               type: "text",
               title: "DESCRIPTION",
               content:
-                ""
+                "AMCHEM MONIRACOX PREMIX is a yellow-brown powder formulated for the prevention of coccidiosis in broiler chickens and turkeys. It combines monensin, a polyether ionophore that rapidly disrupts ionic balance in coccidia, with nicarbazin, a chemical anticoccidial affecting mitochondrial function and parasite reproduction. This dual-action formulation ensures broad-spectrum protection and improved flock performance."
             },
 
             {
               type: "text",
               title: "PHARMACOLOGICAL ACTION",
               content:
-                ""
+                "Monensin facilitates sodium/hydrogen exchange across parasite membranes, disrupting ionic balance and leading to rapid parasite death. Nicarbazin inhibits mitochondrial function and reproductive development of Eimeria, providing complementary activity. The combination exhibits synergistic anticoccidial effects throughout the parasite life cycle.\n\nAMCHEM MONIRACOX PREMIX is effective against major Eimeria species in broilers, including E. tenella, E. acervulina, E. maxima, E. necatrix, E. brunetti, E. mitis, and E. praecox. In turkeys, it protects against E. meleagrimitis, E. adenoeides, E. gallopavonis, E. meleagridis, and E. dispersa."
             },
 
             {
               type: "text",
               title: "PHARMACOKINETICS",
               content:
-                ""
+                "Both monensin and nicarbazin act primarily in the intestinal tract with minimal systemic absorption. Localized activity ensures high efficacy while maintaining safety when used as directed.\n\nStudies confirm that the monensin-nicarbazin combination provides synergistic anticoccidial action, supporting enhanced weight gain, feed conversion efficiency, and reliable protection in shuttle and continuous feeding programs."
             },
 
             {
               type: "text",
               title: "INDICATIONS",
               content:
-                ""
+                "AMCHEM MONIRACOX PREMIX is indicated for the prevention of coccidiosis in broiler chickens and turkeys up to 16 weeks of age."
             },
 
             {
               type: "text",
               title: "CONTRAINDICATIONS",
               content:
-                ""
+                "Do not use in laying hens, breeder birds, horses, or other non-target species. Avoid use in chickens or turkeys above 16 weeks. Do not administer undiluted. The product is dangerous to equines."
             },
 
             {
               type: "text",
               title: "MODE OF ADMINISTRATION",
               content:
-                ""
+                "The product is administered orally via uniform mixing into complete feed. Proper premixing is essential to ensure even distribution and consistent intake by all birds."
             },
 
             {
               type: "text",
               title: "TARGET SPECIES",
-              content: ""
+              content: "Broiler chickens and turkeys (up to 16 weeks of age)."
             },
 
-            {
-              type: "table",
-              title: "DOSAGE",
-              columns: [
-                "Species",
-                "",
-                "",
-                ""
-              ],
-              rows: [
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-              ],
-              footer : ""
-            },
+           {
+  type: "table",
+  title: "DOSAGE",
+  description: "Recommended inclusion rates:",
+  columns: [
+    "Species",
+    "AMCHEM MONIRACOX PREMIX",
+    "Remarks"
+  ],
+  rows: [
+    [
+      "Broiler chickens",
+      "500–625 g per ton of feed",
+      "Continuous feeding up to 16 weeks"
+    ],
+    [
+      "Turkeys",
+      "500–625 g per ton of feed",
+      "Continuous feeding up to 16 weeks"
+    ]
+  ],
+  footer:
+    "Or as recommended by a veterinarian or nutritionist."
+}
+,
 
             {
               type: "text",
               title: "SIDE EFFECTS",
               content:
-                ""
+                "Excessive dosing or improper mixing may cause ionophore toxicity, including reduced feed intake, depression, weakness, ataxia, and mortality."
             },
             {
               type: "text",
               title: "WITHDRAWAL PERIOD",
               content:
-                ""
+                "Meat (chickens and turkeys): 1 day."
             },
             {
               type: "text",
               title: "STORAGE",
               content:
-                ""
+                "Store at 15–25°C in a cool, dry place, in tightly sealed containers protected from moisture and light."
             },
             {
               type: "text",
               title: "SHELF LIFE",
               content:
-                ""
+                "24 months under recommended storage conditions."
             },
             {
               type: "text",
               title: "PACKING",
               content:
-                ""
+                "AMCHEM MONIRACOX PREMIX is supplied in 25 kg bags."
             },
             {
               type: "text",
               title: "FURTHER INFORMATION",
               content:
-                ""
+                "AMCHEM MONIRACOX PREMIX combines the rapid ionophore action of monensin with the chemical anticoccidial effect of nicarbazin, ensuring reliable prevention of coccidiosis in broiler chickens and turkeys when used as part of a well-managed feeding program."
             },
 
           ],
@@ -3147,130 +3311,154 @@ export const productsData = {
 
           sections: [
             {
-              type: "table",
-              title: "COMPOSITION",
-              description: "Content per kg",
-              columns: [
-                "Component",
-                "",
-              ],
-              rows: [
-                [
-                  "",
-                  "",
-                ],
-                [
-                  "",
-                  "",
-                ]
-              ],
-              footer:
-                ""
-            },
+  type: "table",
+  title: "COMPOSITION",
+  description: "Content per kg:",
+  columns: [
+    "Component",
+    "AMCHEM DICLAMIX PLUS® PREMIX"
+  ],
+  rows: [
+    [
+      "Diclazuril",
+      "10 g (1%)"
+    ],
+    [
+      "Salinomycin",
+      "110 g (11%)"
+    ],
+    [
+      "Pharmaceutical-grade excipients",
+      "q.s."
+    ]
+  ]
+}
+,
 
             {
               type: "text",
               title: "DESCRIPTION",
               content:
-                ""
+                "AMCHEM DICLAMIX PLUS® PREMIX is a white to cream-coloured premix with yellow specks, formulated for effective prevention of coccidiosis in broiler chickens. It combines diclazuril, a highly specific chemical anticoccidial, with salinomycin, a fast-acting ionophore, to provide broad and sustained protection throughout the production cycle."
             },
 
             {
               type: "text",
               title: "PHARMACOLOGICAL ACTION",
               content:
-                ""
+                "Diclazuril inhibits mitochondrial electron transport in coccidia, interfering with energy metabolism and showing particular effectiveness against later developmental and sexual stages. Salinomycin disrupts sodium and potassium ion transport across parasite cell membranes, causing osmotic imbalance and rapid death of early developmental stages. The complementary mechanisms ensure continuous and comprehensive anticoccidial control.\n\nAMCHEM DICLAMIX PLUS® PREMIX is active against all major pathogenic Eimeria species affecting poultry, including E. tenella, E. acervulina, E. necatrix, E. maxima, E. brunetti, and E. mitis. The combination covers multiple stages of the parasite life cycle, reducing the risk of breakthrough infections."
             },
 
             {
               type: "text",
               title: "PHARMACOKINETICS",
               content:
-                ""
+                "Both diclazuril and salinomycin act primarily within the intestinal tract, with minimal systemic absorption. Their local action at the site of infection ensures high efficacy while maintaining acceptable safety when used according to recommendations.\n\nStudies demonstrate that combining diclazuril with an ionophore such as salinomycin enhances anticoccidial efficacy by targeting different stages and metabolic pathways of Eimeria. This dual approach supports improved disease control and helps limit the development of resistance."
             },
 
             {
               type: "text",
               title: "INDICATIONS",
               content:
-                ""
+                "AMCHEM DICLAMIX PLUS® PREMIX is indicated for the prevention of coccidiosis in broiler chickens, providing robust protection throughout the growing period."
             },
 
             {
               type: "text",
               title: "CONTRAINDICATIONS",
               content:
-                ""
+                "Do not use in laying hens, breeder birds, turkeys, horses, or other non-target species. The product is contraindicated in animals with known hypersensitivity to diclazuril or salinomycin."
             },
 
             {
               type: "text",
               title: "MODE OF ADMINISTRATION",
               content:
-                ""
+                "The product is administered orally through uniform incorporation into complete feed. Proper premixing is essential to ensure even distribution and consistent intake by all birds."
             },
 
             {
               type: "text",
               title: "TARGET SPECIES",
-              content: ""
+              content: "Broiler chickens, pullets, swine, calves, lambs"
             },
 
             {
-              type: "table",
-              title: "DOSAGE",
-              columns: [
-                "Species",
-                "",
-                "",
-                ""
-              ],
-              rows: [
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-              ],
-              footer : ""
-            },
+  type: "table",
+  title: "DOSAGE",
+  description: "Recommended inclusion rates:",
+  columns: [
+    "Species / Category",
+    "Age / Production Stage",
+    "Inclusion Rate per Ton of Feed"
+  ],
+  rows: [
+    [
+      "Poultry (broiler chickens, pullets)",
+      "All feeding period",
+      "500 g / ton"
+    ],
+    [
+      "Swine",
+      "Under 4 months",
+      "250 – 500 g / ton"
+    ],
+    [
+      "Swine",
+      "4 – 6 months",
+      "250 g / ton"
+    ],
+    [
+      "Cattle",
+      "Calves (≥ 3 weeks)",
+      "84 – 250 g / ton"
+    ],
+    [
+      "Sheep",
+      "Lambs (≥ 3 weeks)",
+      "84 – 250 g / ton"
+    ]
+  ],
+  footer:
+    "Or as recommended by a veterinarian or nutritionist."
+}
+,
 
             {
               type: "text",
               title: "SIDE EFFECTS",
               content:
-                ""
+                "When overdosed or improperly mixed, ionophore-related toxicity may occur, including reduced feed intake, depression, weakness, ataxia, and possible mortality."
             },
             {
               type: "text",
               title: "WITHDRAWAL PERIOD",
               content:
-                ""
+                "Meat: 5 days."
             },
             {
               type: "text",
               title: "STORAGE",
               content:
-                ""
+                "Store at 15–25°C in a cool, dry place, in tightly sealed containers protected from moisture and light."
             },
             {
               type: "text",
               title: "SHELF LIFE",
               content:
-                ""
+                "24 months under recommended storage conditions."
             },
             {
               type: "text",
               title: "PACKING",
               content:
-                ""
+                "AMCHEM DICLAMIX PLUS® PREMIX is supplied in 25 kg bags."
             },
             {
               type: "text",
               title: "FURTHER INFORMATION",
               content:
-                ""
+                "AMCHEM DICLAMIX PLUS® PREMIX combines stage-specific activity of diclazuril with the rapid ionophore action of salinomycin, ensuring reliable and continuous control of coccidiosis in broiler chickens when used as part of a well-managed feeding program."
             },
 
           ],
@@ -3285,130 +3473,133 @@ export const productsData = {
 
           sections: [
             {
-              type: "table",
-              title: "COMPOSITION",
-              description: "Content per kg",
-              columns: [
-                "Component",
-                "",
-              ],
-              rows: [
-                [
-                  "",
-                  "",
-                ],
-                [
-                  "",
-                  "",
-                ]
-              ],
-              footer:
-                ""
-            },
+  type: "table",
+  title: "COMPOSITION",
+  description: "Content per kg:",
+  columns: [
+    "Component",
+    "AMCHEM CLOPIMIX PREMIX"
+  ],
+  rows: [
+    [
+      "Clopidol",
+      "125 g (12.5% or 25%)"
+    ],
+    [
+      "Pharmaceutical-grade excipients",
+      "q.s."
+    ]
+  ]
+}
+,
 
             {
               type: "text",
               title: "DESCRIPTION",
               content:
-                ""
+                "AMCHEM CLOPIMIX PREMIX is a white to off-white powder formulated for the prevention of coccidiosis in broiler chickens, replacement pullets, and young layers. Clopidol, a pyridinol derivative, targets carbohydrate metabolism in Eimeria, disrupting glycolysis and respiratory enzymes to deplete energy and prevent parasite development. This premix is often used in rotation programs with ionophores to manage resistance."
             },
 
             {
               type: "text",
               title: "PHARMACOLOGICAL ACTION",
               content:
-                ""
+                "Clopidol interferes with carbohydrate metabolism in coccidia, inhibiting glycolysis and respiratory enzyme activity. The resulting energy depletion prevents multiplication and development of Eimeria. Its localized intestinal action ensures efficacy with minimal systemic absorption.\n\n Effective against major pathogenic Eimeria species in poultry, including E. tenella, E. acervulina, E. maxima, E. necatrix, and E. brunetti."
             },
 
             {
               type: "text",
               title: "PHARMACOKINETICS",
               content:
-                ""
+                "Clopidol is minimally absorbed and acts primarily within the intestinal tract, allowing effective local control with good safety margins.\n\nClopidol is a well-established anticoccidial with proven efficacy and safety. Studies show it provides reliable coccidiosis control in broilers, replacement pullets, and young layers. Its use in rotation programs with ionophores helps reduce resistance development."
             },
 
             {
               type: "text",
               title: "INDICATIONS",
               content:
-                ""
+                "Prevention of coccidiosis in broiler chickens, replacement pullets, and young layers up to 16 weeks of age. Also indicated for prevention of coccidiosis in rabbits."
             },
 
             {
               type: "text",
               title: "CONTRAINDICATIONS",
               content:
-                ""
+                "Do not use in animals with known hypersensitivity to clopidol. Not recommended for adult laying hens beyond 16 weeks unless indicated by a veterinarian."
             },
 
             {
               type: "text",
               title: "MODE OF ADMINISTRATION",
               content:
-                ""
+                "Administered orally by uniform incorporation into complete feed. Proper premixing ensures even distribution and consistent intake by all animals."
             },
 
             {
               type: "text",
               title: "TARGET SPECIES",
-              content: ""
+              content: "Broiler chickens, replacement pullets, young layers (up to 16 weeks), and rabbits."
             },
 
-            {
-              type: "table",
-              title: "DOSAGE",
-              columns: [
-                "Species",
-                "",
-                "",
-                ""
-              ],
-              rows: [
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-              ],
-              footer : ""
-            },
+           {
+  type: "table",
+  title: "DOSAGE",
+  description: "Recommended inclusion rates:",
+  columns: [
+    "Species",
+    "AMCHEM CLOPIMIX PREMIX",
+    "Remarks"
+  ],
+  rows: [
+    [
+      "Broilers / Pullets / Young layers",
+      "500 g premix per ton of feed (125 mg Clopidol/kg feed)",
+      "Continuous feeding throughout growth period"
+    ],
+    [
+      "Rabbits",
+      "800 g premix per ton of feed (125 mg Clopidol/kg feed)",
+      "Continuous feeding or as recommended by a veterinarian/nutritionist"
+    ]
+  ]
+}
+,
 
             {
               type: "text",
               title: "SIDE EFFECTS",
               content:
-                ""
+                "Well tolerated at recommended dosages. No significant adverse effects observed."
             },
             {
               type: "text",
               title: "WITHDRAWAL PERIOD",
               content:
-                ""
+                "Meat: 5 days before slaughter. Eggs: Do not use during laying period within withdrawal window."
             },
             {
               type: "text",
               title: "STORAGE",
               content:
-                ""
+                "Store at 15–25°C in a cool, dry place, in tightly sealed containers protected from moisture and light."
             },
             {
               type: "text",
               title: "SHELF LIFE",
               content:
-                ""
+                "24 months under recommended storage conditions."
             },
             {
               type: "text",
               title: "PACKING",
               content:
-                ""
+                "AMCHEM CLOPIMIX PREMIX is supplied in 25 kg bags."
             },
             {
               type: "text",
               title: "FURTHER INFORMATION",
               content:
-                ""
+                "AMCHEM CLOPIMIX PREMIX provides reliable prevention of coccidiosis in poultry and rabbits. Its targeted mechanism and compatibility with rotation programs make it suitable for modern poultry and rabbit production systems."
             },
 
           ],
@@ -3423,130 +3614,144 @@ export const productsData = {
 
           sections: [
             {
-              type: "table",
-              title: "COMPOSITION",
-              description: "Content per kg",
-              columns: [
-                "Component",
-                "",
-              ],
-              rows: [
-                [
-                  "",
-                  "",
-                ],
-                [
-                  "",
-                  "",
-                ]
-              ],
-              footer:
-                ""
-            },
+  type: "table",
+  title: "COMPOSITION",
+  description: "Content per kg:",
+  columns: [
+    "Component",
+    "AMCHEM SALINICOX® PREMIX"
+  ],
+  rows: [
+    [
+      "Salinomycin",
+      "80 g (8%)"
+    ],
+    [
+      "Nicarbazin",
+      "80 g (8%)"
+    ],
+    [
+      "Pharmaceutical-grade excipients",
+      "q.s."
+    ]
+  ]
+}
+,
 
             {
               type: "text",
               title: "DESCRIPTION",
               content:
-                ""
+                "AMCHEM SALINICOX® PREMIX is a yellow to orange free-flowing powder formulated for incorporation into broiler feed. It combines salinomycin, a polyether ionophore, with nicarbazin, a chemical anticoccidial, to deliver reliable, broad-spectrum protection against coccidiosis throughout the production cycle."
             },
 
             {
               type: "text",
               title: "PHARMACOLOGICAL ACTION",
               content:
-                ""
+                "The product provides complementary mechanisms of action. Salinomycin disrupts ionic gradients across Eimeria cell membranes by facilitating monovalent cation transport, causing osmotic imbalance and parasite death, with strong activity against early developmental stages. Nicarbazin interferes with mitochondrial function and arrests parasite reproduction, particularly during the second schizont generation, enhancing overall efficacy and durability of control.\n\nAMCHEM SALINICOX® PREMIX is effective against major Eimeria species affecting broilers, including E. tenella, E. acervulina, E. necatrix, E. maxima, E. brunetti and mixed infections, with notable efficacy against E. maxima and E. brunetti."
             },
 
             {
               type: "text",
               title: "PHARMACOKINETICS",
               content:
-                ""
+                "Salinomycin is minimally absorbed and acts locally within the intestinal tract. Nicarbazin is partially absorbed and excreted, which explains its known effect on egg yolk coloration; therefore, use is restricted to non-laying birds. The combination provides sustained intestinal activity with minimal systemic exposure.\n\nPublished research demonstrates that the salinomycin–nicarbazin combination delivers synergistic anticoccidial efficacy superior to either component alone. The dual mode of action provides consistent protection across production stages and reduces the likelihood of resistance development."
             },
 
             {
               type: "text",
               title: "INDICATIONS",
               content:
-                ""
+                "AMCHEM SALINICOX® PREMIX is indicated for the prevention of coccidiosis in broiler chickens caused by multiple Eimeria species, supporting optimal growth performance and flock health."
             },
 
             {
               type: "text",
               title: "CONTRAINDICATIONS",
               content:
-                ""
+                "Do not use in laying hens or breeder chickens due to adverse effects on egg production and hatchability. The product must not be used in turkeys or other non-chicken species. Do not use in animals with known hypersensitivity to ionophores or nicarbazin "
             },
 
             {
               type: "text",
               title: "MODE OF ADMINISTRATION",
               content:
-                ""
+                "The product is administered orally by thorough and uniform incorporation into complete feed. Continuous feeding is recommended from day one through the prescribed withdrawal period to ensure effective control."
             },
 
             {
               type: "text",
               title: "TARGET SPECIES",
-              content: ""
+              content: "Broiler chickens, Turkeys."
             },
 
             {
-              type: "table",
-              title: "DOSAGE",
-              columns: [
-                "Species",
-                "",
-                "",
-                ""
-              ],
-              rows: [
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-              ],
-              footer : ""
-            },
+  type: "table",
+  title: "DOSAGE",
+  description: "Recommended inclusion rates:",
+  columns: [
+    "Species",
+    "AMCHEM SALINICOX® PREMIX",
+    "Remarks"
+  ],
+  rows: [
+    [
+      "Broiler chickens",
+      "375–625 g per ton of feed",
+      "Continuous feeding during growing period"
+    ],
+    [
+      "Chickens (general)",
+      "500 g per ton of feed",
+      "As part of preventive program"
+    ],
+    [
+      "Turkeys",
+      "500 g per ton of feed",
+      "As part of preventive program"
+    ]
+  ],
+  footer:
+    "Or as recommended by a veterinarian or nutritionist."
+}
+,
 
             {
               type: "text",
               title: "SIDE EFFECTS",
               content:
-                ""
+                "When used as directed, the product is generally well tolerated. Overdosage may result in reduced growth rate, ionophore toxicity signs such as ataxia or depression, and, in egg-producing birds, mottled yolk discoloration."
             },
             {
               type: "text",
               title: "WITHDRAWAL PERIOD",
               content:
-                ""
+                "A withdrawal period of 5–7 days for broiler meat should be observed, according to local regulatory requirements."
             },
             {
               type: "text",
               title: "STORAGE",
               content:
-                ""
+                "Store at 15–25°C in a dry place, in well-sealed containers protected from moisture and direct sunlight."
             },
             {
               type: "text",
               title: "SHELF LIFE",
               content:
-                ""
+                "24 months under recommended storage conditions."
             },
             {
               type: "text",
               title: "PACKING",
               content:
-                ""
+                "AMCHEM SALINICOX® PREMIX is supplied in 25 kg bags."
             },
             {
               type: "text",
               title: "FURTHER INFORMATION",
               content:
-                ""
+                "AMCHEM SALINICOX® PREMIX provides dependable, broad-spectrum coccidiosis control through a synergistic ionophore–chemical combination. Its dual action ensures consistent protection against mixed Eimeria challenges, supports growth performance, and contributes to improved flock uniformity when used responsibly within approved feeding programs."
             },
 
           ],
@@ -3561,130 +3766,128 @@ export const productsData = {
 
           sections: [
             {
-              type: "table",
-              title: "COMPOSITION",
-              description: "Content per kg",
-              columns: [
-                "Component",
-                "",
-              ],
-              rows: [
-                [
-                  "",
-                  "",
-                ],
-                [
-                  "",
-                  "",
-                ]
-              ],
-              footer:
-                ""
-            },
+  type: "table",
+  title: "COMPOSITION",
+  description: "Content per kg:",
+  columns: [
+    "Component",
+    "AMCHEM HALOCOX® PREMIX"
+  ],
+  rows: [
+    [
+      "Halofuginone Hydrobromide",
+      "6 g (0.6%)"
+    ],
+    [
+      "Pharmaceutical-grade excipients",
+      "q.s."
+    ]
+  ]
+}
+,
 
             {
               type: "text",
               title: "DESCRIPTION",
               content:
-                ""
+                "AMCHEM HALOCOX® PREMIX is a light yellow powder formulated for the prevention of coccidiosis in broiler chickens. It contains halofuginone hydrobromide, a quinazolinone alkaloid with a unique mechanism of action that inhibits protein synthesis in Eimeria, preventing parasite development. The product is extremely potent and requires precise dosing due to its narrow safety margin."
             },
 
             {
               type: "text",
               title: "PHARMACOLOGICAL ACTION",
               content:
-                ""
+                "Halofuginone interferes with prolyl-tRNA synthetase, preventing incorporation of proline into parasite proteins, thereby disrupting protein synthesis and parasite development. Its rapid absorption and metabolism provide effective anticoccidial activity while minimizing residue accumulation when used correctly.\n\nAMCHEM HALOCOX® PREMIX is highly active against E. tenella and E. acervulina and has moderate activity against other Eimeria species. It also reduces the risk of necrotic enteritis caused by Clostridium and can help control leucocytozoonosis (“white cockscomb disease”)."
             },
 
             {
               type: "text",
               title: "PHARMACOKINETICS",
               content:
-                ""
+                "Halofuginone is rapidly absorbed and distributed, then metabolized and excreted. Residues are below detectable limits by day one post-treatment. Its narrow therapeutic index necessitates accurate dosing.\n\nResearch demonstrates high efficacy at low inclusion rates, with anticoccidial indices (ACI) ≥180. Studies highlight no cross-resistance with other coccidiostats and confirm safety when used within recommended limits."
             },
 
             {
               type: "text",
               title: "INDICATIONS",
               content:
-                ""
+                "Prevention of coccidiosis in broiler chickens, particularly E. tenella and E. acervulina. Also reduces risk of necrotic enteritis and leucocytozoonosis."
             },
 
             {
               type: "text",
               title: "CONTRAINDICATIONS",
               content:
-                ""
+                "Not for laying hens, breeder birds, turkeys, fish, waterfowl, or other non-target species. Hypersensitivity to halofuginone is a contraindication."
             },
 
             {
               type: "text",
               title: "MODE OF ADMINISTRATION",
               content:
-                ""
+                "Administered orally via uniform incorporation into a secondary premix before inclusion in finished feed. Proper mixing is critical to avoid toxicity due to the narrow safety margin."
             },
 
             {
               type: "text",
               title: "TARGET SPECIES",
-              content: ""
+              content: "Broiler chickens."
             },
 
-            {
-              type: "table",
-              title: "DOSAGE",
-              columns: [
-                "Species",
-                "",
-                "",
-                ""
-              ],
-              rows: [
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-              ],
-              footer : ""
-            },
+           {
+  type: "table",
+  title: "DOSAGE",
+  description: "Recommended inclusion rates:",
+  columns: [
+    "Species",
+    "AMCHEM HALOCOX® PREMIX",
+    "Remarks"
+  ],
+  rows: [
+    [
+      "Broiler chickens",
+      "500 g per ton of feed (3 mg halofuginone/kg feed)",
+      "Continuous feeding throughout the growing period, as the sole ration"
+    ]
+  ]
+}
+,
 
             {
               type: "text",
               title: "SIDE EFFECTS",
               content:
-                ""
+                "Signs of overdose include reduced growth, decreased feed intake, leg weakness, and mortality. Extremely narrow safety margin."
             },
             {
               type: "text",
               title: "WITHDRAWAL PERIOD",
               content:
-                ""
+                "Meat: 5 days."
             },
             {
               type: "text",
               title: "STORAGE",
               content:
-                ""
+                "Store at 15–25°C in a cool, dry place, in tightly sealed containers protected from moisture and sunlight."
             },
             {
               type: "text",
               title: "SHELF LIFE",
               content:
-                ""
+                "24 months under recommended storage conditions."
             },
             {
               type: "text",
               title: "PACKING",
               content:
-                ""
+                "AMCHEM HALOCOX® PREMIX is supplied in 25 kg bags."
             },
             {
               type: "text",
               title: "FURTHER INFORMATION",
               content:
-                ""
+                "AMCHEM HALOCOX® PREMIX offers high potency against Eimeria with additional benefits for necrotic enteritis and leucocytozoonosis control. Due to its narrow safety margin, strict adherence to dosing and handling instructions is essential for safe and effective use."
             },
 
           ],
@@ -3699,130 +3902,143 @@ export const productsData = {
 
           sections: [
             {
-              type: "table",
-              title: "COMPOSITION",
-              description: "Content per kg",
-              columns: [
-                "Component",
-                "",
-              ],
-              rows: [
-                [
-                  "",
-                  "",
-                ],
-                [
-                  "",
-                  "",
-                ]
-              ],
-              footer:
-                ""
-            },
+  type: "table",
+  title: "COMPOSITION",
+  description: "Content per kg:",
+  columns: [
+    "Component",
+    "AMCHEM DECOMIX® PREMIX"
+  ],
+  rows: [
+    [
+      "Decoquinate",
+      "60 g (6%)"
+    ],
+    [
+      "Pharmaceutical-grade excipients",
+      "q.s."
+    ]
+  ]
+}
+,
 
             {
               type: "text",
               title: "DESCRIPTION",
               content:
-                ""
+                "AMCHEM DECOMIX® PREMIX is a light yellow, free-flowing powder formulated for incorporation into complete feed for poultry and ruminants. It contains decoquinate, a quinolone-derived antiprotozoal agent that acts against coccidia during their early developmental stages in the intestine. The premix ensures local intestinal action with minimal systemic absorption, providing effective disease prevention while maintaining an excellent safety profile. In addition to coccidiosis control in broiler chickens, calves, and lambs, the product is also indicated for the prevention of toxoplasmosis-associated abortions in pregnant ewes."
             },
 
             {
               type: "text",
               title: "PHARMACOLOGICAL ACTION",
               content:
-                ""
+                "Decoquinate inhibits mitochondrial electron transport in Eimeria species, disrupting ATP production and energy metabolism. By arresting sporozoite and early schizont development, decoquinate prevents multiplication of the parasite and minimizes intestinal tissue damage. Its local activity ensures high efficacy at the site of infection with minimal systemic exposure, making it safe for continuous feeding in poultry and ruminants.\n\nAMCHEM DECOMIX® PREMIX is effective against major Eimeria species in poultry, including E. acervulina, E. maxima, E. tenella, E. necatrix, E. brunetti, and E. mivati. In ruminants, it controls E. bovis, E. zuernii, E. ellipsoidalis, and E. cylindrical in calves, as well as E. arloingi, E. intricata, and E. faurei in lambs. The premix also reduces the risk of toxoplasmosis-associated reproductive losses in pregnant ewes."
             },
 
             {
               type: "text",
               title: "PHARMACOKINETICS",
               content:
-                ""
+                "Decoquinate acts primarily within the gastrointestinal tract with minimal absorption. It is excreted mostly unchanged in feces, resulting in negligible tissue residues. This property allows safe continuous feeding in poultry and ruminants and supports a zero-day withdrawal period for cattle and sheep.\n\nStudies have shown that decoquinate maintains efficacy against ionophore-resistant Eimeria strains. Research demonstrates high safety margins, compatibility with most feed additives, and effectiveness in both prevention and therapeutic programs for poultry and ruminants."
             },
 
             {
               type: "text",
               title: "INDICATIONS",
               content:
-                ""
+                "AMCHEM DECOMIX® PREMIX is indicated for the prevention of coccidiosis in broiler chickens, calves, and lambs. It is also recommended for the prevention of toxoplasmosis-associated abortions in pregnant ewes."
             },
 
             {
               type: "text",
               title: "CONTRAINDICATIONS",
               content:
-                ""
+                "Do not use in laying hens or animals with known hypersensitivity to decoquinate. Do not use in females whose milk is intended for human consumption."
             },
 
             {
               type: "text",
               title: "MODE OF ADMINISTRATION",
               content:
-                ""
+                "The premix should be thoroughly and uniformly incorporated into feed to ensure consistent intake. For broilers, it is included throughout the fattening period and discontinued three days before slaughter. In ruminants, it is administered daily via feed to achieve the recommended dose."
             },
 
             {
               type: "text",
               title: "TARGET SPECIES",
-              content: ""
+              content: "Broiler chickens, calves, lambs, pregnant ewes"
             },
 
             {
-              type: "table",
-              title: "DOSAGE",
-              columns: [
-                "Species",
-                "",
-                "",
-                ""
-              ],
-              rows: [
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-              ],
-              footer : ""
-            },
+  type: "table",
+  title: "DOSAGE",
+  description: "Recommended inclusion rates:",
+  columns: [
+    "Species / Category",
+    "Indication",
+    "AMCHEM DECOMIX® PREMIX"
+  ],
+  rows: [
+    [
+      "Broiler chickens",
+      "Prevention of coccidiosis",
+      "0.333–0.667 kg per ton of feed (27.2 mg decoquinate/kg feed)"
+    ],
+    [
+      "Calves",
+      "Prevention and treatment of eimeriosis",
+      "1.67 kg per ton of feed (1 mg decoquinate/kg BW/day)"
+    ],
+    [
+      "Lambs",
+      "Prevention and treatment of eimeriosis",
+      "1.67 kg per ton of feed (1 mg decoquinate/kg BW/day)"
+    ],
+    [
+      "Pregnant ewes",
+      "Prevention of toxoplasmosis-associated abortion",
+      "0.33 g per 10 kg BW/day during last 14 weeks of gestation"
+    ]
+  ]
+}
+,
 
             {
               type: "text",
               title: "SIDE EFFECTS",
               content:
-                ""
+                "AMCHEM DECOMIX® PREMIX is well tolerated when used at recommended doses. Overdosing or improper mixing may reduce feed intake or growth, but no severe toxicity has been observed at standard inclusion levels."
             },
             {
               type: "text",
               title: "WITHDRAWAL PERIOD",
               content:
-                ""
+                "Meat from broiler chickens should be withheld for three days after discontinuing feed containing AMCHEM DECOMIX® PREMIX. No withdrawal period is required for cattle and sheep."
             },
             {
               type: "text",
               title: "STORAGE",
               content:
-                ""
+                "Store in a cool, dry place at 15–30°C, in tightly sealed containers protected from sunlight and moisture."
             },
             {
               type: "text",
               title: "SHELF LIFE",
               content:
-                ""
+                "24 months under recommended storage conditions"
             },
             {
               type: "text",
               title: "PACKING",
               content:
-                ""
+                "AMCHEM DECOMIX® PREMIX is supplied in 25 kg bags."
             },
             {
               type: "text",
               title: "FURTHER INFORMATION",
               content:
-                ""
+                "AMCHEM DECOMIX® PREMIX provides effective early-stage coccidial control in poultry and ruminants and reduces toxoplasmosis-associated reproductive losses in ewes. Its intestinal mode of action, broad efficacy, and compatibility with feed programs make it a reliable component of any anticoccidial management strategy."
             },
 
           ],
@@ -3837,130 +4053,144 @@ export const productsData = {
 
           sections: [
             {
-              type: "table",
-              title: "COMPOSITION",
-              description: "Content per kg",
-              columns: [
-                "Component",
-                "",
-              ],
-              rows: [
-                [
-                  "",
-                  "",
-                ],
-                [
-                  "",
-                  "",
-                ]
-              ],
-              footer:
-                ""
-            },
+  type: "table",
+  title: "COMPOSITION",
+  description: "Content per kg:",
+  columns: [
+    "Component",
+    "AMCHEM ROBENIMIX® 10% PREMIX"
+  ],
+  rows: [
+    [
+      "Robenidine Hydrochloride",
+      "100 g (10%)"
+    ],
+    [
+      "Pharmaceutical-grade excipients",
+      "q.s."
+    ]
+  ]
+}
+,
 
             {
               type: "text",
               title: "DESCRIPTION",
               content:
-                ""
+                "AMCHEM ROBENIMIX® 10% PREMIX is a white to slightly pink, free-flowing powder formulated for inclusion in complete feed. It is a synthetic chemical anticoccidial designed for the prevention of coccidiosis in broiler chickens, turkeys, and rabbits. Robenidine exerts local intestinal activity by interfering with mitochondrial respiration and protein metabolism in Eimeria species, leading to reduced parasite multiplication and improved gut health. The product is suitable for use in anticoccidial rotation programs and provides broad-spectrum activity across multiple coccidia species."
             },
 
             {
               type: "text",
               title: "PHARMACOLOGICAL ACTION",
               content:
-                ""
+                "Robenidine is a guanidine derivative that inhibits mitochondrial electron transport and oxidative phosphorylation in coccidia. This interference reduces ATP production and disrupts protein metabolism, preventing parasite growth and reproduction. Its primary action occurs locally in the intestinal tract, minimizing systemic absorption and supporting a high safety margin when used at recommended inclusion levels.\n\nAMCHEM ROBENIMIX® 10% PREMIX is effective against major Eimeria species in poultry, including E. tenella, E. acervulina, E. maxima, E. necatrix, E. brunetti, and E. mitis. It also shows activity against coccidiosis in turkeys (E. adenoeides, E. meleagrimitis, E. gallopavonis) and rabbits (E. magna, E. media, E. stiedae). This broad spectrum ensures reliable disease control across multiple production species."
             },
 
             {
               type: "text",
               title: "PHARMACOKINETICS",
               content:
-                ""
+                "Robenidine is minimally absorbed after oral administration and acts predominantly within the gastrointestinal tract. The lack of systemic accumulation allows for safe, continuous feeding and reduces the risk of residues in meat when withdrawal periods are observed.\n\nLong-term use of robenidine demonstrates reliable prevention of coccidiosis in broiler chickens, turkeys, and rabbits. Research supports its efficacy in rotation programs and confirms its safety at recommended inclusion levels. The product is well-tolerated and contributes to improved growth performance, feed conversion efficiency, and intestinal health."
             },
 
             {
               type: "text",
               title: "INDICATIONS",
               content:
-                ""
+                "AMCHEM ROBENIMIX® 10% PREMIX is indicated for the prevention of coccidiosis in broiler chickens, turkeys, and rabbits. It is particularly effective in early-life feeding programs and can be used as part of a rotational anticoccidial strategy."
             },
 
             {
               type: "text",
               title: "CONTRAINDICATIONS",
               content:
-                ""
+                "Do not use in laying hens producing eggs for human consumption. Avoid in animals with known hypersensitivity to robenidine."
             },
 
             {
               type: "text",
               title: "MODE OF ADMINISTRATION",
               content:
-                ""
+                "The premix should be thoroughly and uniformly incorporated into feed to ensure consistent intake. It is administered continuously throughout the growth period for broilers, turkeys, and rabbits."
             },
 
             {
               type: "text",
               title: "TARGET SPECIES",
-              content: ""
+              content: "Broiler chickens, turkeys, rabbits"
             },
 
             {
-              type: "table",
-              title: "DOSAGE",
-              columns: [
-                "Species",
-                "",
-                "",
-                ""
-              ],
-              rows: [
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-              ],
-              footer : ""
-            },
+  type: "table",
+  title: "DOSAGE",
+  description: "Recommended inclusion rates:",
+  columns: [
+    "Species / Category",
+    "Indication",
+    "AMCHEM ROBENIMIX® 10% PREMIX",
+    "Concentration (ppm)"
+  ],
+  rows: [
+    [
+      "Broiler chickens",
+      "Prevention of coccidiosis",
+      "300–600 g per ton of feed",
+      "30–60"
+    ],
+    [
+      "Turkeys",
+      "Prevention of coccidiosis",
+      "300–600 g per ton of feed",
+      "30–60"
+    ],
+    [
+      "Rabbits",
+      "Prevention of coccidiosis",
+      "1,000–1,500 g per ton of feed",
+      "100–150"
+    ]
+  ],
+  footer:
+    "Or as recommended by a qualified veterinarian or nutritionist."
+}
+,
 
             {
               type: "text",
               title: "SIDE EFFECTS",
               content:
-                ""
+                "The product is generally well tolerated at recommended inclusion rates. Excessive doses may cause reduced feed intake, growth depression, or mild gastrointestinal disturbances."
             },
             {
               type: "text",
               title: "WITHDRAWAL PERIOD",
               content:
-                ""
+                "Meat from broilers and turkeys: 5 days. Meat from rabbits: 7 days."
             },
             {
               type: "text",
               title: "STORAGE",
               content:
-                ""
+                "Store in a cool, dry place at 15–25°C in tightly sealed containers, protected from sunlight and moisture."
             },
             {
               type: "text",
               title: "SHELF LIFE",
               content:
-                ""
+                "24 months under recommended storage conditions."
             },
             {
               type: "text",
               title: "PACKING",
               content:
-                ""
+                "AMCHEM ROBENIMIX® 10% PREMIX is supplied in 25 kg bags."
             },
             {
               type: "text",
               title: "FURTHER INFORMATION",
               content:
-                ""
+                "AMCHEM ROBENIMIX® 10% PREMIX provides effective, broad-spectrum anticoccidial control in poultry and rabbits. Its local intestinal activity, established safety profile, and compatibility with rotation programs make it a reliable tool for controlling coccidiosis in commercial production systems."
             },
 
           ],
@@ -3975,130 +4205,140 @@ export const productsData = {
 
           sections: [
             {
-              type: "table",
-              title: "COMPOSITION",
-              description: "Content per kg",
-              columns: [
-                "Component",
-                "",
-              ],
-              rows: [
-                [
-                  "",
-                  "",
-                ],
-                [
-                  "",
-                  "",
-                ]
-              ],
-              footer:
-                ""
-            },
+  type: "table",
+  title: "COMPOSITION",
+  description: "Content per kg:",
+  columns: [
+    "Component",
+    "AMCHEM ZOALENE® 25% PREMIX"
+  ],
+  rows: [
+    [
+      "Zoalene (Dinitolmide)",
+      "250 g (25%)"
+    ],
+    [
+      "Pharmaceutical-grade excipients",
+      "q.s."
+    ]
+  ]
+}
+,
 
             {
               type: "text",
               title: "DESCRIPTION",
               content:
-                ""
+                "AMCHEM ZOALENE® 25% PREMIX is a yellow to orange, free-flowing powder formulated for incorporation into complete feed. It contains Zoalene, a nitrobenzamide derivative designed for the prevention and control of coccidiosis in broilers, replacement pullets, and turkeys. Zoalene works by selectively inhibiting carbohydrate metabolism in Eimeria species, particularly affecting thiamine metabolism and respiratory enzymes, while allowing limited parasite cycling that promotes the development of natural immunity. The product is compatible with other feed medications, including BMD (bacitracin methylene disalicylate), for comprehensive gut health management."
             },
 
             {
               type: "text",
               title: "PHARMACOLOGICAL ACTION",
               content:
-                ""
+                "Zoalene acts locally in the intestinal tract by interfering with energy metabolism in coccidia, leading to inhibition of parasite development. The product reduces morbidity and mortality associated with coccidiosis while allowing controlled exposure to low-level infection, supporting natural immunity development in poultry. Its minimal systemic absorption ensures a favorable safety profile.\n\nAMCHEM ZOALENE® 25% PREMIX is effective against major Eimeria species in poultry, including E. tenella, E. acervulina, E. maxima, and E. necatrix. It provides broad-spectrum anticoccidial control in broilers, replacement pullets, and turkeys, supporting both early-life and long-term feeding programs."
             },
 
             {
               type: "text",
               title: "PHARMACOKINETICS",
               content:
-                ""
+                "Zoalene is minimally absorbed from the gastrointestinal tract, acting primarily at the site of infection. It is excreted largely unchanged in feces, with no significant tissue accumulation, contributing to its excellent safety profile and supporting a zero-day withdrawal period.\n\nStudies and decades of field use demonstrate that Zoalene is an effective anticoccidial with reliable performance in broilers, pullets, and turkeys. Its mechanism allows controlled cycling of Eimeria, promoting natural immunity while maintaining growth performance and feed efficiency. Zoalene is compatible with common feed medications and supports integrated coccidiosis management programs."
             },
 
             {
               type: "text",
               title: "INDICATIONS",
               content:
-                ""
+                "AMCHEM ZOALENE® 25% PREMIX is indicated for the prevention and control of coccidiosis in broiler chickens, replacement pullets, and growing turkeys. It is suitable for continuous feeding programs from day-old chicks up to 16 weeks of age, depending on the species."
             },
 
             {
               type: "text",
               title: "CONTRAINDICATIONS",
               content:
-                ""
+                "Do not use in laying hens producing eggs for human consumption. Avoid in animals with known hypersensitivity to Zoalene or related compounds. Do not combine with other coccidiostats unless approved by a veterinarian."
             },
 
             {
               type: "text",
               title: "MODE OF ADMINISTRATION",
               content:
-                ""
+                "The product is administered orally via thorough and uniform incorporation into complete feed. Proper mixing is critical to ensure consistent intake and optimal efficacy."
             },
 
             {
               type: "text",
               title: "TARGET SPECIES",
-              content: ""
+              content: "Broiler chickens, replacement pullets, turkeys"
             },
 
             {
-              type: "table",
-              title: "DOSAGE",
-              columns: [
-                "Species",
-                "",
-                "",
-                ""
-              ],
-              rows: [
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-              ],
-              footer : ""
-            },
+  type: "table",
+  title: "DOSAGE",
+  description: "Recommended inclusion rates:",
+  columns: [
+    "Species / Category",
+    "Indication",
+    "AMCHEM ZOALENE® 25% PREMIX (g per ton of feed)"
+  ],
+  rows: [
+    [
+      "Broiler chickens",
+      "Prevention of coccidiosis",
+      "500"
+    ],
+    [
+      "Replacement pullets",
+      "Prevention of coccidiosis (from day-old to 16 weeks)",
+      "300–500"
+    ],
+    [
+      "Turkeys (meat production)",
+      "Prevention of coccidiosis",
+      "500–700"
+    ]
+  ],
+  footer:
+    "Or as recommended by a qualified veterinarian or nutritionist."
+}
+,
 
             {
               type: "text",
               title: "SIDE EFFECTS",
               content:
-                ""
+                "The product is well-tolerated when used at the recommended inclusion rates. No significant adverse effects have been reported."
             },
             {
               type: "text",
               title: "WITHDRAWAL PERIOD",
               content:
-                ""
+                "Zero days for broiler chickens, replacement pullets, and turkeys when used as directed."
             },
             {
               type: "text",
               title: "STORAGE",
               content:
-                ""
+                "Store in a cool, dry place at 15–30°C, protected from sunlight and moisture."
             },
             {
               type: "text",
               title: "SHELF LIFE",
               content:
-                ""
+                "24 months under recommended storage conditions."
             },
             {
               type: "text",
               title: "PACKING",
               content:
-                ""
+                "AMCHEM ZOALENE® 25% PREMIX is supplied in 25 kg bags."
             },
             {
               type: "text",
               title: "FURTHER INFORMATION",
               content:
-                ""
+                "AMCHEM ZOALENE® 25% PREMIX allows controlled parasite cycling to promote natural immunity while maintaining growth performance. It is compatible with standard feed additives and commonly used antibiotics, supporting integrated management of coccidiosis in poultry production."
             },
 
           ],
@@ -7400,130 +7640,1119 @@ export const productsData = {
 
           sections: [
             {
-              type: "table",
-              title: "COMPOSITION",
-              description: "Content per kg",
-              columns: [
-                "Component",
-                "",
-              ],
-              rows: [
-                [
-                  "",
-                  "",
-                ],
-                [
-                  "",
-                  "",
-                ]
-              ],
-              footer:
-                ""
-            },
+  type: "table",
+  title: "COMPOSITION",
+  description: "Contains per kg:",
+  columns: [
+    "Component",
+    "Approximate Content"
+  ],
+  rows: [
+    [
+      "Glycerol tributyrate (Tributyrin)",
+      "≥ 60%"
+    ],
+    [
+      "Lead (Pb)",
+      "≤ 10 ppm"
+    ],
+    [
+      "Arsenic (As)",
+      "≤ 3 ppm"
+    ],
+    [
+      "Loss on drying",
+      "≤ 10.0%"
+    ],
+    [
+      "Pharmaceutical-grade excipients",
+      "q.s."
+    ]
+  ]
+}
+,
 
             {
               type: "text",
               title: "DESCRIPTION",
               content:
-                ""
+                "AMCHEM TRIBUTYRIN® is a white to off-white free-flowing powder or bead formulation containing protected glycerol tributyrate. It is designed to deliver butyric acid in a controlled manner throughout the gastrointestinal tract, overcoming the rapid absorption and odor limitations associated with free butyric acid. The product is suitable for incorporation into compound feed as a natural alternative to antibiotic growth promoters, supporting intestinal integrity, performance, and immune function."
             },
 
             {
               type: "text",
               title: "PHARMACOLOGICAL ACTION",
               content:
-                ""
+                "AMCHEM TRIBUTYRIN® is classified as a short-chain fatty acid–based feed additive and AGP alternative. Tributyrin is a triglyceride of butyric acid that remains stable during feed processing and storage. After ingestion, digestive lipases hydrolyze tributyrin, gradually releasing butyric acid along the gastrointestinal tract.\n\nButyric acid serves as the primary energy source for colonocytes, supporting intestinal epithelial renewal and integrity. It modulates gene expression through inhibition of histone deacetylases, influencing pathways related to inflammation, cell differentiation, and apoptosis. Butyrate enhances tight-junction protein expression, thereby strengthening the intestinal barrier and reducing gut permeability. It also exhibits anti-inflammatory effects by down-regulating pro-inflammatory cytokines and contributes to antimicrobial action by disrupting pathogenic bacterial membranes and favorably modulating gut microbiota. In addition, butyrate supports immune regulation by enhancing regulatory T-cell function, leading to improved resilience against enteric challenges."
             },
 
             {
               type: "text",
               title: "PHARMACOKINETICS",
               content:
-                ""
+                "Tributyrin itself is not active until hydrolyzed by intestinal lipases. The released butyric acid acts locally within the gastrointestinal tract and is rapidly utilized by intestinal epithelial cells as an energy source. Excess butyrate is metabolized through normal fatty acid pathways, with no accumulation in tissues and no residue concerns when used at recommended inclusion levels.\n\nNutrition and gut physiology studies demonstrate that dietary butyrate improves intestinal morphology by increasing villus height and optimizing crypt depth, enhances barrier function, and reduces intestinal inflammation. Research shows that tributyrin supplementation delivers comparable or superior growth promotion effects to conventional antibiotic growth promoters, particularly in broilers and post-weaning piglets during periods of enteric stress or challenge."
             },
 
             {
               type: "text",
               title: "INDICATIONS",
               content:
-                ""
+                "AMCHEM TRIBUTYRIN® is indicated as a natural antibiotic growth promoter alternative; for intestinal health support; prevention of post-weaning diarrhea; management of inflammatory gut conditions; improvement of feed efficiency and growth performance; and support of immune function in poultry and swine."
             },
 
             {
               type: "text",
               title: "CONTRAINDICATIONS",
               content:
-                ""
+                "No contraindications are known when the product is used according to recommended inclusion levels."
             },
 
             {
               type: "text",
               title: "MODE OF ADMINISTRATION",
               content:
-                ""
+                "AMCHEM TRIBUTYRIN® is administered orally by thorough and uniform mixing into complete feed or concentrates. Proper mixing ensures consistent intake and optimal controlled release of butyric acid."
             },
 
             {
               type: "text",
               title: "TARGET SPECIES",
-              content: ""
+              content: "Broiler (0–21 days), Layer, Ruminant, and Aquatic products."
             },
 
             {
-              type: "table",
-              title: "DOSAGE",
-              columns: [
-                "Species",
-                "",
-                "",
-                ""
-              ],
-              rows: [
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-                ["", "", "", ""],
-              ],
-              footer : ""
-            },
+  type: "table",
+  title: "DOSAGE",
+  description: "Recommended inclusion rates:",
+  columns: [
+    "Target Species / Category",
+    "Recommended Dosage"
+  ],
+  rows: [
+    [
+      "Broiler (0–21 days)",
+      "300–800 g per ton of feed"
+    ],
+    [
+      "Layer",
+      "500–1,000 g per ton of feed"
+    ],
+    [
+      "Ruminant",
+      "500–1,500 g per ton of feed"
+    ],
+    [
+      "Aquatic products",
+      "300–800 g per ton of feed"
+    ]
+  ],
+  footer:
+    "Higher inclusion levels may be used during periods of intestinal challenge, stress, or post-weaning transition, as advised by a nutritionist."
+}
+,
 
             {
               type: "text",
               title: "SIDE EFFECTS",
               content:
-                ""
+                "No adverse effects have been reported at recommended inclusion levels. Tributyrin is a natural metabolite and is well tolerated by animals."
             },
             {
               type: "text",
               title: "WITHDRAWAL PERIOD",
               content:
-                ""
+                "No withdrawal period is required."
             },
             {
               type: "text",
               title: "STORAGE",
               content:
-                ""
+                "Store in the original, well-sealed packaging in a dry place at temperatures between 15 °C and 25 °C. Protect from moisture."
             },
             {
               type: "text",
               title: "SHELF LIFE",
               content:
-                ""
+                "24 months from the date of manufacture when stored under recommended conditions."
             },
             {
               type: "text",
               title: "PACKING",
               content:
-                ""
+                "AMCHEM TRIBUTYRIN® is supplied in 25 kg bags."
             },
             {
               type: "text",
               title: "FURTHER INFORMATION",
               content:
-                ""
+                "AMCHEM TRIBUTYRIN® is intended for veterinary and feed industry use as part of an integrated antibiotic-reduction and gut health management program. Optimal results are achieved when combined with balanced nutrition, good hygiene, and sound management practices."
+            },
+
+          ],
+          species : ["broiler"]
+        },
+        {
+          id: "amchem-g-amino",
+          name: "AMCHEM G-AMINO®",
+          subtitle: "(Functional Amino Acid Blend)",
+          brand: "AMCHEM",
+          product: "AMCHEM G-AMINO®",
+
+          sections: [
+           {
+  type: "table",
+  title: "COMPOSITION",
+  description: "Contains per kg:",
+  columns: [
+    "Component",
+    "Approximate Content",
+    "Physiological Role"
+  ],
+  rows: [
+    [
+      "Guanidinoacetic Acid (GAA)",
+      "q.s.",
+      "Precursor of creatine; supports rapid ATP regeneration and muscle energy metabolism"
+    ],
+    [
+      "Methionine",
+      "q.s.",
+      "Essential amino acid; methyl donor; protein synthesis; antioxidant support"
+    ],
+    [
+      "Betaine Hydrochloride",
+      "q.s.",
+      "Osmolyte and methyl donor; spares methionine and supports cellular hydration"
+    ],
+    [
+      "Synergist compounds",
+      "q.s.",
+      "Enhance absorption, utilization, and metabolic efficiency"
+    ],
+    [
+      "Pharmaceutical-grade excipients",
+      "q.s.",
+      "Carrier and uniform dispersion"
+    ]
+  ]
+}
+,
+
+            {
+              type: "text",
+              title: "DESCRIPTION",
+              content:
+                "AMCHEM G-AMINO® is a white to off-white, free-flowing powder formulated as a functional amino acid and energy-metabolism enhancer. The product combines guanidinoacetic acid with methionine and betaine to optimize creatine synthesis, methylation pathways, and cellular energy availability. It is suitable for use in high-performance livestock and aquaculture feeds where growth rate, feed efficiency, and muscle development are critical."
+            },
+
+            {
+              type: "text",
+              title: "PHARMACOLOGICAL ACTION",
+              content:
+                `AMCHEM G-AMINO® is classified as a functional amino acid–based performance enhancer.
+Guanidinoacetic acid is absorbed from the intestine and methylated in the liver to form creatine, a key component of the phosphocreatine energy system. Creatine enables rapid regeneration of ATP during periods of high metabolic demand, supporting muscle contraction, growth, and overall performance.\n\nMethionine serves as an essential amino acid for protein synthesis and as a primary methyl donor, supporting creatine formation, antioxidant defenses through glutathione synthesis, and lipid metabolism. Betaine functions as an osmolyte, protecting cells against osmotic stress, and as a secondary methyl donor, partially sparing methionine and improving methylation efficiency. The combined action of these components enhances energy metabolism, lean tissue accretion, and feed utilization.
+`
+            },
+
+            {
+              type: "text",
+              title: "PHARMACOKINETICS",
+              content:
+                "GAA, methionine, and betaine are efficiently absorbed from the gastrointestinal tract. GAA is converted to creatine primarily in the liver, after which creatine is transported to muscle tissues and utilized in the phosphocreatine system. Excess amino acids and methyl donors are metabolized through normal physiological pathways without tissue accumulation when used at recommended inclusion levels.\n\nNutritional and animal performance studies demonstrate that GAA supplementation increases muscle creatine concentration, improves growth performance, enhances feed conversion efficiency, and increases carcass lean yield. Research further shows synergistic benefits when GAA is combined with methionine and betaine, optimizing methyl group utilization and energy metabolism, particularly in fast-growing poultry, swine, and aquaculture species exposed to metabolic or osmotic stress."
+            },
+
+            {
+              type: "text",
+              title: "INDICATIONS",
+              content:
+                "AMCHEM G-AMINO® is indicated for growth performance optimization; improvement of feed efficiency; enhancement of muscle development and lean meat percentage; support of cellular and muscular energy metabolism; methionine sparing; and management of osmotic and metabolic stress, especially in aquaculture and high-performance production systems."
+            },
+
+            {
+              type: "text",
+              title: "CONTRAINDICATIONS",
+              content:
+                "No contraindications are known when the product is used according to recommended inclusion levels."
+            },
+
+            {
+              type: "text",
+              title: "MODE OF ADMINISTRATION",
+              content:
+                "AMCHEM G-AMINO® is administered orally by thorough and uniform mixing into complete feed. Proper mixing ensures consistent intake and optimal metabolic response."
+            },
+
+            {
+              type: "text",
+              title: "TARGET SPECIES",
+              content: "Poultry, swine, and aquaculture species."
+            },
+
+            {
+  type: "table",
+  title: "DOSAGE",
+  description: "Recommended inclusion rates:",
+  columns: [
+    "Species",
+    "Inclusion Level per Ton of Complete Feed"
+  ],
+  rows: [
+    [
+      "Poultry",
+      "0.5 – 1.5 kg"
+    ],
+    [
+      "Swine",
+      "0.6 – 1.2 kg"
+    ],
+    [
+      "Aquaculture",
+      "1.0 – 3.0 kg (species-dependent)"
+    ]
+  ],
+  footer:
+    "Inclusion level should be adjusted based on dietary formulation, GAA concentration, and production intensity."
+}
+,
+
+            {
+              type: "text",
+              title: "SIDE EFFECTS",
+              content:
+                "No adverse effects have been reported when used at recommended inclusion levels."
+            },
+            {
+              type: "text",
+              title: "WITHDRAWAL PERIOD",
+              content:
+                "No withdrawal period is required."
+            },
+            {
+              type: "text",
+              title: "STORAGE",
+              content:
+                "Store in the original, well-sealed packaging in a dry place at temperatures between 15 °C and 25 °C. Protect from moisture."
+            },
+            {
+              type: "text",
+              title: "SHELF LIFE",
+              content:
+                "24 months from the date of manufacture when stored under recommended conditions."
+            },
+            {
+              type: "text",
+              title: "PACKING",
+              content:
+                "AMCHEM G-AMINO® is supplied in 25 kg bags."
+            },
+            {
+              type: "text",
+              title: "FURTHER INFORMATION",
+              content:
+                "AMCHEM G-AMINO® is intended for veterinary and feed industry use as part of an advanced nutritional strategy to enhance performance, energy utilization, and production efficiency under intensive rearing conditions."
+            },
+
+          ],
+          species : ["broiler"]
+        },
+        {
+          id: "amchem-gaa-acid",
+          name: "AMCHEM GAA-ACID®",
+          subtitle: "(Guanidinoacetic Acid)",
+          brand: "AMCHEM",
+          product: "AMCHEM GAA-ACID®",
+
+          sections: [
+            {
+  type: "table",
+  title: "COMPOSITION",
+  description: "Contains per kg:",
+  columns: [
+    "Component",
+    "Approximate Content",
+    "Functional Role"
+  ],
+  rows: [
+    [
+      "Guanidinoacetic Acid (GAA)",
+      "≥ 700 g (70%)",
+      "Direct biological precursor of creatine; supports cellular energy metabolism"
+    ],
+    [
+      "Pharmaceutical-grade excipients",
+      "q.s.",
+      "Carrier and processing aid"
+    ]
+  ]
+}
+,
+
+            {
+              type: "text",
+              title: "DESCRIPTION",
+              content:
+                "AMCHEM GAA-ACID® is a high-purity, white crystalline powder containing guanidinoacetic acid, the immediate metabolic precursor of creatine. The product is designed for use in animal nutrition to enhance cellular energy availability, muscle development, and overall production efficiency. Its high purity and stability make it suitable for incorporation into complete feeds and premixes for intensive livestock, poultry, and aquaculture production systems."
+            },
+
+            {
+              type: "text",
+              title: "PHARMACOLOGICAL ACTION",
+              content:
+                "AMCHEM GAA-ACID® is classified as a functional amino acid and creatine precursor. After oral intake, guanidinoacetic acid is efficiently absorbed from the intestine and transported primarily to the liver, where it undergoes methylation by guanidinoacetate N-methyltransferase (GAMT) using S-adenosylmethionine as the methyl donor. This reaction produces creatine, which is then released into circulation and taken up by energy-demanding tissues such as skeletal muscle, heart, and brain.\n\nWithin muscle cells, creatine is phosphorylated to phosphocreatine, forming a central component of the phosphocreatine–creatine kinase system. This system serves as a rapid energy buffer by regenerating adenosine triphosphate (ATP) from adenosine diphosphate (ADP) during periods of high energy demand. Through this mechanism, AMCHEM GAA-ACID® supports sustained muscle contraction, efficient protein synthesis, improved growth performance, and enhanced lean tissue accretion"
+            },
+
+            {
+              type: "text",
+              title: "PHARMACOKINETICS",
+              content:
+                "Guanidinoacetic acid supplied by AMCHEM GAA-ACID® is readily absorbed in the gastrointestinal tract. Following hepatic conversion to creatine, the compound is distributed via the bloodstream to peripheral tissues. Creatine and phosphocreatine participate in normal cellular energy metabolism, while excess creatine is gradually converted to creatinine and excreted via the kidneys. No tissue accumulation or residue concerns are expected when used at recommended inclusion levels.\n\nScientific studies across poultry, swine, and aquaculture species demonstrate that dietary supplementation with guanidinoacetic acid increases tissue creatine concentrations, improves growth rate, enhances feed conversion efficiency, and promotes lean muscle development. Research indicates that GAA is a cost-effective and more stable alternative to direct creatine supplementation, with superior absorption and consistent performance benefits under high-growth and high-production conditions. Additional studies show improved energy utilization during reproduction, lactation, and rapid growth phases."
+            },
+
+            {
+              type: "text",
+              title: "INDICATIONS",
+              content:
+                "AMCHEM GAA-ACID® is indicated for optimization of growth performance and feed efficiency, enhancement of muscle development and carcass leanness, support of cellular energy metabolism in high-performance animals, indirect creatine supplementation through its natural precursor pathway, reproductive and lactational energy support, and growth promotion in aquaculture species."
+            },
+
+            {
+              type: "text",
+              title: "CONTRAINDICATIONS",
+              content:
+                "No contraindications are known when AMCHEM GAA-ACID® is used according to recommended inclusion levels."
+            },
+
+            {
+              type: "text",
+              title: "MODE OF ADMINISTRATION",
+              content:
+                "AMCHEM GAA-ACID® is administered orally by uniform incorporation into complete feed or premix. Proper mixing is essential to ensure consistent intake and optimal biological response."
+            },
+
+            {
+              type: "text",
+              title: "TARGET SPECIES",
+              content: "Broilers, Other Poultry, Growing–finishing pigs, and Other animals."
+            },
+
+            {
+  type: "table",
+  title: "DOSAGE",
+  description: "Recommended inclusion rates:",
+  columns: [
+    "Target Species / Category",
+    "Dosage (g per ton of compound feed)"
+  ],
+  rows: [
+    [
+      "Broilers",
+      "600 – 850 g"
+    ],
+    [
+      "Growing–finishing pigs",
+      "400 – 700 g"
+    ],
+    [
+      "Other animals",
+      "200 – 1,000 g"
+    ]
+  ],
+  footer:
+    "Dosage may be adjusted according to production stage, growth intensity, and overall dietary formulation."
+}
+,
+
+            {
+              type: "text",
+              title: "SIDE EFFECTS",
+              content:
+                "No adverse effects have been reported at recommended inclusion levels. Guanidinoacetic acid is a natural metabolic intermediate and is well tolerated."
+            },
+            {
+              type: "text",
+              title: "WITHDRAWAL PERIOD",
+              content:
+                "No withdrawal period is required."
+            },
+            {
+              type: "text",
+              title: "STORAGE",
+              content:
+                "Store in the original, tightly sealed packaging in a cool and dry place at temperatures between 15 °C and 25 °C. Protect from moisture, as the product is hygroscopic."
+            },
+            {
+              type: "text",
+              title: "SHELF LIFE",
+              content:
+                "24 months from the date of manufacture when stored under recommended conditions."
+            },
+            {
+              type: "text",
+              title: "PACKING",
+              content:
+                "AMCHEM GAA-ACID® is supplied in 25 kg bags.  "
+            },
+            {
+              type: "text",
+              title: "FURTHER INFORMATION",
+              content:
+                "AMCHEM GAA-ACID® is intended for veterinary and feed industry use as part of advanced nutritional strategies aimed at improving energy metabolism, growth efficiency, and production performance. Optimal results are achieved when used within balanced diets formulated according to species-specific nutritional requirements."
+            },
+
+          ],
+          species : ["broiler"]
+        },
+        {
+          id: "amchem-monolaurin",
+          name: "AMCHEM MONOLAURIN®",
+          subtitle: "(Alpha-Monolaurin / Glycerol Monolaurate)",
+          brand: "AMCHEM",
+          product: "AMCHEM MONOLAURIN®",
+
+          sections: [
+            {
+  type: "table",
+  title: "COMPOSITION",
+  description: "Contains per kg:",
+  columns: [
+    "Component",
+    "Specification"
+  ],
+  rows: [
+    [
+      "Monolaurin",
+      "≥ 60%"
+    ],
+    [
+      "Silicon Dioxide",
+      "≤ 40%"
+    ],
+    [
+      "Moisture",
+      "≤ 10%"
+    ],
+    [
+      "Arsenic (As)",
+      "≤ 5 mg/kg"
+    ],
+    [
+      "Lead (Pb)",
+      "≤ 10 mg/kg"
+    ]
+  ]
+}
+,
+
+            {
+              type: "text",
+              title: "DESCRIPTION",
+              content:
+                "AMCHEM MONOLAURIN® is a white to off-white powder or bead formulation containing alpha-monolaurin, a naturally derived medium-chain monoglyceride. It is designed as an effective alternative to antibiotic growth promoters, supporting intestinal health, pathogen control, and production efficiency in poultry, swine, and aquaculture. The product is suitable for uniform incorporation into complete feeds and premixes."
+            },
+
+            {
+              type: "text",
+              title: "PHARMACOLOGICAL ACTION",
+              content:
+                "AMCHEM MONOLAURIN® is classified as a medium-chain monoglyceride and natural antimicrobial feed additive. Its activity is based on the unique physical mode of action of alpha-monolaurin on microbial cell membranes.\n\nAlpha-monolaurin integrates into the lipid bilayers of pathogenic microorganisms, particularly gram-positive bacteria, disrupting membrane integrity and causing leakage of cellular contents. This results in rapid bacterial inactivation without reliance on specific metabolic targets, thereby minimizing the risk of antimicrobial resistance. Alpha-monolaurin also disrupts lipid envelopes of enveloped viruses, reducing viral infectivity.\n\nIn addition, alpha-monolaurin interferes with bacterial quorum sensing mechanisms, limiting the expression of virulence factors and toxin production. Its selective action allows beneficial gut microbiota such as Lactobacillus and Bifidobacterium species to be preserved, supporting a balanced intestinal ecosystem. Upon hydrolysis, released lauric acid is rapidly absorbed and utilized as an energy source by intestinal cells, further supporting gut integrity and function."
+            },
+
+            {
+              type: "text",
+              title: "PHARMACOKINETICS",
+              content:
+                "Alpha-monolaurin is gradually hydrolyzed in the gastrointestinal tract to lauric acid and glycerol. Lauric acid is efficiently absorbed, preferentially oxidized for energy, and does not accumulate in tissues. The compound acts locally within the gut and is metabolized through normal lipid metabolic pathways, with no residue concerns in edible animal products."
+            },
+
+            {
+              type: "text",
+              title: "INDICATIONS",
+              content:
+                "AMCHEM MONOLAURIN® is indicated as an antibiotic growth promoter alternative, for prevention and control of necrotic enteritis, reduction of gram-positive pathogenic bacteria, support during viral challenges involving enveloped viruses, optimization of intestinal health, improvement of growth performance and feed efficiency, and support of immune function in food-producing animals."
+            },
+
+            {
+              type: "text",
+              title: "CONTRAINDICATIONS",
+              content:
+                "No contraindications are known when the product is used according to recommended inclusion levels."
+            },
+
+            {
+              type: "text",
+              title: "MODE OF ADMINISTRATION",
+              content:
+                "AMCHEM MONOLAURIN® is administered orally through thorough and uniform mixing into complete feed or premixes. Proper mixing ensures consistent intake and optimal antimicrobial and performance benefits."
+            },
+
+            {
+              type: "text",
+              title: "TARGET SPECIES",
+              content: "Poultry and swine."
+            },
+
+            {
+  type: "table",
+  title: "DOSAGE",
+  description: "Recommended inclusion rates:",
+  columns: [
+    "Species",
+    "Production Stage",
+    "Antibiotic-Free Prevention",
+    "High Immunity Therapy"
+  ],
+  rows: [
+    [
+      "Poultry",
+      "Young poultry",
+      "0.6 – 0.75",
+      "1.5 – 2.25"
+    ],
+    [
+      "Poultry",
+      "Growing poultry",
+      "0.45 – 0.9",
+      "1.5"
+    ],
+    [
+      "Poultry",
+      "Layers",
+      "0.6 – 1.2",
+      "1.5 – 2.25"
+    ],
+    [
+      "Poultry",
+      "Breeding poultry",
+      "0.75 – 1.5",
+      "1.5 – 2.25"
+    ],
+    [
+      "Pig",
+      "Sucking pig",
+      "1.5",
+      "2.25 – 3.0"
+    ],
+    [
+      "Pig",
+      "Piglet",
+      "0.75 – 1.5",
+      "1.5 – 2.25"
+    ],
+    [
+      "Pig",
+      "Growing pig",
+      "0.75",
+      "1.5"
+    ],
+    [
+      "Pig",
+      "Sow",
+      "0.75 – 1.5",
+      "2.25 – 3.0"
+    ]
+  ],
+  footer:
+    "Higher inclusion levels are recommended during disease challenge or high pathogen pressure."
+}
+,
+
+            {
+              type: "text",
+              title: "SIDE EFFECTS",
+              content:
+                "No adverse effects have been reported at recommended inclusion levels. Alpha-monolaurin is a natural fatty acid derivative and is well tolerated."
+            },
+            {
+              type: "text",
+              title: "WITHDRAWAL PERIOD",
+              content:
+                "No withdrawal period is required."
+            },
+            {
+              type: "text",
+              title: "STORAGE",
+              content:
+                "Store in the original, tightly sealed packaging in a cool, dry place at temperatures between 15 °C and 25 °C. Protect from moisture and direct light."
+            },
+            {
+              type: "text",
+              title: "SHELF LIFE",
+              content:
+                "24 months from the date of manufacture when stored under recommended conditions."
+            },
+            {
+              type: "text",
+              title: "PACKING",
+              content:
+                "AMCHEM MONOLAURIN® is supplied in 25 kg bags."
+            },
+            {
+              type: "text",
+              title: "FURTHER INFORMATION",
+              content:
+                "AMCHEM MONOLAURIN® is intended for veterinary and feed industry use as part of modern antibiotic-free production programs. Optimal results are achieved when combined with good management practices, balanced nutrition, and biosecurity measures aimed at maintaining gut health and performance."
+            },
+
+          ],
+          species : ["broiler"]
+        },
+        {
+          id: "amchem-ca-butyrate",
+          name: "AMCHEM Ca-BUTYRATE®",
+          subtitle: "(Calcium Butyrate)",
+          brand: "AMCHEM",
+          product: "AMCHEM Ca-BUTYRATE®",
+
+          sections: [
+            {
+  type: "table",
+  title: "COMPOSITION",
+  description: "Contains per kg:",
+  columns: [
+    "Component",
+    "Approximate Content",
+    "Functional Role"
+  ],
+  rows: [
+    [
+      "Calcium Butyrate",
+      "500 g or 900 g",
+      "Source of butyric acid for gut health, energy metabolism, and immune modulation"
+    ],
+    [
+      "Pharmaceutical-grade excipients",
+      "q.s. (50% product only)",
+      "Carrier and uniform dispersion"
+    ]
+  ]
+}
+,
+
+            {
+              type: "text",
+              title: "DESCRIPTION",
+              content:
+                "AMCHEM Ca-BUTYRATE® is a white to off-white powder or granular feed additive formulated as a stable calcium salt of butyric acid. The calcium butyrate form provides effective delivery of butyric acid throughout the gastrointestinal tract while significantly reducing the strong odor associated with free butyric acid. The product is designed to support intestinal integrity, nutrient utilization, and growth performance in livestock and poultry, particularly under stress or disease challenge conditions."
+            },
+
+            {
+              type: "text",
+              title: "PHARMACOLOGICAL ACTION",
+              content:
+                "AMCHEM Ca-BUTYRATE® is classified as a short-chain fatty acid salt and a natural alternative to antibiotic growth promoters. Its biological activity is based on the physiological functions of butyric acid combined with the nutritional contribution of calcium.\n\nAfter ingestion, calcium butyrate gradually releases butyric acid along the gastrointestinal tract. Butyric acid serves as the primary energy source for intestinal epithelial cells, promoting mucosal regeneration and improving villus structure. It enhances intestinal barrier integrity by upregulating tight junction proteins, thereby reducing pathogen translocation and inflammation. Through inhibition of histone deacetylase activity, butyric acid modulates gene expression related to inflammation, immunity, and epithelial differentiation. In addition, it exerts antimicrobial effects against enteric pathogens and supports a balanced gut microbiota. The calcium component contributes supplemental bioavailable calcium, supporting skeletal development, neuromuscular function, and metabolic processes."
+            },
+
+            {
+              type: "text",
+              title: "PHARMACOKINETICS",
+              content:
+                "Calcium butyrate dissociates gradually in the gastrointestinal tract, releasing butyrate ions that are rapidly absorbed by enterocytes and utilized locally as an energy source. Butyrate not utilized by intestinal cells is metabolized through normal fatty acid pathways. Calcium is absorbed according to physiological demand and regulated through normal mineral homeostasis mechanisms. No tissue accumulation or residue concerns are expected."
+            },
+
+            {
+              type: "text",
+              title: "INDICATIONS",
+              content:
+                "AMCHEM Ca-BUTYRATE® is indicated as an antibiotic growth promoter alternative for supporting intestinal health and integrity, preventing post-weaning diarrhea, managing inflammatory gut conditions, supporting animals under coccidial or bacterial challenge, enhancing growth performance and feed efficiency, improving immune function, and providing supplemental dietary calcium."
+            },
+
+            {
+              type: "text",
+              title: "CONTRAINDICATIONS",
+              content:
+                "No contraindications are known when the product is used according to recommended inclusion levels."
+            },
+
+            {
+              type: "text",
+              title: "MODE OF ADMINISTRATION",
+              content:
+                "AMCHEM Ca-BUTYRATE® is administered orally by thorough and uniform mixing into complete feed or concentrates. Proper mixing is essential to ensure consistent intake and optimal intestinal health benefits."
+            },
+
+            {
+              type: "text",
+              title: "TARGET SPECIES",
+              content: "Broiler chickens and Laying hens"
+            },
+
+            {
+  type: "table",
+  title: "DOSAGE",
+  description: "Recommended inclusion rates:",
+  columns: [
+    "Species / Category",
+    "Production Stage",
+    "Dosage (g/ton of feed)"
+  ],
+  rows: [
+    [
+      "Broiler chickens",
+      "0–21 days",
+      "300 – 500"
+    ],
+    [
+      "Laying hens",
+      "Brooding period",
+      "100 – 200"
+    ]
+  ],
+  footer:
+    "Higher inclusion levels are recommended during periods of intestinal stress, post-weaning, or disease challenge."
+}
+,
+
+            {
+              type: "text",
+              title: "SIDE EFFECTS",
+              content:
+                "No adverse effects have been reported at recommended inclusion levels. Calcium butyrate is a natural metabolite and is well tolerated."
+            },
+            {
+              type: "text",
+              title: "WITHDRAWAL PERIOD",
+              content:
+                "No withdrawal period is required."
+            },
+            {
+              type: "text",
+              title: "STORAGE",
+              content:
+                "Store in the original, tightly sealed packaging in a cool, dry place at temperatures between 15 °C and 25 °C. Protect from moisture."
+            },
+            {
+              type: "text",
+              title: "SHELF LIFE",
+              content:
+                "24 months from the date of manufacture when stored under recommended conditions."
+            },
+            {
+              type: "text",
+              title: "PACKING",
+              content:
+                "AMCHEM Ca-BUTYRATE® is supplied in 25 kg bags"
+            },
+            {
+              type: "text",
+              title: "FURTHER INFORMATION",
+              content:
+                "AMCHEM Ca-BUTYRATE® is intended for veterinary and feed industry use as part of integrated gut health and antibiotic-reduction programs. Optimal results are achieved when combined with good hygiene, sound management practices, and balanced nutritional formulations."
+            },
+
+          ],
+          species : ["broiler"]
+        },
+        {
+          id: "amchem-s-butyrate",
+          name: "AMCHEM S-BUTYRATE®",
+          subtitle: "(Sodium Butyrate)",
+          brand: "AMCHEM",
+          product: "AMCHEM S-BUTYRATE®",
+
+          sections: [
+            {
+  type: "table",
+  title: "COMPOSITION", 
+  description: "Contains per kg:",
+  columns: [
+    "Component",
+    "Approximate Content",
+    "Functional Role"
+  ],
+  rows: [
+    [
+      "Sodium Butyrate",
+      "300 g, 700 g, or 900 g",
+      "Source of butyric acid for gut health, energy metabolism, and immune modulation"
+    ],
+    [
+      "Pharmaceutical-grade excipients",
+      "q.s.",
+      "Carrier, coating, and controlled release (concentration-dependent)"
+    ]
+  ]
+}
+,
+
+            {
+              type: "text",
+              title: "DESCRIPTION",
+              content:
+                "AMCHEM S-BUTYRATE® is a white to off-white powder or granular feed additive formulated as the sodium salt of butyric acid. Depending on concentration and coating technology, the product may exhibit a characteristic butyrate odor, which is significantly reduced in coated or microencapsulated forms. Sodium butyrate provides effective delivery of biologically active butyric acid throughout the gastrointestinal tract and is widely used to support intestinal integrity, microbial balance, and performance in modern antibiotic-free production systems."
+            },
+
+            {
+              type: "text",
+              title: "PHARMACOLOGICAL ACTION",
+              content:
+                "AMCHEM S-BUTYRATE® is classified as a short-chain fatty acid salt and a natural alternative to antibiotic growth promoters. Its activity is based on the physiological roles of butyric acid in intestinal health and metabolic regulation. Following ingestion, sodium butyrate dissociates to release butyrate ions that are rapidly absorbed by intestinal epithelial cells. Butyric acid serves as the primary energy source for colonocytes, promoting epithelial renewal and improved villus development. It enhances intestinal barrier function by increasing the expression of tight junction proteins, thereby reducing intestinal permeability and pathogen translocation. Through histone deacetylase inhibition, butyrate modulates gene expression related to inflammation, immunity, and epithelial differentiation. "
+            },
+
+            {
+              type: "text",
+              title: "PHARMACOKINETICS",
+              content:
+                "Sodium butyrate releases butyrate rapidly in the gastrointestinal tract, where it is preferentially utilized by intestinal epithelial cells. Absorbed butyrate is metabolized via normal fatty acid oxidation pathways, while sodium ions are regulated through standard electrolyte homeostasis mechanisms. No accumulation in edible tissues is expected."
+            },
+
+            {
+              type: "text",
+              title: "INDICATIONS",
+              content:
+                "AMCHEM S-BUTYRATE® is indicated as an antibiotic growth promoter alternative for supporting intestinal health and mucosal integrity, preventing post-weaning diarrhea in piglets, reducing necrotic enteritis risk in poultry, managing inflammatory gut conditions, improving growth performance and feed efficiency, supporting immune function, and enhancing resilience during coccidial or enteric disease challenges."
+            },
+
+            {
+              type: "text",
+              title: "CONTRAINDICATIONS",
+              content:
+                "No contraindications are known when used according to recommended inclusion levels."
+            },
+
+            {
+              type: "text",
+              title: "MODE OF ADMINISTRATION",
+              content:
+                "AMCHEM S-BUTYRATE® is administered orally by thorough and uniform mixing into complete feed or concentrates. Proper mixing and appropriate selection of coated formulations are essential to achieve consistent intake and optimal gut health benefits."
+            },
+
+            {
+              type: "text",
+              title: "TARGET SPECIES",
+              content: "Poultry, swine, cattle (calves), and aquaculture species."
+            },
+
+            {
+  type: "table",
+  title: "DOSAGE",
+  description: "Recommended inclusion rates:",
+  columns: [
+    "Species",
+    "30%",
+    "70%",
+    "90%"
+  ],
+  rows: [
+    [
+      "Broiler (0-21 days)",
+      "500 - 800",
+      "220 - 350",
+      "175 - 275"
+    ],
+    [
+      "Broiler (22nd-market)",
+      "250 - 500",
+      "120 - 220",
+      "85 - 170"
+    ],
+    [
+      "Layer",
+      "250 - 500",
+      "120 - 220",
+      "85 - 170"
+    ],
+    [
+      "Breeders",
+      "250 - 500",
+      "120 - 220",
+      "85 - 170"
+    ],
+    [
+      "Weaned Piglet",
+      "800 - 1000",
+      "350 - 450",
+      "270 - 335"
+    ],
+    [
+      "Growing & Finishing pigs",
+      "400 - 500",
+      "170 - 220",
+      "135 - 220"
+    ]
+  ],
+  footer:
+    "Higher inclusion levels are recommended during periods of intestinal stress or disease challenge."
+}
+,
+
+            {
+              type: "text",
+              title: "SIDE EFFECTS",
+              content:
+                "No adverse effects have been reported at recommended inclusion levels. Sodium butyrate is a natural metabolite normally present in the gastrointestinal tract and is well tolerated across species."
+            },
+            {
+              type: "text",
+              title: "WITHDRAWAL PERIOD",
+              content:
+                "No withdrawal period is required."
+            },
+            {
+              type: "text",
+              title: "STORAGE",
+              content:
+                "Store in the original, well-sealed packaging in a dry place at temperatures between 15 °C and 25 °C. Protect from moisture. Keep away from strong odors, especially for uncoated products."
+            },
+            {
+              type: "text",
+              title: "SHELF LIFE",
+              content:
+                "24 months from the date of manufacture when stored under recommended conditions. Shelf life of coated products may vary by formulation."
+            },
+            {
+              type: "text",
+              title: "PACKING",
+              content:
+                "AMCHEM S-BUTYRATE® is supplied in 25 kg bags."
+            },
+            {
+              type: "text",
+              title: "FURTHER INFORMATION",
+              content:
+                "AMCHEM S-BUTYRATE® is intended for veterinary and feed industry use as part of integrated gut health and antibiotic-reduction programs. Selection of product concentration and coating technology should be based on species, production stage, dietary sodium balance, and desired release characteristics to achieve optimal performance outcomes."
+            },
+
+          ],
+          species : ["broiler"]
+        },
+        {
+          id: "amchem-flavour",
+          name: "AMCHEM FLAVOUR®",
+          subtitle: "(Feed Flavoring Agents)  ",
+          brand: "AMCHEM",
+          product: "AMCHEM FLAVOUR®",
+
+          sections: [
+            {
+  type: "table",
+  title: "COMPOSITION",
+  description: "Available formulations:",
+  columns: [
+    "Component",
+    "Approximate Content",
+    "Functional Role"
+  ],
+  rows: [
+    [
+      "Molasses, Milk, Vanilla, Banana, Strawberry, or Fish Flavor",
+      "Flavor-specific blend",
+      "Enhances aroma and taste; improves feed acceptance"
+    ],
+    [
+      "Pharmaceutical-grade excipients",
+      "q.s.",
+      "Carrier and uniform dispersion"
+    ]
+  ]
+}
+,
+
+            {
+              type: "text",
+              title: "DESCRIPTION",
+              content:
+                "AMCHEM FLAVOUR® is a range of feed flavoring additives supplied in powdered or liquid form, depending on formulation, with a characteristic and stable flavor profile. The product is designed to improve the sensory properties of feed by enhancing aroma and taste, thereby increasing voluntary feed intake. Different flavor options are available to suit specific species, age groups, and production stages, as well as to improve acceptance of medicated or reformulated diets."
+            },
+
+            {
+              type: "text",
+              title: "PHARMACOLOGICAL ACTION",
+              content:
+                "AMCHEM FLAVOUR® is classified as a feed palatability enhancer. Its activity is based on stimulation of olfactory and gustatory receptors, which increases feed attractiveness and promotes consistent intake. By masking bitter or otherwise unpalatable ingredients such as medications, minerals, or alternative raw materials, the product helps maintain normal feeding behavior during stress, dietary transitions, or health challenges. Repeated exposure to consistent flavors can also condition animals to feeds, supporting stable consumption patterns."
+            },
+
+            {
+              type: "text",
+              title: "PHARMACOKINETICS",
+              content:
+                "Feed flavoring agents act locally at the sensory level and are not intended for systemic absorption. The components are present at low inclusion levels and are metabolized or excreted through normal physiological pathways without accumulation in tissues.\n\nAnimal nutrition studies demonstrate that the use of feed flavoring agents improves feed intake when palatability is compromised due to medication inclusion, ingredient variability, or environmental stress. Research also shows that consistent flavor application can improve feeding behavior and reduce intake fluctuations during critical production phases such as weaning, transition diets, or disease recovery."
+            },
+
+            {
+              type: "text",
+              title: "INDICATIONS",
+              content:
+                "AMCHEM FLAVOUR® is indicated for enhancing feed palatability, optimizing voluntary feed intake, masking unpleasant odors or tastes from functional additives or medications, supporting intake during stress or transition periods, and matching flavor profiles to species- and age-specific preferences."
+            },
+
+            {
+              type: "text",
+              title: "CONTRAINDICATIONS",
+              content:
+                "No contraindications are known when the product is used according to recommended inclusion levels."
+            },
+
+            {
+              type: "text",
+              title: "MODE OF ADMINISTRATION",
+              content:
+                "AMCHEM FLAVOUR® is administered orally by uniform mixing into complete feed, concentrates, or premixes. Thorough mixing is essential to ensure consistent flavor distribution and optimal palatability response."
+            },
+
+            {
+              type: "text",
+              title: "TARGET SPECIES",
+              content: "Poultry, swine, cattle, aquaculture species, pets, and other livestock, depending on selected flavor profile."
+            },
+
+            {
+  type: "table",
+  title: "DOSAGE",
+  description: "Recommended inclusion rates:",
+  columns: [
+    "Application",
+    "Inclusion Level per Ton of Feed"
+  ],
+  rows: [
+    [
+      "Standard palatability enhancement (all species) or Recommended dosage",
+      "200-1000 gm/t for complete feed"
+    ],
+    [
+      "Heavily medicated or low-palatability feeds",
+      "Up to 5.0 kg"
+    ]
+  ],
+  footer:
+    "As recommended by the nutritionist"
+}
+,
+
+            {
+              type: "text",
+              title: "SIDE EFFECTS",
+              content:
+                "No adverse effects have been reported. AMCHEM FLAVOUR® consists of non-toxic, non-nutritive flavoring substances and is well tolerated at recommended inclusion levels."
+            },
+            {
+              type: "text",
+              title: "WITHDRAWAL PERIOD",
+              content:
+                "No withdrawal period is required."
+            },
+            {
+              type: "text",
+              title: "STORAGE",
+              content:
+                "Store in the original, well-sealed packaging in a dry place at temperatures between 15 °C and 25 °C. Protect from moisture and direct light to preserve flavor intensity."
+            },
+            {
+              type: "text",
+              title: "SHELF LIFE",
+              content:
+                "24 months from the date of manufacture when stored under recommended conditions."
+            },
+            {
+              type: "text",
+              title: "PACKING",
+              content:
+                "AMCHEM FLAVOUR® is supplied in 20 kg bags."
+            },
+            {
+              type: "text",
+              title: "FURTHER INFORMATION",
+              content:
+                "AMCHEM FLAVOUR® is intended for veterinary and feed industry use as part of feed quality, intake management, and performance optimization programs. Selection of an appropriate flavor should consider species preference, age, production stage, and specific feeding challenges to achieve the best intake response."
             },
 
           ],
