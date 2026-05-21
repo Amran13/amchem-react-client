@@ -471,28 +471,28 @@ export const productsData = {
           product: "AMCHEM CITIMIX®",
 
           sections: [
-           {
-  type: "table",
-  title: "COMPOSITION",
-  description: "Content (per 100 g):",
-  columns: [
-    "Component",
-    "AMCHEM CITIMIX® 10%",
-    "AMCHEM CITIMIX® 15%"
-  ],
-  rows: [
-    [
-      "Chlortetracycline (as HCl)",
-      "100 g",
-      "150 g"
-    ],
-    [
-      "Pharmaceutical-grade excipients",
-      "q.s.",
-      "q.s."
-    ]
-  ]
-},
+            {
+              type: "table",
+              title: "COMPOSITION",
+              description: "Content (per 100 g):",
+              columns: [
+                "Component",
+                "AMCHEM CITIMIX® 10%",
+                "AMCHEM CITIMIX® 15%"
+              ],
+              rows: [
+                [
+                  "Chlortetracycline (as HCl)",
+                  "100 g",
+                  "150 g"
+                ],
+                [
+                  "Pharmaceutical-grade excipients",
+                  "q.s.",
+                  "q.s."
+                ]
+              ]
+            },
 
             {
               type: "text",
@@ -543,30 +543,30 @@ export const productsData = {
             },
 
             {
-  type: "table",
-  title: "DOSAGE",
-  columns: [
-    "Animal Type",
-    "Recommended Dosage"
-  ],
-  rows: [
-    [
-      "Poultry",
-      "150 – 400 g per ton of feed"
-    ],
-    [
-      "Cattle and Beef",
-      "350 g/head/day"
-    ],
-    [
-      "Calf, Beef, Non-lactating Dairy Cattle",
-      "25 g per kg of body weight/day"
-    ]
-  ],
-  footer:
-    "For growth promotion, inclusion rates of 50 to 100 g premix per ton of feed are recommended for swine and poultry, while cattle may receive 70 to 350 g premix per ton of feed, or as recommended by a qualified nutritionist."
-}
-,
+              type: "table",
+              title: "DOSAGE",
+              columns: [
+                "Animal Type",
+                "Recommended Dosage"
+              ],
+              rows: [
+                [
+                  "Poultry",
+                  "150 – 400 g per ton of feed"
+                ],
+                [
+                  "Cattle and Beef",
+                  "350 g/head/day"
+                ],
+                [
+                  "Calf, Beef, Non-lactating Dairy Cattle",
+                  "25 g per kg of body weight/day"
+                ]
+              ],
+              footer:
+                "For growth promotion, inclusion rates of 50 to 100 g premix per ton of feed are recommended for swine and poultry, while cattle may receive 70 to 350 g premix per ton of feed, or as recommended by a qualified nutritionist."
+            }
+            ,
 
             {
               type: "text",
@@ -606,7 +606,7 @@ export const productsData = {
             },
 
           ],
-          species : ["broiler"]
+          species: ["broiler"]
         },
         {
           id: "amchem-tylan-mix-premix",
@@ -617,24 +617,24 @@ export const productsData = {
 
           sections: [
             {
-  type: "table",
-  title: "COMPOSITION",
-  description: "Content per kg:",
-  columns: [
-    "Component",
-    "AMCHEM TYLAN-MIX® 10%"
-  ],
-  rows: [
-    [
-      "Tylosin Phosphate",
-      "100 g"
-    ],
-    [
-      "Pharmaceutical-grade excipients",
-      "q.s."
-    ]
-  ]
-},
+              type: "table",
+              title: "COMPOSITION",
+              description: "Content per kg:",
+              columns: [
+                "Component",
+                "AMCHEM TYLAN-MIX® 10%"
+              ],
+              rows: [
+                [
+                  "Tylosin Phosphate",
+                  "100 g"
+                ],
+                [
+                  "Pharmaceutical-grade excipients",
+                  "q.s."
+                ]
+              ]
+            },
 
             {
               type: "text",
@@ -685,55 +685,55 @@ export const productsData = {
             },
 
             {
-  type: "table",
-  title: "DOSAGE",
-  description: "Recommended inclusion rates:",
-  columns: [
-    "Species / Category",
-    "Indication",
-    "AMCHEM TYLAN-MIX® 10% PREMIX"
-  ],
-  rows: [
-    [
-      "Broilers",
-      "Growth promotion and control of tylosin-sensitive infections",
-      "200 g per ton of feed from day 1 to market age"
-    ],
-    [
-      "Layers",
-      "Improvement of production and disease control",
-      "500 g per ton of feed up to 42nd week; 200 g per ton of feed from 43rd week to culling"
-    ],
-    [
-      "Breeders",
-      "Production support and disease control",
-      "500 g per ton of feed from point of lay to culling"
-    ],
-    [
-      "Poultry (general)",
-      "Chronic respiratory disease, infectious synovitis, necrotic enteritis",
-      "100–200 g per ton of feed"
-    ],
-    [
-      "Swine",
-      "Growth promotion",
-      "10–40 g per ton of feed"
-    ],
-    [
-      "Swine",
-      "Swine dysentery, ileitis",
-      "40–200 g per ton of feed"
-    ],
-    [
-      "Calves for fattening",
-      "Prevention of liver abscesses and growth promotion",
-      "80–100 g per ton of feed or 0.6–0.9 g per head per day"
-    ]
-  ],
-  footer:
-    "Or as recommended by a qualified nutritionist."
-}
-,
+              type: "table",
+              title: "DOSAGE",
+              description: "Recommended inclusion rates:",
+              columns: [
+                "Species / Category",
+                "Indication",
+                "AMCHEM TYLAN-MIX® 10% PREMIX"
+              ],
+              rows: [
+                [
+                  "Broilers",
+                  "Growth promotion and control of tylosin-sensitive infections",
+                  "200 g per ton of feed from day 1 to market age"
+                ],
+                [
+                  "Layers",
+                  "Improvement of production and disease control",
+                  "500 g per ton of feed up to 42nd week; 200 g per ton of feed from 43rd week to culling"
+                ],
+                [
+                  "Breeders",
+                  "Production support and disease control",
+                  "500 g per ton of feed from point of lay to culling"
+                ],
+                [
+                  "Poultry (general)",
+                  "Chronic respiratory disease, infectious synovitis, necrotic enteritis",
+                  "100–200 g per ton of feed"
+                ],
+                [
+                  "Swine",
+                  "Growth promotion",
+                  "10–40 g per ton of feed"
+                ],
+                [
+                  "Swine",
+                  "Swine dysentery, ileitis",
+                  "40–200 g per ton of feed"
+                ],
+                [
+                  "Calves for fattening",
+                  "Prevention of liver abscesses and growth promotion",
+                  "80–100 g per ton of feed or 0.6–0.9 g per head per day"
+                ]
+              ],
+              footer:
+                "Or as recommended by a qualified nutritionist."
+            }
+            ,
 
             {
               type: "text",
@@ -773,10 +773,10 @@ export const productsData = {
             },
 
           ],
-          species : ["broiler"]
+          species: ["broiler"]
         },
-        
-{
+
+        {
           id: "amchem-enramycin-premix",
           name: "AMCHEM ENRAMYCIN® 4% PREMIX",
           subtitle: "(Enramycin)",
@@ -785,25 +785,25 @@ export const productsData = {
 
           sections: [
             {
-  type: "table",
-  title: "COMPOSITION",
-  description: "Content per kg:",
-  columns: [
-    "Component",
-    "AMCHEM ENRAMYCIN® 4%"
-  ],
-  rows: [
-    [
-      "Enramycin",
-      "40 g"
-    ],
-    [
-      "Pharmaceutical-grade excipients",
-      "q.s."
-    ]
-  ]
-}
-,
+              type: "table",
+              title: "COMPOSITION",
+              description: "Content per kg:",
+              columns: [
+                "Component",
+                "AMCHEM ENRAMYCIN® 4%"
+              ],
+              rows: [
+                [
+                  "Enramycin",
+                  "40 g"
+                ],
+                [
+                  "Pharmaceutical-grade excipients",
+                  "q.s."
+                ]
+              ]
+            }
+            ,
 
             {
               type: "text",
@@ -854,50 +854,50 @@ export const productsData = {
             },
 
             {
-  type: "table",
-  title: "DOSAGE",
-  description: "Recommended inclusion rates:",
-  columns: [
-    "Species / Category",
-    "Indication",
-    "AMCHEM ENRAMYCIN® 4% PREMIX"
-  ],
-  rows: [
-    [
-      "Broilers (pre-starter to finisher)",
-      "Growth promotion and prevention of necrotic enteritis",
-      "150–250 g per ton of feed"
-    ],
-    [
-      "Layers",
-      "Intestinal health and production support",
-      "150 g per ton of feed"
-    ],
-    [
-      "Turkeys",
-      "Growth promotion and enteric health",
-      "150–250 g per ton of feed"
-    ],
-    [
-      "Piglets (weaning and fattening)",
-      "Growth promotion and enteritis control",
-      "200 g per ton of feed"
-    ],
-    [
-      "Pregnant and lactating sows",
-      "Feed efficiency and gut health",
-      "300 g per ton of feed"
-    ],
-    [
-      "Fish (fattening period)",
-      "Growth promotion",
-      "80 g per ton of feed"
-    ]
-  ],
-  footer:
-    "Or as recommended by a qualified nutritionist."
-}
-,
+              type: "table",
+              title: "DOSAGE",
+              description: "Recommended inclusion rates:",
+              columns: [
+                "Species / Category",
+                "Indication",
+                "AMCHEM ENRAMYCIN® 4% PREMIX"
+              ],
+              rows: [
+                [
+                  "Broilers (pre-starter to finisher)",
+                  "Growth promotion and prevention of necrotic enteritis",
+                  "150–250 g per ton of feed"
+                ],
+                [
+                  "Layers",
+                  "Intestinal health and production support",
+                  "150 g per ton of feed"
+                ],
+                [
+                  "Turkeys",
+                  "Growth promotion and enteric health",
+                  "150–250 g per ton of feed"
+                ],
+                [
+                  "Piglets (weaning and fattening)",
+                  "Growth promotion and enteritis control",
+                  "200 g per ton of feed"
+                ],
+                [
+                  "Pregnant and lactating sows",
+                  "Feed efficiency and gut health",
+                  "300 g per ton of feed"
+                ],
+                [
+                  "Fish (fattening period)",
+                  "Growth promotion",
+                  "80 g per ton of feed"
+                ]
+              ],
+              footer:
+                "Or as recommended by a qualified nutritionist."
+            }
+            ,
 
             {
               type: "text",
@@ -937,10 +937,10 @@ export const productsData = {
             },
 
           ],
-          species : ["broiler"]
+          species: ["broiler"]
         },
-        
-{
+
+        {
           id: "amchem-oladox-premix",
           name: "AMCHEM OLADOX® 12.5% PREMIX",
           subtitle: "(Olaquindox)",
@@ -949,25 +949,25 @@ export const productsData = {
 
           sections: [
             {
-  type: "table",
-  title: "COMPOSITION",
-  description: "Content per kg:",
-  columns: [
-    "Component",
-    "AMCHEM OLADOX® 12.5%"
-  ],
-  rows: [
-    [
-      "Olaquindox",
-      "125 g"
-    ],
-    [
-      "Pharmaceutical-grade excipients",
-      "q.s."
-    ]
-  ]
-}
-,
+              type: "table",
+              title: "COMPOSITION",
+              description: "Content per kg:",
+              columns: [
+                "Component",
+                "AMCHEM OLADOX® 12.5%"
+              ],
+              rows: [
+                [
+                  "Olaquindox",
+                  "125 g"
+                ],
+                [
+                  "Pharmaceutical-grade excipients",
+                  "q.s."
+                ]
+              ]
+            }
+            ,
 
             {
               type: "text",
@@ -1018,28 +1018,28 @@ export const productsData = {
             },
 
             {
-  type: "table",
-  title: "DOSAGE",
-  description: "Recommended inclusion rates:",
-  columns: [
-    "Species / Category",
-    "Indication",
-    "AMCHEM OLADOX® 12.5% PREMIX"
-  ],
-  rows: [
-    [
-      "Poultry",
-      "Growth promotion and enteric health",
-      "100–200 g per ton of feed"
-    ],
-    [
-      "Cattle, sheep, pigs",
-      "Growth promotion and gastrointestinal health",
-      "500–1000 g per ton of feed"
-    ]
-  ]
-}
-,
+              type: "table",
+              title: "DOSAGE",
+              description: "Recommended inclusion rates:",
+              columns: [
+                "Species / Category",
+                "Indication",
+                "AMCHEM OLADOX® 12.5% PREMIX"
+              ],
+              rows: [
+                [
+                  "Poultry",
+                  "Growth promotion and enteric health",
+                  "100–200 g per ton of feed"
+                ],
+                [
+                  "Cattle, sheep, pigs",
+                  "Growth promotion and gastrointestinal health",
+                  "500–1000 g per ton of feed"
+                ]
+              ]
+            }
+            ,
 
             {
               type: "text",
@@ -1079,7 +1079,7 @@ export const productsData = {
             },
 
           ],
-          species : ["broiler"]
+          species: ["broiler"]
         },
         {
           id: "amchem-zinc-bacitracin-premix",
@@ -1090,25 +1090,25 @@ export const productsData = {
 
           sections: [
             {
-  type: "table",
-  title: "COMPOSITION",
-  description: "Content per kg:",
-  columns: [
-    "Component",
-    "AMCHEM ZINC BACITRACIN® 15%"
-  ],
-  rows: [
-    [
-      "Zinc Bacitracin",
-      "150 g"
-    ],
-    [
-      "Pharmaceutical-grade excipients",
-      "q.s."
-    ]
-  ]
-}
-,
+              type: "table",
+              title: "COMPOSITION",
+              description: "Content per kg:",
+              columns: [
+                "Component",
+                "AMCHEM ZINC BACITRACIN® 15%"
+              ],
+              rows: [
+                [
+                  "Zinc Bacitracin",
+                  "150 g"
+                ],
+                [
+                  "Pharmaceutical-grade excipients",
+                  "q.s."
+                ]
+              ]
+            }
+            ,
 
             {
               type: "text",
@@ -1159,40 +1159,40 @@ export const productsData = {
             },
 
             {
-  type: "table",
-  title: "DOSAGE",
-  description: "Recommended inclusion rates:",
-  columns: [
-    "Species / Category",
-    "Indication",
-    "AMCHEM ZINC BACITRACIN® 15% PREMIX"
-  ],
-  rows: [
-    [
-      "Poultry, swine, cattle",
-      "Growth promotion",
-      "350 g per ton of feed"
-    ],
-    [
-      "Laying hens",
-      "Increase of egg production",
-      "150 g per ton of feed"
-    ],
-    [
-      "Chickens",
-      "Reduction of early mortality",
-      "350 g per ton of feed"
-    ],
-    [
-      "Swine",
-      "Prevention of bacterial enteritis (except coliform origin)",
-      "350 g per ton of feed"
-    ]
-  ],
-  footer:
-    "Use in laying hens only where permitted by local regulations. Or as recommended by a qualified nutritionist."
-}
-,
+              type: "table",
+              title: "DOSAGE",
+              description: "Recommended inclusion rates:",
+              columns: [
+                "Species / Category",
+                "Indication",
+                "AMCHEM ZINC BACITRACIN® 15% PREMIX"
+              ],
+              rows: [
+                [
+                  "Poultry, swine, cattle",
+                  "Growth promotion",
+                  "350 g per ton of feed"
+                ],
+                [
+                  "Laying hens",
+                  "Increase of egg production",
+                  "150 g per ton of feed"
+                ],
+                [
+                  "Chickens",
+                  "Reduction of early mortality",
+                  "350 g per ton of feed"
+                ],
+                [
+                  "Swine",
+                  "Prevention of bacterial enteritis (except coliform origin)",
+                  "350 g per ton of feed"
+                ]
+              ],
+              footer:
+                "Use in laying hens only where permitted by local regulations. Or as recommended by a qualified nutritionist."
+            }
+            ,
 
             {
               type: "text",
@@ -1232,10 +1232,10 @@ export const productsData = {
             },
 
           ],
-          species : ["broiler"]
+          species: ["broiler"]
         },
-        
-{
+
+        {
           id: "amchem-nosimix-premix",
           name: "AMCHEM NOSIMIX® 1% PREMIX",
           subtitle: "(Nosiheptide)",
@@ -1244,25 +1244,25 @@ export const productsData = {
 
           sections: [
             {
-  type: "table",
-  title: "COMPOSITION",
-  description: "Content per kg:",
-  columns: [
-    "Component",
-    "AMCHEM NOSIMIX® 1% PREMIX"
-  ],
-  rows: [
-    [
-      "Nosiheptide",
-      "10 g"
-    ],
-    [
-      "Pharmaceutical-grade excipients",
-      "q.s."
-    ]
-  ]
-}
-,
+              type: "table",
+              title: "COMPOSITION",
+              description: "Content per kg:",
+              columns: [
+                "Component",
+                "AMCHEM NOSIMIX® 1% PREMIX"
+              ],
+              rows: [
+                [
+                  "Nosiheptide",
+                  "10 g"
+                ],
+                [
+                  "Pharmaceutical-grade excipients",
+                  "q.s."
+                ]
+              ]
+            }
+            ,
 
             {
               type: "text",
@@ -1307,30 +1307,30 @@ export const productsData = {
             },
 
             {
-  type: "table",
-  title: "DOSAGE",
-  description: "Recommended inclusion rates:",
-  columns: [
-    "Species / Category",
-    "Indication",
-    "AMCHEM NOSIMIX® 1% PREMIX"
-  ],
-  rows: [
-    [
-      "Poultry (Broilers and Layers)",
-      "Growth promotion",
-      "100–250 g per ton of feed"
-    ],
-    [
-      "Fish & shrimp",
-      "Growth and health support",
-      "50–200 g per ton of feed"
-    ]
-  ],
-  footer:
-    "Use subject to local regulations. Or as recommended by a qualified nutritionist."
-}
-,
+              type: "table",
+              title: "DOSAGE",
+              description: "Recommended inclusion rates:",
+              columns: [
+                "Species / Category",
+                "Indication",
+                "AMCHEM NOSIMIX® 1% PREMIX"
+              ],
+              rows: [
+                [
+                  "Poultry (Broilers and Layers)",
+                  "Growth promotion",
+                  "100–250 g per ton of feed"
+                ],
+                [
+                  "Fish & shrimp",
+                  "Growth and health support",
+                  "50–200 g per ton of feed"
+                ]
+              ],
+              footer:
+                "Use subject to local regulations. Or as recommended by a qualified nutritionist."
+            }
+            ,
 
             {
               type: "text",
@@ -1370,10 +1370,10 @@ export const productsData = {
             },
 
           ],
-          species : ["broiler"]
+          species: ["broiler"]
         },
-        
-{
+
+        {
           id: "amchem-avilamix-premix",
           name: "AMCHEM AVILAMIX® 10% PREMIX",
           subtitle: "(Avilamycin)",
@@ -1382,25 +1382,25 @@ export const productsData = {
 
           sections: [
             {
-  type: "table",
-  title: "COMPOSITION",
-  description: "Content per kg:",
-  columns: [
-    "Component",
-    "AMCHEM AVILAMIX® 10% PREMIX"
-  ],
-  rows: [
-    [
-      "Avilamycin",
-      "100 g"
-    ],
-    [
-      "Pharmaceutical-grade excipients",
-      "q.s."
-    ]
-  ]
-}
-,
+              type: "table",
+              title: "COMPOSITION",
+              description: "Content per kg:",
+              columns: [
+                "Component",
+                "AMCHEM AVILAMIX® 10% PREMIX"
+              ],
+              rows: [
+                [
+                  "Avilamycin",
+                  "100 g"
+                ],
+                [
+                  "Pharmaceutical-grade excipients",
+                  "q.s."
+                ]
+              ]
+            }
+            ,
 
             {
               type: "text",
@@ -1451,30 +1451,30 @@ export const productsData = {
             },
 
             {
-  type: "table",
-  title: "DOSAGE",
-  description: "Recommended inclusion rates:",
-  columns: [
-    "Species / Category",
-    "Indication",
-    "AMCHEM AVILAMIX® 10% PREMIX"
-  ],
-  rows: [
-    [
-      "Commercial broilers",
-      "Growth promotion / necrotic enteritis prevention",
-      "100–150 g per ton of feed"
-    ],
-    [
-      "Layers, growers, breeders",
-      "Growth and performance support",
-      "200 g per ton of feed"
-    ]
-  ],
-  footer:
-    "Use in laying hens only where permitted by local regulations. Or as recommended by a qualified veterinarian or nutritionist."
-}
-,
+              type: "table",
+              title: "DOSAGE",
+              description: "Recommended inclusion rates:",
+              columns: [
+                "Species / Category",
+                "Indication",
+                "AMCHEM AVILAMIX® 10% PREMIX"
+              ],
+              rows: [
+                [
+                  "Commercial broilers",
+                  "Growth promotion / necrotic enteritis prevention",
+                  "100–150 g per ton of feed"
+                ],
+                [
+                  "Layers, growers, breeders",
+                  "Growth and performance support",
+                  "200 g per ton of feed"
+                ]
+              ],
+              footer:
+                "Use in laying hens only where permitted by local regulations. Or as recommended by a qualified veterinarian or nutritionist."
+            }
+            ,
 
             {
               type: "text",
@@ -1514,9 +1514,9 @@ export const productsData = {
             },
 
           ],
-          species : ["broiler"]
+          species: ["broiler"]
         },
-              {
+        {
           id: "amchem-virginiamycin-premix",
           name: "AMCHEM VIRGINIAMYCIN® 10% PREMIX",
           subtitle: "(Virginiamycin)",
@@ -1525,25 +1525,25 @@ export const productsData = {
 
           sections: [
             {
-  type: "table",
-  title: "COMPOSITION",
-  description: "Content per kg:",
-  columns: [
-    "Component",
-    "AMCHEM VIRGINIAMYCIN® 10% PREMIX"
-  ],
-  rows: [
-    [
-      "Virginiamycin",
-      "100 g"
-    ],
-    [
-      "Pharmaceutical-grade excipients",
-      "q.s."
-    ]
-  ]
-}
-,
+              type: "table",
+              title: "COMPOSITION",
+              description: "Content per kg:",
+              columns: [
+                "Component",
+                "AMCHEM VIRGINIAMYCIN® 10% PREMIX"
+              ],
+              rows: [
+                [
+                  "Virginiamycin",
+                  "100 g"
+                ],
+                [
+                  "Pharmaceutical-grade excipients",
+                  "q.s."
+                ]
+              ]
+            }
+            ,
 
             {
               type: "text",
@@ -1594,30 +1594,30 @@ export const productsData = {
             },
 
             {
-  type: "table",
-  title: "DOSAGE",
-  description: "Recommended inclusion rates:",
-  columns: [
-    "Species / Category",
-    "Indication",
-    "AMCHEM VIRGINIAMYCIN® 10% PREMIX"
-  ],
-  rows: [
-    [
-      "Poultry (Broiler chickens)",
-      "Growth promotion",
-      "110 g per ton of feed"
-    ],
-    [
-      "Swine (practical feeding)",
-      "Growth promotion",
-      "110 g per ton of feed"
-    ]
-  ],
-  footer:
-    "Or as recommended by a qualified veterinarian or nutritionist."
-}
-,
+              type: "table",
+              title: "DOSAGE",
+              description: "Recommended inclusion rates:",
+              columns: [
+                "Species / Category",
+                "Indication",
+                "AMCHEM VIRGINIAMYCIN® 10% PREMIX"
+              ],
+              rows: [
+                [
+                  "Poultry (Broiler chickens)",
+                  "Growth promotion",
+                  "110 g per ton of feed"
+                ],
+                [
+                  "Swine (practical feeding)",
+                  "Growth promotion",
+                  "110 g per ton of feed"
+                ]
+              ],
+              footer:
+                "Or as recommended by a qualified veterinarian or nutritionist."
+            }
+            ,
 
             {
               type: "text",
@@ -1657,9 +1657,9 @@ export const productsData = {
             },
 
           ],
-          species : ["broiler"]
+          species: ["broiler"]
         },
-              {
+        {
           id: "amchem-quinocetone-premix",
           name: "AMCHEM QUINOCETONE® 25% PREMIX",
           subtitle: "(Quinocetone)",
@@ -1668,27 +1668,27 @@ export const productsData = {
 
           sections: [
             {
-  type: "table",
-  title: "COMPOSITION",
-  description: "Content per kg:",
-  columns: [
-    "Component",
-    "AMCHEM QUINOCETONE® 25% PREMIX"
-  ],
-  rows: [
-    [
-      "Quinocetone",
-      "250 g"
-    ],
-    [
-      "Pharmaceutical-grade excipients",
-      "q.s."
-    ]
-  ],
-  footer:
-    "Other strengths (e.g., 5%) may be available depending on market authorization."
-}
-,
+              type: "table",
+              title: "COMPOSITION",
+              description: "Content per kg:",
+              columns: [
+                "Component",
+                "AMCHEM QUINOCETONE® 25% PREMIX"
+              ],
+              rows: [
+                [
+                  "Quinocetone",
+                  "250 g"
+                ],
+                [
+                  "Pharmaceutical-grade excipients",
+                  "q.s."
+                ]
+              ],
+              footer:
+                "Other strengths (e.g., 5%) may be available depending on market authorization."
+            }
+            ,
 
             {
               type: "text",
@@ -1739,45 +1739,45 @@ export const productsData = {
             },
 
             {
-  type: "table",
-  title: "DOSAGE",
-  description: "Recommended inclusion rates (where permitted):",
-  columns: [
-    "Species / Category",
-    "Recommended Level (ppm)",
-    "Inclusion Rate per Ton of Feed"
-  ],
-  rows: [
-    [
-      "Poultry",
-      "50 ppm",
-      "200 g / ton of feed"
-    ],
-    [
-      "General aquaculture (marine fish, freshwater fish, etc.)",
-      "40 – 50 ppm",
-      "160 – 200 g / ton of feed"
-    ],
-    [
-      "Special aquatic species (shrimp, turtle, sea cucumber, etc.)",
-      "50 – 75 ppm",
-      "200 – 300 g / ton of feed"
-    ],
-    [
-      "Suckling pigs",
-      "75 ppm",
-      "—"
-    ],
-    [
-      "Piglets",
-      "50 ppm",
-      "—"
-    ]
-  ],
-  footer:
-    "Or as recommended by a qualified veterinarian or nutritionist in accordance with local regulations."
-}
-,
+              type: "table",
+              title: "DOSAGE",
+              description: "Recommended inclusion rates (where permitted):",
+              columns: [
+                "Species / Category",
+                "Recommended Level (ppm)",
+                "Inclusion Rate per Ton of Feed"
+              ],
+              rows: [
+                [
+                  "Poultry",
+                  "50 ppm",
+                  "200 g / ton of feed"
+                ],
+                [
+                  "General aquaculture (marine fish, freshwater fish, etc.)",
+                  "40 – 50 ppm",
+                  "160 – 200 g / ton of feed"
+                ],
+                [
+                  "Special aquatic species (shrimp, turtle, sea cucumber, etc.)",
+                  "50 – 75 ppm",
+                  "200 – 300 g / ton of feed"
+                ],
+                [
+                  "Suckling pigs",
+                  "75 ppm",
+                  "—"
+                ],
+                [
+                  "Piglets",
+                  "50 ppm",
+                  "—"
+                ]
+              ],
+              footer:
+                "Or as recommended by a qualified veterinarian or nutritionist in accordance with local regulations."
+            }
+            ,
 
             {
               type: "text",
@@ -1817,9 +1817,9 @@ export const productsData = {
             },
 
           ],
-          species : ["broiler"]
+          species: ["broiler"]
         },
-              {
+        {
           id: "amchem-colistin-premix",
           name: "AMCHEM COLISTIN® 10% PREMIX",
           subtitle: "(Colistin Sulfate / Polymyxin E)",
@@ -1828,25 +1828,25 @@ export const productsData = {
 
           sections: [
             {
-  type: "table",
-  title: "COMPOSITION",
-  description: "Content per kg:",
-  columns: [
-    "Component",
-    "AMCHEM COLISTIN® 10% PREMIX"
-  ],
-  rows: [
-    [
-      "Colistin Sulfate",
-      "100 g"
-    ],
-    [
-      "Pharmaceutical-grade excipients",
-      "q.s."
-    ]
-  ]
-}
-,
+              type: "table",
+              title: "COMPOSITION",
+              description: "Content per kg:",
+              columns: [
+                "Component",
+                "AMCHEM COLISTIN® 10% PREMIX"
+              ],
+              rows: [
+                [
+                  "Colistin Sulfate",
+                  "100 g"
+                ],
+                [
+                  "Pharmaceutical-grade excipients",
+                  "q.s."
+                ]
+              ]
+            }
+            ,
 
             {
               type: "text",
@@ -1897,30 +1897,30 @@ export const productsData = {
             },
 
             {
-  type: "table",
-  title: "DOSAGE",
-  description: "Recommended inclusion rates (therapeutic use only, where permitted):",
-  columns: [
-    "Species / Category",
-    "Indication",
-    "AMCHEM COLISTIN® 10% PREMIX"
-  ],
-  rows: [
-    [
-      "Piglets, Chickens, Cattle",
-      "Treatment of Gram-negative enteric infections. A certain growth promotion effect",
-      "20-400 g per ton of feed (2–40 mg colistin/kg BW/day)"
-    ],
-    [
-      "Poultry, swine, cattle",
-      "Treatment of Gram-negative enteric infections",
-      "750–1,000 g per ton of feed (75–100 mg colistin/kg feed)"
-    ]
-  ],
-  footer:
-    "Use in cattle subject to strict local regulatory approval. Or strictly as prescribed by a licensed veterinarian."
-}
-,
+              type: "table",
+              title: "DOSAGE",
+              description: "Recommended inclusion rates (therapeutic use only, where permitted):",
+              columns: [
+                "Species / Category",
+                "Indication",
+                "AMCHEM COLISTIN® 10% PREMIX"
+              ],
+              rows: [
+                [
+                  "Piglets, Chickens, Cattle",
+                  "Treatment of Gram-negative enteric infections. A certain growth promotion effect",
+                  "20-400 g per ton of feed (2–40 mg colistin/kg BW/day)"
+                ],
+                [
+                  "Poultry, swine, cattle",
+                  "Treatment of Gram-negative enteric infections",
+                  "750–1,000 g per ton of feed (75–100 mg colistin/kg feed)"
+                ]
+              ],
+              footer:
+                "Use in cattle subject to strict local regulatory approval. Or strictly as prescribed by a licensed veterinarian."
+            }
+            ,
 
             {
               type: "text",
@@ -1960,9 +1960,9 @@ export const productsData = {
             },
 
           ],
-          species : ["broiler"]
+          species: ["broiler"]
         },
-              {
+        {
           id: "amchem-tylvalosin-premix",
           name: "AMCHEM TYLVALOSIN® PREMIX",
           subtitle: "(Tylvalosin Tartrate)",
@@ -1971,25 +1971,25 @@ export const productsData = {
 
           sections: [
             {
-  type: "table",
-  title: "COMPOSITION",
-  description: "Content per kg:",
-  columns: [
-    "Component",
-    "AMCHEM TYLVALOSIN® PREMIX"
-  ],
-  rows: [
-    [
-      "Tylvalosin (as tartrate)",
-      "50 g (5%) or 100 g (10%)"
-    ],
-    [
-      "Pharmaceutical-grade excipients",
-      "q.s."
-    ]
-  ]
-}
-,
+              type: "table",
+              title: "COMPOSITION",
+              description: "Content per kg:",
+              columns: [
+                "Component",
+                "AMCHEM TYLVALOSIN® PREMIX"
+              ],
+              rows: [
+                [
+                  "Tylvalosin (as tartrate)",
+                  "50 g (5%) or 100 g (10%)"
+                ],
+                [
+                  "Pharmaceutical-grade excipients",
+                  "q.s."
+                ]
+              ]
+            }
+            ,
 
             {
               type: "text",
@@ -2040,40 +2040,40 @@ export const productsData = {
             },
 
             {
-  type: "table",
-  title: "DOSAGE",
-  description: "Recommended inclusion rates:",
-  columns: [
-    "Species",
-    "Indication",
-    "AMCHEM TYLVALOSIN® PREMIX"
-  ],
-  rows: [
-    [
-      "Swine",
-      "Ileitis (treatment)",
-      "25–50 g per ton of feed (5–10 mg tylvalosin/kg BW/day)"
-    ],
-    [
-      "Swine",
-      "Ileitis (prevention)",
-      "12.5–25 g per ton of feed (2.5–5 mg/kg BW/day)"
-    ],
-    [
-      "Swine",
-      "Enzootic pneumonia",
-      "25 g per ton of feed (5 mg/kg BW/day)"
-    ],
-    [
-      "Poultry (Broilers, Breeders, and Layers)",
-      "Respiratory infections",
-      "500–1,000 g per ton of feed"
-    ]
-  ],
-  footer:
-    "Or strictly as prescribed by a licensed veterinarian."
-}
-,
+              type: "table",
+              title: "DOSAGE",
+              description: "Recommended inclusion rates:",
+              columns: [
+                "Species",
+                "Indication",
+                "AMCHEM TYLVALOSIN® PREMIX"
+              ],
+              rows: [
+                [
+                  "Swine",
+                  "Ileitis (treatment)",
+                  "25–50 g per ton of feed (5–10 mg tylvalosin/kg BW/day)"
+                ],
+                [
+                  "Swine",
+                  "Ileitis (prevention)",
+                  "12.5–25 g per ton of feed (2.5–5 mg/kg BW/day)"
+                ],
+                [
+                  "Swine",
+                  "Enzootic pneumonia",
+                  "25 g per ton of feed (5 mg/kg BW/day)"
+                ],
+                [
+                  "Poultry (Broilers, Breeders, and Layers)",
+                  "Respiratory infections",
+                  "500–1,000 g per ton of feed"
+                ]
+              ],
+              footer:
+                "Or strictly as prescribed by a licensed veterinarian."
+            }
+            ,
 
             {
               type: "text",
@@ -2113,9 +2113,9 @@ export const productsData = {
             },
 
           ],
-          species : ["broiler"]
+          species: ["broiler"]
         },
-              {
+        {
           id: "amchem-cyro-mix",
           name: "AMCHEM CYRO-MIX® 1% PREMIX",
           subtitle: "(Cyromazine)",
@@ -2124,25 +2124,25 @@ export const productsData = {
 
           sections: [
             {
-  type: "table",
-  title: "COMPOSITION",
-  description: "Content per kg:",
-  columns: [
-    "Component",
-    "AMCHEM CYRO-MIX® 1% PREMIX"
-  ],
-  rows: [
-    [
-      "Cyromazine",
-      "10 g (1%)"
-    ],
-    [
-      "Pharmaceutical-grade excipients",
-      "q.s."
-    ]
-  ]
-}
-,
+              type: "table",
+              title: "COMPOSITION",
+              description: "Content per kg:",
+              columns: [
+                "Component",
+                "AMCHEM CYRO-MIX® 1% PREMIX"
+              ],
+              rows: [
+                [
+                  "Cyromazine",
+                  "10 g (1%)"
+                ],
+                [
+                  "Pharmaceutical-grade excipients",
+                  "q.s."
+                ]
+              ]
+            }
+            ,
 
             {
               type: "text",
@@ -2187,25 +2187,25 @@ export const productsData = {
             },
 
             {
-  type: "table",
-  title: "DOSAGE",
-  description: "Recommended inclusion rates:",
-  columns: [
-    "Species",
-    "AMCHEM CYRO-MIX® 1% PREMIX",
-    "Remarks"
-  ],
-  rows: [
-    [
-      "Poultry (broilers, breeders, and layers)",
-      "500 g per ton of feed",
-      "Feed continuously for 4–6 weeks"
-    ]
-  ],
-  footer:
-    "Or as recommended by a veterinarian or nutritionist."
-}
-,
+              type: "table",
+              title: "DOSAGE",
+              description: "Recommended inclusion rates:",
+              columns: [
+                "Species",
+                "AMCHEM CYRO-MIX® 1% PREMIX",
+                "Remarks"
+              ],
+              rows: [
+                [
+                  "Poultry (broilers, breeders, and layers)",
+                  "500 g per ton of feed",
+                  "Feed continuously for 4–6 weeks"
+                ]
+              ],
+              footer:
+                "Or as recommended by a veterinarian or nutritionist."
+            }
+            ,
 
             {
               type: "text",
@@ -2245,7 +2245,7 @@ export const productsData = {
             },
 
           ],
-          species : ["broiler"]
+          species: ["broiler"]
         },
 
 
@@ -2710,7 +2710,7 @@ export const productsData = {
           ],
           species: ["broiler"]
         },
-              {
+        {
           id: "amchem-decobate-premix",
           name: "AMCHEM DECOBATE® PREMIX",
           subtitle: "(Decoquinate + Ethopabate)",
@@ -2719,29 +2719,29 @@ export const productsData = {
 
           sections: [
             {
-  type: "table",
-  title: "COMPOSITION",
-  description: "Content per kg:",
-  columns: [
-    "Component",
-    "AMCHEM DECOBATE® PREMIX"
-  ],
-  rows: [
-    [
-      "Decoquinate",
-      "60 g (6%)"
-    ],
-    [
-      "Ethopabate",
-      "16 g (1.6%)"
-    ],
-    [
-      "Pharmaceutical-grade excipients",
-      "q.s."
-    ]
-  ]
-}
-,
+              type: "table",
+              title: "COMPOSITION",
+              description: "Content per kg:",
+              columns: [
+                "Component",
+                "AMCHEM DECOBATE® PREMIX"
+              ],
+              rows: [
+                [
+                  "Decoquinate",
+                  "60 g (6%)"
+                ],
+                [
+                  "Ethopabate",
+                  "16 g (1.6%)"
+                ],
+                [
+                  "Pharmaceutical-grade excipients",
+                  "q.s."
+                ]
+              ]
+            }
+            ,
 
             {
               type: "text",
@@ -2792,25 +2792,25 @@ export const productsData = {
             },
 
             {
-  type: "table",
-  title: "DOSAGE",
-  description: "Recommended inclusion rates:",
-  columns: [
-    "Species",
-    "AMCHEM DECOBATE® PREMIX",
-    "Remarks"
-  ],
-  rows: [
-    [
-      "Broiler chickens",
-      "500 g per ton of feed",
-      "Continuous feeding from day 1"
-    ]
-  ],
-  footer:
-    "Or as recommended by a veterinarian or nutritionist."
-}
-,
+              type: "table",
+              title: "DOSAGE",
+              description: "Recommended inclusion rates:",
+              columns: [
+                "Species",
+                "AMCHEM DECOBATE® PREMIX",
+                "Remarks"
+              ],
+              rows: [
+                [
+                  "Broiler chickens",
+                  "500 g per ton of feed",
+                  "Continuous feeding from day 1"
+                ]
+              ],
+              footer:
+                "Or as recommended by a veterinarian or nutritionist."
+            }
+            ,
 
             {
               type: "text",
@@ -2850,9 +2850,9 @@ export const productsData = {
             },
 
           ],
-          species : ["broiler"]
+          species: ["broiler"]
         },
-              {
+        {
           id: "amchem-diclamycin-premix",
           name: "AMCHEM DICLAMYCIN® PREMIX",
           subtitle: "(Diclazuril + Maduramicin)",
@@ -2860,30 +2860,30 @@ export const productsData = {
           product: "AMCHEM DICLAMYCIN®",
 
           sections: [
-           {
-  type: "table",
-  title: "COMPOSITION",
-  description: "Content per kg:",
-  columns: [
-    "Component",
-    "AMCHEM DICLAMYCIN® PREMIX"
-  ],
-  rows: [
-    [
-      "Diclazuril",
-      "10 g (1%)"
-    ],
-    [
-      "Maduramicin",
-      "10 g (1%)"
-    ],
-    [
-      "Pharmaceutical-grade excipients",
-      "q.s."
-    ]
-  ]
-}
-,
+            {
+              type: "table",
+              title: "COMPOSITION",
+              description: "Content per kg:",
+              columns: [
+                "Component",
+                "AMCHEM DICLAMYCIN® PREMIX"
+              ],
+              rows: [
+                [
+                  "Diclazuril",
+                  "10 g (1%)"
+                ],
+                [
+                  "Maduramicin",
+                  "10 g (1%)"
+                ],
+                [
+                  "Pharmaceutical-grade excipients",
+                  "q.s."
+                ]
+              ]
+            }
+            ,
 
             {
               type: "text",
@@ -2934,25 +2934,25 @@ export const productsData = {
             },
 
             {
-  type: "table",
-  title: "DOSAGE",
-  description: "Recommended inclusion rates:",
-  columns: [
-    "Species",
-    "AMCHEM DICLAMYCIN® PREMIX",
-    "Remarks"
-  ],
-  rows: [
-    [
-      "Broiler chickens",
-      "500 g per ton of feed",
-      "Continuous feeding from day 1"
-    ]
-  ],
-  footer:
-    "Or as recommended by a veterinarian or nutritionist."
-}
-,
+              type: "table",
+              title: "DOSAGE",
+              description: "Recommended inclusion rates:",
+              columns: [
+                "Species",
+                "AMCHEM DICLAMYCIN® PREMIX",
+                "Remarks"
+              ],
+              rows: [
+                [
+                  "Broiler chickens",
+                  "500 g per ton of feed",
+                  "Continuous feeding from day 1"
+                ]
+              ],
+              footer:
+                "Or as recommended by a veterinarian or nutritionist."
+            }
+            ,
 
             {
               type: "text",
@@ -2991,9 +2991,9 @@ export const productsData = {
                 "AMCHEM DICLAMYCIN® PREMIX offers dual-mechanism anticoccidial protection by combining diclazuril and maduramicin. This synergistic formulation ensures effective control of all major Eimeria species while supporting consistent broiler performance when used correctly within recommended guidelines."
             },
           ],
-          species : ["broiler"]
+          species: ["broiler"]
         },
-              {
+        {
           id: "amchem-decosal-premix",
           name: "AMCHEM DECOSAL PREMIX",
           subtitle: "(Decoquinate + Salinomycin)",
@@ -3001,30 +3001,30 @@ export const productsData = {
           product: "AMCHEM DECOSAL",
 
           sections: [
-           {
-  type: "table",
-  title: "COMPOSITION",
-  description: "Content per kg:",
-  columns: [
-    "Component",
-    "AMCHEM DECOSAL PREMIX"
-  ],
-  rows: [
-    [
-      "Decoquinate",
-      "40 g (4%)"
-    ],
-    [
-      "Salinomycin",
-      "90 g (9%)"
-    ],
-    [
-      "Pharmaceutical-grade excipients",
-      "q.s."
-    ]
-  ]
-}
-,
+            {
+              type: "table",
+              title: "COMPOSITION",
+              description: "Content per kg:",
+              columns: [
+                "Component",
+                "AMCHEM DECOSAL PREMIX"
+              ],
+              rows: [
+                [
+                  "Decoquinate",
+                  "40 g (4%)"
+                ],
+                [
+                  "Salinomycin",
+                  "90 g (9%)"
+                ],
+                [
+                  "Pharmaceutical-grade excipients",
+                  "q.s."
+                ]
+              ]
+            }
+            ,
 
             {
               type: "text",
@@ -3075,45 +3075,45 @@ export const productsData = {
             },
 
             {
-  type: "table",
-  title: "DOSAGE",
-  description: "Recommended inclusion rates:",
-  columns: [
-    "Species / Category",
-    "Age / Production Stage",
-    "Inclusion Rate per Ton of Feed"
-  ],
-  rows: [
-    [
-      "Poultry (broiler chickens, pullets)",
-      "All feeding period",
-      "650 g / ton"
-    ],
-    [
-      "Swine",
-      "Under 4 months",
-      "250 – 450 g / ton"
-    ],
-    [
-      "Swine",
-      "4 – 6 months",
-      "250 g / ton"
-    ],
-    [
-      "Cattle",
-      "Young stock (≥ 3 weeks)",
-      "100 – 250 g / ton"
-    ],
-    [
-      "Sheep",
-      "Young stock (≥ 3 weeks)",
-      "100 – 250 g / ton"
-    ]
-  ],
-  footer:
-    "Or as recommended by a veterinarian or nutritionist."
-}
-,
+              type: "table",
+              title: "DOSAGE",
+              description: "Recommended inclusion rates:",
+              columns: [
+                "Species / Category",
+                "Age / Production Stage",
+                "Inclusion Rate per Ton of Feed"
+              ],
+              rows: [
+                [
+                  "Poultry (broiler chickens, pullets)",
+                  "All feeding period",
+                  "650 g / ton"
+                ],
+                [
+                  "Swine",
+                  "Under 4 months",
+                  "250 – 450 g / ton"
+                ],
+                [
+                  "Swine",
+                  "4 – 6 months",
+                  "250 g / ton"
+                ],
+                [
+                  "Cattle",
+                  "Young stock (≥ 3 weeks)",
+                  "100 – 250 g / ton"
+                ],
+                [
+                  "Sheep",
+                  "Young stock (≥ 3 weeks)",
+                  "100 – 250 g / ton"
+                ]
+              ],
+              footer:
+                "Or as recommended by a veterinarian or nutritionist."
+            }
+            ,
 
             {
               type: "text",
@@ -3153,9 +3153,9 @@ export const productsData = {
             },
 
           ],
-          species : ["broiler"]
+          species: ["broiler"]
         },
-              {
+        {
           id: "amchem-moniracox-premix",
           name: "AMCHEM MONIRACOX PREMIX",
           subtitle: "(Monensin + Nicarbazin)",
@@ -3164,29 +3164,29 @@ export const productsData = {
 
           sections: [
             {
-  type: "table",
-  title: "COMPOSITION",
-  description: "Content per kg:",
-  columns: [
-    "Component",
-    "AMCHEM MONIRACOX PREMIX"
-  ],
-  rows: [
-    [
-      "Monensin",
-      "80 g (8%)"
-    ],
-    [
-      "Nicarbazin",
-      "80 g (8%)"
-    ],
-    [
-      "Pharmaceutical-grade excipients",
-      "q.s."
-    ]
-  ]
-}
-,
+              type: "table",
+              title: "COMPOSITION",
+              description: "Content per kg:",
+              columns: [
+                "Component",
+                "AMCHEM MONIRACOX PREMIX"
+              ],
+              rows: [
+                [
+                  "Monensin",
+                  "80 g (8%)"
+                ],
+                [
+                  "Nicarbazin",
+                  "80 g (8%)"
+                ],
+                [
+                  "Pharmaceutical-grade excipients",
+                  "q.s."
+                ]
+              ]
+            }
+            ,
 
             {
               type: "text",
@@ -3236,31 +3236,31 @@ export const productsData = {
               content: "Broiler chickens and turkeys (up to 16 weeks of age)."
             },
 
-           {
-  type: "table",
-  title: "DOSAGE",
-  description: "Recommended inclusion rates:",
-  columns: [
-    "Species",
-    "AMCHEM MONIRACOX PREMIX",
-    "Remarks"
-  ],
-  rows: [
-    [
-      "Broiler chickens",
-      "500–625 g per ton of feed",
-      "Continuous feeding up to 16 weeks"
-    ],
-    [
-      "Turkeys",
-      "500–625 g per ton of feed",
-      "Continuous feeding up to 16 weeks"
-    ]
-  ],
-  footer:
-    "Or as recommended by a veterinarian or nutritionist."
-}
-,
+            {
+              type: "table",
+              title: "DOSAGE",
+              description: "Recommended inclusion rates:",
+              columns: [
+                "Species",
+                "AMCHEM MONIRACOX PREMIX",
+                "Remarks"
+              ],
+              rows: [
+                [
+                  "Broiler chickens",
+                  "500–625 g per ton of feed",
+                  "Continuous feeding up to 16 weeks"
+                ],
+                [
+                  "Turkeys",
+                  "500–625 g per ton of feed",
+                  "Continuous feeding up to 16 weeks"
+                ]
+              ],
+              footer:
+                "Or as recommended by a veterinarian or nutritionist."
+            }
+            ,
 
             {
               type: "text",
@@ -3300,9 +3300,9 @@ export const productsData = {
             },
 
           ],
-          species : ["broiler"]
+          species: ["broiler"]
         },
-              {
+        {
           id: "amchem-diclamix-plus",
           name: "AMCHEM DICLAMIX PLUS® PREMIX",
           subtitle: "(Diclazuril + Salinomycin)",
@@ -3311,29 +3311,29 @@ export const productsData = {
 
           sections: [
             {
-  type: "table",
-  title: "COMPOSITION",
-  description: "Content per kg:",
-  columns: [
-    "Component",
-    "AMCHEM DICLAMIX PLUS® PREMIX"
-  ],
-  rows: [
-    [
-      "Diclazuril",
-      "10 g (1%)"
-    ],
-    [
-      "Salinomycin",
-      "110 g (11%)"
-    ],
-    [
-      "Pharmaceutical-grade excipients",
-      "q.s."
-    ]
-  ]
-}
-,
+              type: "table",
+              title: "COMPOSITION",
+              description: "Content per kg:",
+              columns: [
+                "Component",
+                "AMCHEM DICLAMIX PLUS® PREMIX"
+              ],
+              rows: [
+                [
+                  "Diclazuril",
+                  "10 g (1%)"
+                ],
+                [
+                  "Salinomycin",
+                  "110 g (11%)"
+                ],
+                [
+                  "Pharmaceutical-grade excipients",
+                  "q.s."
+                ]
+              ]
+            }
+            ,
 
             {
               type: "text",
@@ -3384,45 +3384,45 @@ export const productsData = {
             },
 
             {
-  type: "table",
-  title: "DOSAGE",
-  description: "Recommended inclusion rates:",
-  columns: [
-    "Species / Category",
-    "Age / Production Stage",
-    "Inclusion Rate per Ton of Feed"
-  ],
-  rows: [
-    [
-      "Poultry (broiler chickens, pullets)",
-      "All feeding period",
-      "500 g / ton"
-    ],
-    [
-      "Swine",
-      "Under 4 months",
-      "250 – 500 g / ton"
-    ],
-    [
-      "Swine",
-      "4 – 6 months",
-      "250 g / ton"
-    ],
-    [
-      "Cattle",
-      "Calves (≥ 3 weeks)",
-      "84 – 250 g / ton"
-    ],
-    [
-      "Sheep",
-      "Lambs (≥ 3 weeks)",
-      "84 – 250 g / ton"
-    ]
-  ],
-  footer:
-    "Or as recommended by a veterinarian or nutritionist."
-}
-,
+              type: "table",
+              title: "DOSAGE",
+              description: "Recommended inclusion rates:",
+              columns: [
+                "Species / Category",
+                "Age / Production Stage",
+                "Inclusion Rate per Ton of Feed"
+              ],
+              rows: [
+                [
+                  "Poultry (broiler chickens, pullets)",
+                  "All feeding period",
+                  "500 g / ton"
+                ],
+                [
+                  "Swine",
+                  "Under 4 months",
+                  "250 – 500 g / ton"
+                ],
+                [
+                  "Swine",
+                  "4 – 6 months",
+                  "250 g / ton"
+                ],
+                [
+                  "Cattle",
+                  "Calves (≥ 3 weeks)",
+                  "84 – 250 g / ton"
+                ],
+                [
+                  "Sheep",
+                  "Lambs (≥ 3 weeks)",
+                  "84 – 250 g / ton"
+                ]
+              ],
+              footer:
+                "Or as recommended by a veterinarian or nutritionist."
+            }
+            ,
 
             {
               type: "text",
@@ -3462,9 +3462,9 @@ export const productsData = {
             },
 
           ],
-          species : ["broiler"]
+          species: ["broiler"]
         },
-              {
+        {
           id: "amchem-clopimix-premix",
           name: "AMCHEM CLOPIMIX PREMIX",
           subtitle: "(Clopidol)",
@@ -3473,25 +3473,25 @@ export const productsData = {
 
           sections: [
             {
-  type: "table",
-  title: "COMPOSITION",
-  description: "Content per kg:",
-  columns: [
-    "Component",
-    "AMCHEM CLOPIMIX PREMIX"
-  ],
-  rows: [
-    [
-      "Clopidol",
-      "125 g (12.5% or 25%)"
-    ],
-    [
-      "Pharmaceutical-grade excipients",
-      "q.s."
-    ]
-  ]
-}
-,
+              type: "table",
+              title: "COMPOSITION",
+              description: "Content per kg:",
+              columns: [
+                "Component",
+                "AMCHEM CLOPIMIX PREMIX"
+              ],
+              rows: [
+                [
+                  "Clopidol",
+                  "125 g (12.5% or 25%)"
+                ],
+                [
+                  "Pharmaceutical-grade excipients",
+                  "q.s."
+                ]
+              ]
+            }
+            ,
 
             {
               type: "text",
@@ -3541,29 +3541,29 @@ export const productsData = {
               content: "Broiler chickens, replacement pullets, young layers (up to 16 weeks), and rabbits."
             },
 
-           {
-  type: "table",
-  title: "DOSAGE",
-  description: "Recommended inclusion rates:",
-  columns: [
-    "Species",
-    "AMCHEM CLOPIMIX PREMIX",
-    "Remarks"
-  ],
-  rows: [
-    [
-      "Broilers / Pullets / Young layers",
-      "500 g premix per ton of feed (125 mg Clopidol/kg feed)",
-      "Continuous feeding throughout growth period"
-    ],
-    [
-      "Rabbits",
-      "800 g premix per ton of feed (125 mg Clopidol/kg feed)",
-      "Continuous feeding or as recommended by a veterinarian/nutritionist"
-    ]
-  ]
-}
-,
+            {
+              type: "table",
+              title: "DOSAGE",
+              description: "Recommended inclusion rates:",
+              columns: [
+                "Species",
+                "AMCHEM CLOPIMIX PREMIX",
+                "Remarks"
+              ],
+              rows: [
+                [
+                  "Broilers / Pullets / Young layers",
+                  "500 g premix per ton of feed (125 mg Clopidol/kg feed)",
+                  "Continuous feeding throughout growth period"
+                ],
+                [
+                  "Rabbits",
+                  "800 g premix per ton of feed (125 mg Clopidol/kg feed)",
+                  "Continuous feeding or as recommended by a veterinarian/nutritionist"
+                ]
+              ]
+            }
+            ,
 
             {
               type: "text",
@@ -3603,9 +3603,9 @@ export const productsData = {
             },
 
           ],
-          species : ["broiler"]
+          species: ["broiler"]
         },
-              {
+        {
           id: "amchem-salinicox",
           name: "AMCHEM SALINICOX® PREMIX",
           subtitle: "(Salinomycin + Nicarbazin)",
@@ -3614,29 +3614,29 @@ export const productsData = {
 
           sections: [
             {
-  type: "table",
-  title: "COMPOSITION",
-  description: "Content per kg:",
-  columns: [
-    "Component",
-    "AMCHEM SALINICOX® PREMIX"
-  ],
-  rows: [
-    [
-      "Salinomycin",
-      "80 g (8%)"
-    ],
-    [
-      "Nicarbazin",
-      "80 g (8%)"
-    ],
-    [
-      "Pharmaceutical-grade excipients",
-      "q.s."
-    ]
-  ]
-}
-,
+              type: "table",
+              title: "COMPOSITION",
+              description: "Content per kg:",
+              columns: [
+                "Component",
+                "AMCHEM SALINICOX® PREMIX"
+              ],
+              rows: [
+                [
+                  "Salinomycin",
+                  "80 g (8%)"
+                ],
+                [
+                  "Nicarbazin",
+                  "80 g (8%)"
+                ],
+                [
+                  "Pharmaceutical-grade excipients",
+                  "q.s."
+                ]
+              ]
+            }
+            ,
 
             {
               type: "text",
@@ -3687,35 +3687,35 @@ export const productsData = {
             },
 
             {
-  type: "table",
-  title: "DOSAGE",
-  description: "Recommended inclusion rates:",
-  columns: [
-    "Species",
-    "AMCHEM SALINICOX® PREMIX",
-    "Remarks"
-  ],
-  rows: [
-    [
-      "Broiler chickens",
-      "375–625 g per ton of feed",
-      "Continuous feeding during growing period"
-    ],
-    [
-      "Chickens (general)",
-      "500 g per ton of feed",
-      "As part of preventive program"
-    ],
-    [
-      "Turkeys",
-      "500 g per ton of feed",
-      "As part of preventive program"
-    ]
-  ],
-  footer:
-    "Or as recommended by a veterinarian or nutritionist."
-}
-,
+              type: "table",
+              title: "DOSAGE",
+              description: "Recommended inclusion rates:",
+              columns: [
+                "Species",
+                "AMCHEM SALINICOX® PREMIX",
+                "Remarks"
+              ],
+              rows: [
+                [
+                  "Broiler chickens",
+                  "375–625 g per ton of feed",
+                  "Continuous feeding during growing period"
+                ],
+                [
+                  "Chickens (general)",
+                  "500 g per ton of feed",
+                  "As part of preventive program"
+                ],
+                [
+                  "Turkeys",
+                  "500 g per ton of feed",
+                  "As part of preventive program"
+                ]
+              ],
+              footer:
+                "Or as recommended by a veterinarian or nutritionist."
+            }
+            ,
 
             {
               type: "text",
@@ -3755,9 +3755,9 @@ export const productsData = {
             },
 
           ],
-          species : ["broiler"]
+          species: ["broiler"]
         },
-              {
+        {
           id: "amchem-halocox",
           name: "AMCHEM HALOCOX® PREMIX",
           subtitle: "(Halofuginone Hydrobromide)",
@@ -3766,25 +3766,25 @@ export const productsData = {
 
           sections: [
             {
-  type: "table",
-  title: "COMPOSITION",
-  description: "Content per kg:",
-  columns: [
-    "Component",
-    "AMCHEM HALOCOX® PREMIX"
-  ],
-  rows: [
-    [
-      "Halofuginone Hydrobromide",
-      "6 g (0.6%)"
-    ],
-    [
-      "Pharmaceutical-grade excipients",
-      "q.s."
-    ]
-  ]
-}
-,
+              type: "table",
+              title: "COMPOSITION",
+              description: "Content per kg:",
+              columns: [
+                "Component",
+                "AMCHEM HALOCOX® PREMIX"
+              ],
+              rows: [
+                [
+                  "Halofuginone Hydrobromide",
+                  "6 g (0.6%)"
+                ],
+                [
+                  "Pharmaceutical-grade excipients",
+                  "q.s."
+                ]
+              ]
+            }
+            ,
 
             {
               type: "text",
@@ -3834,24 +3834,24 @@ export const productsData = {
               content: "Broiler chickens."
             },
 
-           {
-  type: "table",
-  title: "DOSAGE",
-  description: "Recommended inclusion rates:",
-  columns: [
-    "Species",
-    "AMCHEM HALOCOX® PREMIX",
-    "Remarks"
-  ],
-  rows: [
-    [
-      "Broiler chickens",
-      "500 g per ton of feed (3 mg halofuginone/kg feed)",
-      "Continuous feeding throughout the growing period, as the sole ration"
-    ]
-  ]
-}
-,
+            {
+              type: "table",
+              title: "DOSAGE",
+              description: "Recommended inclusion rates:",
+              columns: [
+                "Species",
+                "AMCHEM HALOCOX® PREMIX",
+                "Remarks"
+              ],
+              rows: [
+                [
+                  "Broiler chickens",
+                  "500 g per ton of feed (3 mg halofuginone/kg feed)",
+                  "Continuous feeding throughout the growing period, as the sole ration"
+                ]
+              ]
+            }
+            ,
 
             {
               type: "text",
@@ -3891,9 +3891,9 @@ export const productsData = {
             },
 
           ],
-          species : ["broiler"]
+          species: ["broiler"]
         },
-              {
+        {
           id: "amchem-decomix-premix",
           name: "AMCHEM DECOMIX® PREMIX",
           subtitle: "(Decoquinate)",
@@ -3902,25 +3902,25 @@ export const productsData = {
 
           sections: [
             {
-  type: "table",
-  title: "COMPOSITION",
-  description: "Content per kg:",
-  columns: [
-    "Component",
-    "AMCHEM DECOMIX® PREMIX"
-  ],
-  rows: [
-    [
-      "Decoquinate",
-      "60 g (6%)"
-    ],
-    [
-      "Pharmaceutical-grade excipients",
-      "q.s."
-    ]
-  ]
-}
-,
+              type: "table",
+              title: "COMPOSITION",
+              description: "Content per kg:",
+              columns: [
+                "Component",
+                "AMCHEM DECOMIX® PREMIX"
+              ],
+              rows: [
+                [
+                  "Decoquinate",
+                  "60 g (6%)"
+                ],
+                [
+                  "Pharmaceutical-grade excipients",
+                  "q.s."
+                ]
+              ]
+            }
+            ,
 
             {
               type: "text",
@@ -3971,38 +3971,38 @@ export const productsData = {
             },
 
             {
-  type: "table",
-  title: "DOSAGE",
-  description: "Recommended inclusion rates:",
-  columns: [
-    "Species / Category",
-    "Indication",
-    "AMCHEM DECOMIX® PREMIX"
-  ],
-  rows: [
-    [
-      "Broiler chickens",
-      "Prevention of coccidiosis",
-      "0.333–0.667 kg per ton of feed (27.2 mg decoquinate/kg feed)"
-    ],
-    [
-      "Calves",
-      "Prevention and treatment of eimeriosis",
-      "1.67 kg per ton of feed (1 mg decoquinate/kg BW/day)"
-    ],
-    [
-      "Lambs",
-      "Prevention and treatment of eimeriosis",
-      "1.67 kg per ton of feed (1 mg decoquinate/kg BW/day)"
-    ],
-    [
-      "Pregnant ewes",
-      "Prevention of toxoplasmosis-associated abortion",
-      "0.33 g per 10 kg BW/day during last 14 weeks of gestation"
-    ]
-  ]
-}
-,
+              type: "table",
+              title: "DOSAGE",
+              description: "Recommended inclusion rates:",
+              columns: [
+                "Species / Category",
+                "Indication",
+                "AMCHEM DECOMIX® PREMIX"
+              ],
+              rows: [
+                [
+                  "Broiler chickens",
+                  "Prevention of coccidiosis",
+                  "0.333–0.667 kg per ton of feed (27.2 mg decoquinate/kg feed)"
+                ],
+                [
+                  "Calves",
+                  "Prevention and treatment of eimeriosis",
+                  "1.67 kg per ton of feed (1 mg decoquinate/kg BW/day)"
+                ],
+                [
+                  "Lambs",
+                  "Prevention and treatment of eimeriosis",
+                  "1.67 kg per ton of feed (1 mg decoquinate/kg BW/day)"
+                ],
+                [
+                  "Pregnant ewes",
+                  "Prevention of toxoplasmosis-associated abortion",
+                  "0.33 g per 10 kg BW/day during last 14 weeks of gestation"
+                ]
+              ]
+            }
+            ,
 
             {
               type: "text",
@@ -4042,9 +4042,9 @@ export const productsData = {
             },
 
           ],
-          species : ["broiler"]
+          species: ["broiler"]
         },
-              {
+        {
           id: "amchem-robenidine-premix",
           name: "AMCHEM ROBENIMIX® 10% PREMIX",
           subtitle: "(Robenidine Hydrochloride)",
@@ -4053,25 +4053,25 @@ export const productsData = {
 
           sections: [
             {
-  type: "table",
-  title: "COMPOSITION",
-  description: "Content per kg:",
-  columns: [
-    "Component",
-    "AMCHEM ROBENIMIX® 10% PREMIX"
-  ],
-  rows: [
-    [
-      "Robenidine Hydrochloride",
-      "100 g (10%)"
-    ],
-    [
-      "Pharmaceutical-grade excipients",
-      "q.s."
-    ]
-  ]
-}
-,
+              type: "table",
+              title: "COMPOSITION",
+              description: "Content per kg:",
+              columns: [
+                "Component",
+                "AMCHEM ROBENIMIX® 10% PREMIX"
+              ],
+              rows: [
+                [
+                  "Robenidine Hydrochloride",
+                  "100 g (10%)"
+                ],
+                [
+                  "Pharmaceutical-grade excipients",
+                  "q.s."
+                ]
+              ]
+            }
+            ,
 
             {
               type: "text",
@@ -4122,39 +4122,39 @@ export const productsData = {
             },
 
             {
-  type: "table",
-  title: "DOSAGE",
-  description: "Recommended inclusion rates:",
-  columns: [
-    "Species / Category",
-    "Indication",
-    "AMCHEM ROBENIMIX® 10% PREMIX",
-    "Concentration (ppm)"
-  ],
-  rows: [
-    [
-      "Broiler chickens",
-      "Prevention of coccidiosis",
-      "300–600 g per ton of feed",
-      "30–60"
-    ],
-    [
-      "Turkeys",
-      "Prevention of coccidiosis",
-      "300–600 g per ton of feed",
-      "30–60"
-    ],
-    [
-      "Rabbits",
-      "Prevention of coccidiosis",
-      "1,000–1,500 g per ton of feed",
-      "100–150"
-    ]
-  ],
-  footer:
-    "Or as recommended by a qualified veterinarian or nutritionist."
-}
-,
+              type: "table",
+              title: "DOSAGE",
+              description: "Recommended inclusion rates:",
+              columns: [
+                "Species / Category",
+                "Indication",
+                "AMCHEM ROBENIMIX® 10% PREMIX",
+                "Concentration (ppm)"
+              ],
+              rows: [
+                [
+                  "Broiler chickens",
+                  "Prevention of coccidiosis",
+                  "300–600 g per ton of feed",
+                  "30–60"
+                ],
+                [
+                  "Turkeys",
+                  "Prevention of coccidiosis",
+                  "300–600 g per ton of feed",
+                  "30–60"
+                ],
+                [
+                  "Rabbits",
+                  "Prevention of coccidiosis",
+                  "1,000–1,500 g per ton of feed",
+                  "100–150"
+                ]
+              ],
+              footer:
+                "Or as recommended by a qualified veterinarian or nutritionist."
+            }
+            ,
 
             {
               type: "text",
@@ -4194,9 +4194,9 @@ export const productsData = {
             },
 
           ],
-          species : ["broiler"]
+          species: ["broiler"]
         },
-              {
+        {
           id: "amchem-zoalene-premix",
           name: "AMCHEM ZOALENE® 25% PREMIX",
           subtitle: "(Zoalene – Dinitolmide, 3,5-Dinitro-o-toluamide)",
@@ -4205,25 +4205,25 @@ export const productsData = {
 
           sections: [
             {
-  type: "table",
-  title: "COMPOSITION",
-  description: "Content per kg:",
-  columns: [
-    "Component",
-    "AMCHEM ZOALENE® 25% PREMIX"
-  ],
-  rows: [
-    [
-      "Zoalene (Dinitolmide)",
-      "250 g (25%)"
-    ],
-    [
-      "Pharmaceutical-grade excipients",
-      "q.s."
-    ]
-  ]
-}
-,
+              type: "table",
+              title: "COMPOSITION",
+              description: "Content per kg:",
+              columns: [
+                "Component",
+                "AMCHEM ZOALENE® 25% PREMIX"
+              ],
+              rows: [
+                [
+                  "Zoalene (Dinitolmide)",
+                  "250 g (25%)"
+                ],
+                [
+                  "Pharmaceutical-grade excipients",
+                  "q.s."
+                ]
+              ]
+            }
+            ,
 
             {
               type: "text",
@@ -4274,35 +4274,35 @@ export const productsData = {
             },
 
             {
-  type: "table",
-  title: "DOSAGE",
-  description: "Recommended inclusion rates:",
-  columns: [
-    "Species / Category",
-    "Indication",
-    "AMCHEM ZOALENE® 25% PREMIX (g per ton of feed)"
-  ],
-  rows: [
-    [
-      "Broiler chickens",
-      "Prevention of coccidiosis",
-      "500"
-    ],
-    [
-      "Replacement pullets",
-      "Prevention of coccidiosis (from day-old to 16 weeks)",
-      "300–500"
-    ],
-    [
-      "Turkeys (meat production)",
-      "Prevention of coccidiosis",
-      "500–700"
-    ]
-  ],
-  footer:
-    "Or as recommended by a qualified veterinarian or nutritionist."
-}
-,
+              type: "table",
+              title: "DOSAGE",
+              description: "Recommended inclusion rates:",
+              columns: [
+                "Species / Category",
+                "Indication",
+                "AMCHEM ZOALENE® 25% PREMIX (g per ton of feed)"
+              ],
+              rows: [
+                [
+                  "Broiler chickens",
+                  "Prevention of coccidiosis",
+                  "500"
+                ],
+                [
+                  "Replacement pullets",
+                  "Prevention of coccidiosis (from day-old to 16 weeks)",
+                  "300–500"
+                ],
+                [
+                  "Turkeys (meat production)",
+                  "Prevention of coccidiosis",
+                  "500–700"
+                ]
+              ],
+              footer:
+                "Or as recommended by a qualified veterinarian or nutritionist."
+            }
+            ,
 
             {
               type: "text",
@@ -4342,7 +4342,7 @@ export const productsData = {
             },
 
           ],
-          species : ["broiler"]
+          species: ["broiler"]
         },
 
 
@@ -7471,6 +7471,74 @@ export const productsData = {
       image: "/agp-replacement.jpg",
       items: [
         {
+          "id": "amchem-anti-gp-premix",
+          "name": "AMCHEM ANTI-GP PREMIX",
+          "subtitle": "Feed Grade Probiotics and Prebiotics",
+          "brand": "AMCHEM",
+          "product": "AMCHEM ANTI-GP PREMIX",
+
+          "sections": [
+            {
+              "type": "table",
+              "title": "COMPOSITION",
+              "description": "Contains per kg",
+              "columns": [
+                "Component",
+                "Content"
+              ],
+              "rows": [
+                ["Lactobacillus acidophilus", "5 × 10⁷ CFU/g"],
+                ["Enterococcus faecalis", "5 × 10⁸ CFU/g"],
+                ["Clostridium butyricum", "5 × 10⁷ CFU/g"],
+                ["Bacillus subtilis", "5 × 10⁸ CFU/g"],
+                ["Fructo-oligosaccharides", "20 g/kg"],
+                ["Carrier", "q.s."]
+              ],
+              "footer": ""
+            },
+
+            {
+              "type": "text",
+              "title": "FUNCTIONS",
+              "content": "1. The probiotics and prebiotics improve immune function, inhibit the growth of harmful bacteria in the intestine, promote digestion and absorption, and regulate intestinal micro-ecological balance.\n\n2. Increase the feed conversion rate, promote weight gain in livestock and poultry, and improve the survival rate of young animals.\n\n3. Helps reduce stress caused by weaning, high temperature, cold environments, and low feed nutrient levels.\n\n4. Improves fertilization rate and hatching rate, prolongs the peak egg production period, and improves eggshell quality.\n\n5. Improves meat and milk quality and flavor. Helps increase milk production in dairy cows and dairy goats.\n\n6. Reduces fecal odor and ammonia smell in poultry houses, helps repel mosquitoes and flies, and improves the breeding environment."
+            },
+
+            {
+              "type": "table",
+              "title": "DOSAGE AND ADMINISTRATION",
+              "description": "",
+              "columns": [
+                "Species",
+                "Dosage"
+              ],
+              "rows": [
+                ["Poultry", "500 g mixed with 1000 kg feed"]
+              ],
+              "footer": ""
+            },
+
+            {
+              "type": "text",
+              "title": "WARNING / PRECAUTION",
+              "content": "Keep out of reach of children."
+            },
+
+            {
+              "type": "text",
+              "title": "STORAGE CONDITION",
+              "content": "Store in a sealed, dry and cool place."
+            },
+
+            {
+              "type": "text",
+              "title": "PACKING",
+              "content": "25 kg bag."
+            }
+          ],
+
+          "species": ["broiler", "layer", "poultry"]
+        },
+        {
           id: "amchem-allicin",
           name: "AMCHEM ALLICIN®",
           subtitle: "(Garlic-Derived Organosulfur Compounds)",
@@ -7640,37 +7708,37 @@ export const productsData = {
 
           sections: [
             {
-  type: "table",
-  title: "COMPOSITION",
-  description: "Contains per kg:",
-  columns: [
-    "Component",
-    "Approximate Content"
-  ],
-  rows: [
-    [
-      "Glycerol tributyrate (Tributyrin)",
-      "≥ 60%"
-    ],
-    [
-      "Lead (Pb)",
-      "≤ 10 ppm"
-    ],
-    [
-      "Arsenic (As)",
-      "≤ 3 ppm"
-    ],
-    [
-      "Loss on drying",
-      "≤ 10.0%"
-    ],
-    [
-      "Pharmaceutical-grade excipients",
-      "q.s."
-    ]
-  ]
-}
-,
+              type: "table",
+              title: "COMPOSITION",
+              description: "Contains per kg:",
+              columns: [
+                "Component",
+                "Approximate Content"
+              ],
+              rows: [
+                [
+                  "Glycerol tributyrate (Tributyrin)",
+                  "≥ 60%"
+                ],
+                [
+                  "Lead (Pb)",
+                  "≤ 10 ppm"
+                ],
+                [
+                  "Arsenic (As)",
+                  "≤ 3 ppm"
+                ],
+                [
+                  "Loss on drying",
+                  "≤ 10.0%"
+                ],
+                [
+                  "Pharmaceutical-grade excipients",
+                  "q.s."
+                ]
+              ]
+            }
+            ,
 
             {
               type: "text",
@@ -7721,35 +7789,35 @@ export const productsData = {
             },
 
             {
-  type: "table",
-  title: "DOSAGE",
-  description: "Recommended inclusion rates:",
-  columns: [
-    "Target Species / Category",
-    "Recommended Dosage"
-  ],
-  rows: [
-    [
-      "Broiler (0–21 days)",
-      "300–800 g per ton of feed"
-    ],
-    [
-      "Layer",
-      "500–1,000 g per ton of feed"
-    ],
-    [
-      "Ruminant",
-      "500–1,500 g per ton of feed"
-    ],
-    [
-      "Aquatic products",
-      "300–800 g per ton of feed"
-    ]
-  ],
-  footer:
-    "Higher inclusion levels may be used during periods of intestinal challenge, stress, or post-weaning transition, as advised by a nutritionist."
-}
-,
+              type: "table",
+              title: "DOSAGE",
+              description: "Recommended inclusion rates:",
+              columns: [
+                "Target Species / Category",
+                "Recommended Dosage"
+              ],
+              rows: [
+                [
+                  "Broiler (0–21 days)",
+                  "300–800 g per ton of feed"
+                ],
+                [
+                  "Layer",
+                  "500–1,000 g per ton of feed"
+                ],
+                [
+                  "Ruminant",
+                  "500–1,500 g per ton of feed"
+                ],
+                [
+                  "Aquatic products",
+                  "300–800 g per ton of feed"
+                ]
+              ],
+              footer:
+                "Higher inclusion levels may be used during periods of intestinal challenge, stress, or post-weaning transition, as advised by a nutritionist."
+            }
+            ,
 
             {
               type: "text",
@@ -7789,7 +7857,7 @@ export const productsData = {
             },
 
           ],
-          species : ["broiler"]
+          species: ["broiler"]
         },
         {
           id: "amchem-g-amino",
@@ -7799,44 +7867,44 @@ export const productsData = {
           product: "AMCHEM G-AMINO®",
 
           sections: [
-           {
-  type: "table",
-  title: "COMPOSITION",
-  description: "Contains per kg:",
-  columns: [
-    "Component",
-    "Approximate Content",
-    "Physiological Role"
-  ],
-  rows: [
-    [
-      "Guanidinoacetic Acid (GAA)",
-      "q.s.",
-      "Precursor of creatine; supports rapid ATP regeneration and muscle energy metabolism"
-    ],
-    [
-      "Methionine",
-      "q.s.",
-      "Essential amino acid; methyl donor; protein synthesis; antioxidant support"
-    ],
-    [
-      "Betaine Hydrochloride",
-      "q.s.",
-      "Osmolyte and methyl donor; spares methionine and supports cellular hydration"
-    ],
-    [
-      "Synergist compounds",
-      "q.s.",
-      "Enhance absorption, utilization, and metabolic efficiency"
-    ],
-    [
-      "Pharmaceutical-grade excipients",
-      "q.s.",
-      "Carrier and uniform dispersion"
-    ]
-  ]
-}
-,
+            {
+              type: "table",
+              title: "COMPOSITION",
+              description: "Contains per kg:",
+              columns: [
+                "Component",
+                "Approximate Content",
+                "Physiological Role"
+              ],
+              rows: [
+                [
+                  "Guanidinoacetic Acid (GAA)",
+                  "q.s.",
+                  "Precursor of creatine; supports rapid ATP regeneration and muscle energy metabolism"
+                ],
+                [
+                  "Methionine",
+                  "q.s.",
+                  "Essential amino acid; methyl donor; protein synthesis; antioxidant support"
+                ],
+                [
+                  "Betaine Hydrochloride",
+                  "q.s.",
+                  "Osmolyte and methyl donor; spares methionine and supports cellular hydration"
+                ],
+                [
+                  "Synergist compounds",
+                  "q.s.",
+                  "Enhance absorption, utilization, and metabolic efficiency"
+                ],
+                [
+                  "Pharmaceutical-grade excipients",
+                  "q.s.",
+                  "Carrier and uniform dispersion"
+                ]
+              ]
+            }
+            ,
 
             {
               type: "text",
@@ -7889,31 +7957,31 @@ Guanidinoacetic acid is absorbed from the intestine and methylated in the liver 
             },
 
             {
-  type: "table",
-  title: "DOSAGE",
-  description: "Recommended inclusion rates:",
-  columns: [
-    "Species",
-    "Inclusion Level per Ton of Complete Feed"
-  ],
-  rows: [
-    [
-      "Poultry",
-      "0.5 – 1.5 kg"
-    ],
-    [
-      "Swine",
-      "0.6 – 1.2 kg"
-    ],
-    [
-      "Aquaculture",
-      "1.0 – 3.0 kg (species-dependent)"
-    ]
-  ],
-  footer:
-    "Inclusion level should be adjusted based on dietary formulation, GAA concentration, and production intensity."
-}
-,
+              type: "table",
+              title: "DOSAGE",
+              description: "Recommended inclusion rates:",
+              columns: [
+                "Species",
+                "Inclusion Level per Ton of Complete Feed"
+              ],
+              rows: [
+                [
+                  "Poultry",
+                  "0.5 – 1.5 kg"
+                ],
+                [
+                  "Swine",
+                  "0.6 – 1.2 kg"
+                ],
+                [
+                  "Aquaculture",
+                  "1.0 – 3.0 kg (species-dependent)"
+                ]
+              ],
+              footer:
+                "Inclusion level should be adjusted based on dietary formulation, GAA concentration, and production intensity."
+            }
+            ,
 
             {
               type: "text",
@@ -7953,7 +8021,7 @@ Guanidinoacetic acid is absorbed from the intestine and methylated in the liver 
             },
 
           ],
-          species : ["broiler"]
+          species: ["broiler"]
         },
         {
           id: "amchem-gaa-acid",
@@ -7964,28 +8032,28 @@ Guanidinoacetic acid is absorbed from the intestine and methylated in the liver 
 
           sections: [
             {
-  type: "table",
-  title: "COMPOSITION",
-  description: "Contains per kg:",
-  columns: [
-    "Component",
-    "Approximate Content",
-    "Functional Role"
-  ],
-  rows: [
-    [
-      "Guanidinoacetic Acid (GAA)",
-      "≥ 700 g (70%)",
-      "Direct biological precursor of creatine; supports cellular energy metabolism"
-    ],
-    [
-      "Pharmaceutical-grade excipients",
-      "q.s.",
-      "Carrier and processing aid"
-    ]
-  ]
-}
-,
+              type: "table",
+              title: "COMPOSITION",
+              description: "Contains per kg:",
+              columns: [
+                "Component",
+                "Approximate Content",
+                "Functional Role"
+              ],
+              rows: [
+                [
+                  "Guanidinoacetic Acid (GAA)",
+                  "≥ 700 g (70%)",
+                  "Direct biological precursor of creatine; supports cellular energy metabolism"
+                ],
+                [
+                  "Pharmaceutical-grade excipients",
+                  "q.s.",
+                  "Carrier and processing aid"
+                ]
+              ]
+            }
+            ,
 
             {
               type: "text",
@@ -8036,31 +8104,31 @@ Guanidinoacetic acid is absorbed from the intestine and methylated in the liver 
             },
 
             {
-  type: "table",
-  title: "DOSAGE",
-  description: "Recommended inclusion rates:",
-  columns: [
-    "Target Species / Category",
-    "Dosage (g per ton of compound feed)"
-  ],
-  rows: [
-    [
-      "Broilers",
-      "600 – 850 g"
-    ],
-    [
-      "Growing–finishing pigs",
-      "400 – 700 g"
-    ],
-    [
-      "Other animals",
-      "200 – 1,000 g"
-    ]
-  ],
-  footer:
-    "Dosage may be adjusted according to production stage, growth intensity, and overall dietary formulation."
-}
-,
+              type: "table",
+              title: "DOSAGE",
+              description: "Recommended inclusion rates:",
+              columns: [
+                "Target Species / Category",
+                "Dosage (g per ton of compound feed)"
+              ],
+              rows: [
+                [
+                  "Broilers",
+                  "600 – 850 g"
+                ],
+                [
+                  "Growing–finishing pigs",
+                  "400 – 700 g"
+                ],
+                [
+                  "Other animals",
+                  "200 – 1,000 g"
+                ]
+              ],
+              footer:
+                "Dosage may be adjusted according to production stage, growth intensity, and overall dietary formulation."
+            }
+            ,
 
             {
               type: "text",
@@ -8100,7 +8168,7 @@ Guanidinoacetic acid is absorbed from the intestine and methylated in the liver 
             },
 
           ],
-          species : ["broiler"]
+          species: ["broiler"]
         },
         {
           id: "amchem-monolaurin",
@@ -8111,37 +8179,37 @@ Guanidinoacetic acid is absorbed from the intestine and methylated in the liver 
 
           sections: [
             {
-  type: "table",
-  title: "COMPOSITION",
-  description: "Contains per kg:",
-  columns: [
-    "Component",
-    "Specification"
-  ],
-  rows: [
-    [
-      "Monolaurin",
-      "≥ 60%"
-    ],
-    [
-      "Silicon Dioxide",
-      "≤ 40%"
-    ],
-    [
-      "Moisture",
-      "≤ 10%"
-    ],
-    [
-      "Arsenic (As)",
-      "≤ 5 mg/kg"
-    ],
-    [
-      "Lead (Pb)",
-      "≤ 10 mg/kg"
-    ]
-  ]
-}
-,
+              type: "table",
+              title: "COMPOSITION",
+              description: "Contains per kg:",
+              columns: [
+                "Component",
+                "Specification"
+              ],
+              rows: [
+                [
+                  "Monolaurin",
+                  "≥ 60%"
+                ],
+                [
+                  "Silicon Dioxide",
+                  "≤ 40%"
+                ],
+                [
+                  "Moisture",
+                  "≤ 10%"
+                ],
+                [
+                  "Arsenic (As)",
+                  "≤ 5 mg/kg"
+                ],
+                [
+                  "Lead (Pb)",
+                  "≤ 10 mg/kg"
+                ]
+              ]
+            }
+            ,
 
             {
               type: "text",
@@ -8192,69 +8260,69 @@ Guanidinoacetic acid is absorbed from the intestine and methylated in the liver 
             },
 
             {
-  type: "table",
-  title: "DOSAGE",
-  description: "Recommended inclusion rates:",
-  columns: [
-    "Species",
-    "Production Stage",
-    "Antibiotic-Free Prevention",
-    "High Immunity Therapy"
-  ],
-  rows: [
-    [
-      "Poultry",
-      "Young poultry",
-      "0.6 – 0.75",
-      "1.5 – 2.25"
-    ],
-    [
-      "Poultry",
-      "Growing poultry",
-      "0.45 – 0.9",
-      "1.5"
-    ],
-    [
-      "Poultry",
-      "Layers",
-      "0.6 – 1.2",
-      "1.5 – 2.25"
-    ],
-    [
-      "Poultry",
-      "Breeding poultry",
-      "0.75 – 1.5",
-      "1.5 – 2.25"
-    ],
-    [
-      "Pig",
-      "Sucking pig",
-      "1.5",
-      "2.25 – 3.0"
-    ],
-    [
-      "Pig",
-      "Piglet",
-      "0.75 – 1.5",
-      "1.5 – 2.25"
-    ],
-    [
-      "Pig",
-      "Growing pig",
-      "0.75",
-      "1.5"
-    ],
-    [
-      "Pig",
-      "Sow",
-      "0.75 – 1.5",
-      "2.25 – 3.0"
-    ]
-  ],
-  footer:
-    "Higher inclusion levels are recommended during disease challenge or high pathogen pressure."
-}
-,
+              type: "table",
+              title: "DOSAGE",
+              description: "Recommended inclusion rates:",
+              columns: [
+                "Species",
+                "Production Stage",
+                "Antibiotic-Free Prevention",
+                "High Immunity Therapy"
+              ],
+              rows: [
+                [
+                  "Poultry",
+                  "Young poultry",
+                  "0.6 – 0.75",
+                  "1.5 – 2.25"
+                ],
+                [
+                  "Poultry",
+                  "Growing poultry",
+                  "0.45 – 0.9",
+                  "1.5"
+                ],
+                [
+                  "Poultry",
+                  "Layers",
+                  "0.6 – 1.2",
+                  "1.5 – 2.25"
+                ],
+                [
+                  "Poultry",
+                  "Breeding poultry",
+                  "0.75 – 1.5",
+                  "1.5 – 2.25"
+                ],
+                [
+                  "Pig",
+                  "Sucking pig",
+                  "1.5",
+                  "2.25 – 3.0"
+                ],
+                [
+                  "Pig",
+                  "Piglet",
+                  "0.75 – 1.5",
+                  "1.5 – 2.25"
+                ],
+                [
+                  "Pig",
+                  "Growing pig",
+                  "0.75",
+                  "1.5"
+                ],
+                [
+                  "Pig",
+                  "Sow",
+                  "0.75 – 1.5",
+                  "2.25 – 3.0"
+                ]
+              ],
+              footer:
+                "Higher inclusion levels are recommended during disease challenge or high pathogen pressure."
+            }
+            ,
 
             {
               type: "text",
@@ -8294,7 +8362,7 @@ Guanidinoacetic acid is absorbed from the intestine and methylated in the liver 
             },
 
           ],
-          species : ["broiler"]
+          species: ["broiler"]
         },
         {
           id: "amchem-ca-butyrate",
@@ -8305,28 +8373,28 @@ Guanidinoacetic acid is absorbed from the intestine and methylated in the liver 
 
           sections: [
             {
-  type: "table",
-  title: "COMPOSITION",
-  description: "Contains per kg:",
-  columns: [
-    "Component",
-    "Approximate Content",
-    "Functional Role"
-  ],
-  rows: [
-    [
-      "Calcium Butyrate",
-      "500 g or 900 g",
-      "Source of butyric acid for gut health, energy metabolism, and immune modulation"
-    ],
-    [
-      "Pharmaceutical-grade excipients",
-      "q.s. (50% product only)",
-      "Carrier and uniform dispersion"
-    ]
-  ]
-}
-,
+              type: "table",
+              title: "COMPOSITION",
+              description: "Contains per kg:",
+              columns: [
+                "Component",
+                "Approximate Content",
+                "Functional Role"
+              ],
+              rows: [
+                [
+                  "Calcium Butyrate",
+                  "500 g or 900 g",
+                  "Source of butyric acid for gut health, energy metabolism, and immune modulation"
+                ],
+                [
+                  "Pharmaceutical-grade excipients",
+                  "q.s. (50% product only)",
+                  "Carrier and uniform dispersion"
+                ]
+              ]
+            }
+            ,
 
             {
               type: "text",
@@ -8377,30 +8445,30 @@ Guanidinoacetic acid is absorbed from the intestine and methylated in the liver 
             },
 
             {
-  type: "table",
-  title: "DOSAGE",
-  description: "Recommended inclusion rates:",
-  columns: [
-    "Species / Category",
-    "Production Stage",
-    "Dosage (g/ton of feed)"
-  ],
-  rows: [
-    [
-      "Broiler chickens",
-      "0–21 days",
-      "300 – 500"
-    ],
-    [
-      "Laying hens",
-      "Brooding period",
-      "100 – 200"
-    ]
-  ],
-  footer:
-    "Higher inclusion levels are recommended during periods of intestinal stress, post-weaning, or disease challenge."
-}
-,
+              type: "table",
+              title: "DOSAGE",
+              description: "Recommended inclusion rates:",
+              columns: [
+                "Species / Category",
+                "Production Stage",
+                "Dosage (g/ton of feed)"
+              ],
+              rows: [
+                [
+                  "Broiler chickens",
+                  "0–21 days",
+                  "300 – 500"
+                ],
+                [
+                  "Laying hens",
+                  "Brooding period",
+                  "100 – 200"
+                ]
+              ],
+              footer:
+                "Higher inclusion levels are recommended during periods of intestinal stress, post-weaning, or disease challenge."
+            }
+            ,
 
             {
               type: "text",
@@ -8440,7 +8508,7 @@ Guanidinoacetic acid is absorbed from the intestine and methylated in the liver 
             },
 
           ],
-          species : ["broiler"]
+          species: ["broiler"]
         },
         {
           id: "amchem-s-butyrate",
@@ -8451,28 +8519,28 @@ Guanidinoacetic acid is absorbed from the intestine and methylated in the liver 
 
           sections: [
             {
-  type: "table",
-  title: "COMPOSITION", 
-  description: "Contains per kg:",
-  columns: [
-    "Component",
-    "Approximate Content",
-    "Functional Role"
-  ],
-  rows: [
-    [
-      "Sodium Butyrate",
-      "300 g, 700 g, or 900 g",
-      "Source of butyric acid for gut health, energy metabolism, and immune modulation"
-    ],
-    [
-      "Pharmaceutical-grade excipients",
-      "q.s.",
-      "Carrier, coating, and controlled release (concentration-dependent)"
-    ]
-  ]
-}
-,
+              type: "table",
+              title: "COMPOSITION",
+              description: "Contains per kg:",
+              columns: [
+                "Component",
+                "Approximate Content",
+                "Functional Role"
+              ],
+              rows: [
+                [
+                  "Sodium Butyrate",
+                  "300 g, 700 g, or 900 g",
+                  "Source of butyric acid for gut health, energy metabolism, and immune modulation"
+                ],
+                [
+                  "Pharmaceutical-grade excipients",
+                  "q.s.",
+                  "Carrier, coating, and controlled release (concentration-dependent)"
+                ]
+              ]
+            }
+            ,
 
             {
               type: "text",
@@ -8523,57 +8591,57 @@ Guanidinoacetic acid is absorbed from the intestine and methylated in the liver 
             },
 
             {
-  type: "table",
-  title: "DOSAGE",
-  description: "Recommended inclusion rates:",
-  columns: [
-    "Species",
-    "30%",
-    "70%",
-    "90%"
-  ],
-  rows: [
-    [
-      "Broiler (0-21 days)",
-      "500 - 800",
-      "220 - 350",
-      "175 - 275"
-    ],
-    [
-      "Broiler (22nd-market)",
-      "250 - 500",
-      "120 - 220",
-      "85 - 170"
-    ],
-    [
-      "Layer",
-      "250 - 500",
-      "120 - 220",
-      "85 - 170"
-    ],
-    [
-      "Breeders",
-      "250 - 500",
-      "120 - 220",
-      "85 - 170"
-    ],
-    [
-      "Weaned Piglet",
-      "800 - 1000",
-      "350 - 450",
-      "270 - 335"
-    ],
-    [
-      "Growing & Finishing pigs",
-      "400 - 500",
-      "170 - 220",
-      "135 - 220"
-    ]
-  ],
-  footer:
-    "Higher inclusion levels are recommended during periods of intestinal stress or disease challenge."
-}
-,
+              type: "table",
+              title: "DOSAGE",
+              description: "Recommended inclusion rates:",
+              columns: [
+                "Species",
+                "30%",
+                "70%",
+                "90%"
+              ],
+              rows: [
+                [
+                  "Broiler (0-21 days)",
+                  "500 - 800",
+                  "220 - 350",
+                  "175 - 275"
+                ],
+                [
+                  "Broiler (22nd-market)",
+                  "250 - 500",
+                  "120 - 220",
+                  "85 - 170"
+                ],
+                [
+                  "Layer",
+                  "250 - 500",
+                  "120 - 220",
+                  "85 - 170"
+                ],
+                [
+                  "Breeders",
+                  "250 - 500",
+                  "120 - 220",
+                  "85 - 170"
+                ],
+                [
+                  "Weaned Piglet",
+                  "800 - 1000",
+                  "350 - 450",
+                  "270 - 335"
+                ],
+                [
+                  "Growing & Finishing pigs",
+                  "400 - 500",
+                  "170 - 220",
+                  "135 - 220"
+                ]
+              ],
+              footer:
+                "Higher inclusion levels are recommended during periods of intestinal stress or disease challenge."
+            }
+            ,
 
             {
               type: "text",
@@ -8613,7 +8681,7 @@ Guanidinoacetic acid is absorbed from the intestine and methylated in the liver 
             },
 
           ],
-          species : ["broiler"]
+          species: ["broiler"]
         },
         {
           id: "amchem-flavour",
@@ -8624,28 +8692,28 @@ Guanidinoacetic acid is absorbed from the intestine and methylated in the liver 
 
           sections: [
             {
-  type: "table",
-  title: "COMPOSITION",
-  description: "Available formulations:",
-  columns: [
-    "Component",
-    "Approximate Content",
-    "Functional Role"
-  ],
-  rows: [
-    [
-      "Molasses, Milk, Vanilla, Banana, Strawberry, or Fish Flavor",
-      "Flavor-specific blend",
-      "Enhances aroma and taste; improves feed acceptance"
-    ],
-    [
-      "Pharmaceutical-grade excipients",
-      "q.s.",
-      "Carrier and uniform dispersion"
-    ]
-  ]
-}
-,
+              type: "table",
+              title: "COMPOSITION",
+              description: "Available formulations:",
+              columns: [
+                "Component",
+                "Approximate Content",
+                "Functional Role"
+              ],
+              rows: [
+                [
+                  "Molasses, Milk, Vanilla, Banana, Strawberry, or Fish Flavor",
+                  "Flavor-specific blend",
+                  "Enhances aroma and taste; improves feed acceptance"
+                ],
+                [
+                  "Pharmaceutical-grade excipients",
+                  "q.s.",
+                  "Carrier and uniform dispersion"
+                ]
+              ]
+            }
+            ,
 
             {
               type: "text",
@@ -8696,27 +8764,27 @@ Guanidinoacetic acid is absorbed from the intestine and methylated in the liver 
             },
 
             {
-  type: "table",
-  title: "DOSAGE",
-  description: "Recommended inclusion rates:",
-  columns: [
-    "Application",
-    "Inclusion Level per Ton of Feed"
-  ],
-  rows: [
-    [
-      "Standard palatability enhancement (all species) or Recommended dosage",
-      "200-1000 gm/t for complete feed"
-    ],
-    [
-      "Heavily medicated or low-palatability feeds",
-      "Up to 5.0 kg"
-    ]
-  ],
-  footer:
-    "As recommended by the nutritionist"
-}
-,
+              type: "table",
+              title: "DOSAGE",
+              description: "Recommended inclusion rates:",
+              columns: [
+                "Application",
+                "Inclusion Level per Ton of Feed"
+              ],
+              rows: [
+                [
+                  "Standard palatability enhancement (all species) or Recommended dosage",
+                  "200-1000 gm/t for complete feed"
+                ],
+                [
+                  "Heavily medicated or low-palatability feeds",
+                  "Up to 5.0 kg"
+                ]
+              ],
+              footer:
+                "As recommended by the nutritionist"
+            }
+            ,
 
             {
               type: "text",
@@ -8756,8 +8824,107 @@ Guanidinoacetic acid is absorbed from the intestine and methylated in the liver 
             },
 
           ],
-          species : ["broiler"]
+          species: ["broiler"]
         },
+        {
+          id: "amprobiotics-premix",
+          name: "AMPROBIOTICS PREMIX",
+          subtitle: "(Probiotic Feed Premix)",
+          brand: "AMCHEM",
+          product: "AMPROBIOTICS PREMIX",
+
+          sections: [
+            {
+              type: "text",
+              title: "DESCRIPTION",
+              content:
+                "Birds are exposed to numerous pathogens including Clostridium, Salmonella and E.coli. This exposure impacts the microbiota of the GI tract resulting in intestinal inflammation and disease.\n\nFinding the right solution to help birds overcome gut health challenges is critical.\n\nA selective blend of probiotics with different strains ensures a healthy gut right from day one. It supports immune system development and can be applied throughout the bird’s life."
+            },
+
+            {
+              type: "table",
+              title: "COMPOSITION",
+              columns: [
+                "Microorganism",
+                "Role"
+              ],
+              rows: [
+                [
+                  "<i>Bacillus subtilis</i>",
+                  "Supports healthy gut microflora"
+                ],
+                [
+                  "<i>Bacillus licheniformis</i>",
+                  "Improves digestion and gut stability"
+                ],
+                [
+                  "<i>Bacillus coagulans</i>",
+                  "Enhances intestinal balance"
+                ],
+                [
+                  "<i>Clostridium butyricum</i>",
+                  "Produces butyric acid for hind gut management"
+                ]
+              ]
+            },
+
+            {
+              type: "text",
+              title: "PRODUCT FEATURES",
+              content:
+                "• Proprietary Strains: Well characterized and documented strains.\n\n• Microencapsulated: Improved thermostability and survivability during the pelleting process.\n\n• Rational Combination: Combination of aerobic, anaerobic, and facultative strains effective in foregut, midgut, and hindgut management.\n\n• Innovative Clostridium butyricum: Produces metabolites such as butyric acid which are highly effective in hindgut management against pathogenic challenges."
+            },
+
+            {
+              type: "text",
+              title: "BENEFITS",
+              content:
+                "• Improves establishment of beneficial gut microflora.\n\n• Reduces the load of C. perfringens, E.coli, Salmonella, and Campylobacter.\n\n• Reduces incidence of wet litter.\n\n• Improves weight gain and FCR while decreasing mortality."
+            },
+
+            {
+              type: "table",
+              title: "DOSAGE AND ADMINISTRATION",
+              description: "Should be mixed uniformly throughout feed.",
+              columns: [
+                "Application",
+                "Recommended Dosage"
+              ],
+              rows: [
+                [
+                  "Poultry / Swine (With AGP)",
+                  "100-125 gm per ton of feed"
+                ],
+                [
+                  "Poultry / Swine (Without AGP)",
+                  "200-250 gm per ton of feed"
+                ],
+                [
+                  "Feed Delivery",
+                  "250 gm/ton of feed delivering 800 billion CFU"
+                ]
+              ],
+              footer:
+                "Or as per recommendation of nutritionist or consultant."
+            },
+
+            {
+              type: "text",
+              title: "PACK SIZE",
+              content:
+                "25 kg bag"
+            },
+
+            {
+              type: "text",
+              title: "STORAGE",
+              content:
+                "Store in a cool and dry place away from moisture and heat."
+            }
+          ],
+
+          species: ["broiler", "layer", "swine"]
+        }
       ]
     }
   ]
